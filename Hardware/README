@@ -1,0 +1,9 @@
+Capstone Project RAFT Hardware
+***
+Ryan Myers
+Tristan Chutka
+Jake Loveland
+Noah Palumbo
+***
+This folder contains all hardware design files for the RAFT system.
+KiKad is used for circuit and PCB design.
