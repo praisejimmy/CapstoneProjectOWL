@@ -260,76 +260,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="24xx1026SOIC">
-<packages>
-<package name="24AA1026SOIC">
-<wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="-1.95" y2="2.45" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="-1.95" y1="-2.5185" x2="1.95" y2="-2.5185" width="0.127" layer="21"/>
-<wire x1="1.95" y1="2.5185" x2="-1.95" y2="2.5185" width="0.127" layer="21"/>
-<text x="-3.5" y="3" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.5" y="-3" size="1.27" layer="27" ratio="10" rot="SR0" align="top-left">&gt;VALUE</text>
-<wire x1="-3.71" y1="2.7" x2="3.71" y2="2.7" width="0.05" layer="39"/>
-<wire x1="3.71" y1="2.7" x2="3.71" y2="-2.7" width="0.05" layer="39"/>
-<wire x1="3.71" y1="-2.7" x2="-3.71" y2="-2.7" width="0.05" layer="39"/>
-<wire x1="-3.71" y1="-2.7" x2="-3.71" y2="2.7" width="0.05" layer="39"/>
-<circle x="-4" y="1.905" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4" y="1.905" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-2.475" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="2" x="-2.475" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="3" x="-2.475" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="4" x="-2.475" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
-<smd name="5" x="2.475" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25" rot="R180"/>
-<smd name="6" x="2.475" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25" rot="R180"/>
-<smd name="7" x="2.475" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25" rot="R180"/>
-<smd name="8" x="2.475" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="24AA1026">
-<pin name="NC" x="-12.7" y="7.62" length="middle" direction="nc"/>
-<pin name="A1" x="-12.7" y="2.54" length="middle" direction="in"/>
-<pin name="A2" x="-12.7" y="-2.54" length="middle" direction="in"/>
-<pin name="VSS" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
-<pin name="SDA" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="SCL" x="12.7" y="-2.54" length="middle" function="clk" rot="R180"/>
-<pin name="WP" x="12.7" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="VCC" x="12.7" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="24AA1026SOIC">
-<gates>
-<gate name="G$1" symbol="24AA1026" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="24AA1026SOIC">
-<connects>
-<connect gate="G$1" pin="A1" pad="2"/>
-<connect gate="G$1" pin="A2" pad="3"/>
-<connect gate="G$1" pin="NC" pad="1"/>
-<connect gate="G$1" pin="SCL" pad="6"/>
-<connect gate="G$1" pin="SDA" pad="5"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
-<connect gate="G$1" pin="WP" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -341,7 +271,6 @@
 </classes>
 <parts>
 <part name="U1" library="ESP32-D0WD" deviceset="ESP32-D0WD" device=""/>
-<part name="U$1" library="24xx1026SOIC" deviceset="24AA1026SOIC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -349,7 +278,6 @@
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="50.8" y="45.72"/>
-<instance part="U$1" gate="G$1" x="63.5" y="-40.64"/>
 </instances>
 <busses>
 </busses>
