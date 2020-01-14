@@ -56,24 +56,25 @@
 </layers>
 <library>
 <packages>
-<package name="INDC1005X45">
-<description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.223" y1="0.683" x2="1.223" y2="0.683" width="0.0508" layer="39"/>
-<wire x1="1.223" y1="0.683" x2="1.223" y2="-0.683" width="0.0508" layer="39"/>
-<wire x1="1.223" y1="-0.683" x2="-1.223" y2="-0.683" width="0.0508" layer="39"/>
-<wire x1="-1.223" y1="-0.683" x2="-1.223" y2="0.683" width="0.0508" layer="39"/>
-<text x="-1.28997" y="0.737846" size="0.501935" layer="25">&gt;NAME</text>
-<text x="-1.28959" y="-1.25948" size="0.501785" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.556174" y1="-0.305998" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.259516" y1="-0.305642" x2="0.5588" y2="0.2951" layer="51"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<package name="INDC1005X55N">
+<text x="-0.95" y="-0.63" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-0.95" y="0.63" size="0.5" layer="25">&gt;NAME</text>
+<circle x="1.2" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="1.2" y="0" radius="0.1" width="0.2" layer="51"/>
+<wire x1="0.53" y1="-0.28" x2="-0.53" y2="-0.28" width="0.127" layer="51"/>
+<wire x1="0.53" y1="0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="0.53" y1="-0.28" x2="0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="-0.53" y1="-0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="-0.95" y1="-0.55" x2="0.95" y2="-0.55" width="0.05" layer="39"/>
+<wire x1="-0.95" y1="0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
+<wire x1="-0.95" y1="-0.55" x2="-0.95" y2="0.55" width="0.05" layer="39"/>
+<wire x1="0.95" y1="-0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
+<smd name="1" x="-0.432" y="0" dx="0.54" dy="0.6" layer="1"/>
+<smd name="2" x="0.432" y="0" dx="0.54" dy="0.6" layer="1"/>
 </package>
 </packages>
 <symbols>
-<symbol name="LQG15HS15NJ02D">
+<symbol name="LQG15HS82NJ02D">
 <text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -85,27 +86,27 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LQG15HS15NJ02D" prefix="L">
-<description>Ind RF Chip Multi-Layer 15nH 5% 100MHz 8Q-Factor Air 300mA 0402 Paper T/R</description>
+<deviceset name="LQG15HS82NJ02D" prefix="L">
+<description>Inductor RF Chip Unshielded Multi-Layer 82nH 5% 100MHz 8Q-Factor Ceramic 200mA 1.2Ohm DCR 0402 T/R</description>
 <gates>
-<gate name="G$1" symbol="LQG15HS15NJ02D" x="0" y="0"/>
+<gate name="G$1" symbol="LQG15HS82NJ02D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="INDC1005X45">
+<device name="" package="INDC1005X55N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MP" value="LQG15HS82NJ02D"/>
+<attribute name="Availability" value="Unavailable"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="Package" value="1005 Murata"/>
 <attribute name="Description" value="
-Inductor RF Chip Multi-Layer 15nH 5% 100MHz 8Q-Factor Air 300mA 320mOhm DCR 0402 T/R
+82nH Unshielded Multilayer Inductor 200mA 1.2Ohm Max 0402 _1005 Metric_
 "/>
-<attribute name="MP" value="LQG15HS15NJ02D"/>
-<attribute name="Digi-Key_Purchase_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS15NJ02D/490-2625-1-ND/662905?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="Package" value="0402 Murata"/>
-<attribute name="Digi-Key_Part_Number" value="490-2625-1-ND"/>
-<attribute name="MF" value="Murata Electronics"/>
+<attribute name="Price" value="None"/>
 </technology>
 </technologies>
 </device>
