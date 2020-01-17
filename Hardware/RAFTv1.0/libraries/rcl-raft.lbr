@@ -149,6 +149,20 @@
 <circle x="-2" y="-1" radius="0.1" width="0.2" layer="22"/>
 <circle x="-2" y="-1" radius="0.1" width="0.2" layer="51"/>
 </package>
+<package name="CAPC1005X70N">
+<text x="-1.01" y="-0.7" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.01" y="0.7" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="0.6" y1="-0.35" x2="-0.6" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="0.6" y1="0.35" x2="-0.6" y2="0.35" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-0.35" x2="0.6" y2="0.35" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="-0.35" x2="-0.6" y2="0.35" width="0.127" layer="51"/>
+<wire x1="-1.008" y1="-0.608" x2="1.008" y2="-0.608" width="0.05" layer="39"/>
+<wire x1="-1.008" y1="0.608" x2="1.008" y2="0.608" width="0.05" layer="39"/>
+<wire x1="-1.008" y1="-0.608" x2="-1.008" y2="0.608" width="0.05" layer="39"/>
+<wire x1="1.008" y1="-0.608" x2="1.008" y2="0.608" width="0.05" layer="39"/>
+<smd name="1" x="-0.439" y="0" dx="0.64" dy="0.72" layer="1"/>
+<smd name="2" x="0.439" y="0" dx="0.64" dy="0.72" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-US-V-POLARITY">
@@ -243,6 +257,22 @@
 <pin name="1" x="-4.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="4" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="GRM155C80J106ME11D">
+<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-1.90685625" x2="0.635" y2="1.905" layer="94"/>
+<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="GRM1555C1H271JA01D">
+<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-1.90685625" x2="0.635" y2="1.905" layer="94"/>
+<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -783,6 +813,153 @@
 <attribute name="MP" value="GCM1555C1H1R8CA16D"/>
 <attribute name="PACKAGE" value="1005 Taiyo Yuden"/>
 <attribute name="VALUE" value="1.8pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW04020000Z0ED" prefix="R">
+<description>RESISTOR, 0402, 0R, FULL REEL</description>
+<gates>
+<gate name="G$1" symbol="R-US-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 _1005 Metric_ Automotive AEC-Q200 Thick Film "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-0.0JCT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW04020000Z0ED/541-0.0JCT-ND/1182611?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MP" value="CRCW04020000Z0ED"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GCM155C71A105KE38D" prefix="C">
+<description>Cap Ceramic 1uF 10V X7S 10% Pad SMD 0402 125C Automotive T/R</description>
+<gates>
+<gate name="G$1" symbol="C-US-V" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X70N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 1uF 10V X7S 10% Pad SMD 0402 125C Automotive T/R "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-13409-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155C71A105KE38D/490-13409-1-ND/6012281?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="GCM155C71A105KE38D"/>
+<attribute name="PACKAGE" value="1005 Murata"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQG15HN2N0C02D" prefix="L">
+<description>FIXED IND 2NH 900MA 90 MOHM</description>
+<gates>
+<gate name="G$1" symbol="L-US-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1005X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Fixed Ind 2nh 900ma 90 Mohm "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-15076-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HN2N0C02D/490-15076-1-ND/6799741?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="LQG15HN2N0C02D"/>
+<attribute name="PACKAGE" value="1005 Murata"/>
+<attribute name="VALUE" value="2nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM155C80J106ME11D" prefix="C">
+<description>10µF ±20% 6.3V Ceramic Capacitor X6S 0402 (1005 Metric)</description>
+<gates>
+<gate name="G$1" symbol="C-US-V" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X70N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 10µF ±20% 6.3V Ceramic Capacitor X6S 0402 _1005 Metric_ "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-13233-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM155C80J106ME11D/490-13233-1-ND/5877441?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Murata Electronics"/>
+<attribute name="MP" value="GRM155C80J106ME11D"/>
+<attribute name="PACKAGE" value="1005 Murata"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R2520-40">
+<description>40MHz ±10ppm Crystal 12pF 60 Ohms 4-SMD, No Lead</description>
+<gates>
+<gate name="G$1" symbol="Q-SHIELD2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD-4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="  NDK America, Inc." constant="no"/>
+<attribute name="VALUE" value="40MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM1555C1H271JA01D" prefix="C">
+<description>Multilayer Ceramic Capacitor, GRM Series, 270 pF, 5%, C0G / NP0, 50 V, 0402 [1005 Metric]</description>
+<gates>
+<gate name="G$1" symbol="C-US-V" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Multilayer Ceramic Capacitor, GRM Series, 270 pF, 5%, C0G / NP0, 50 V, 0402 [1005 Metric] "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-1294-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H271JA01D/490-1294-1-ND/587902?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="GRM1555C1H271JA01D"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden"/>
+<attribute name="VALUE" value="270pF" constant="no"/>
 </technology>
 </technologies>
 </device>
