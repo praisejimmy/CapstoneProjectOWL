@@ -1704,6 +1704,7 @@
 <attribute name="MF" value="Vishay Dale"/>
 <attribute name="MP" value="CRCW040210K0JNED"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components"/>
+<attribute name="VALUE" value="10k" constant="no"/>
 </technology>
 </technologies>
 </device>
