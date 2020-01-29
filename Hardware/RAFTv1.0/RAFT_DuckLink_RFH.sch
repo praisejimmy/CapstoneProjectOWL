@@ -5089,14 +5089,14 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="-53.34" y1="-38.1" x2="-53.34" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GPS_SDATA" class="0">
+<net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SDATA"/>
 <wire x1="-20.32" y1="10.16" x2="-38.1" y2="10.16" width="0.1524" layer="91"/>
 <label x="-38.1" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPS_SCLK" class="0">
+<net name="SPI_CLK" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SCLK"/>
 <wire x1="-20.32" y1="7.62" x2="-38.1" y2="7.62" width="0.1524" layer="91"/>
@@ -5485,14 +5485,14 @@ Source: Fairchild .. BAT54.pdf</description>
 <pinref part="U1" gate="G$1" pin="SCK"/>
 </segment>
 </net>
-<net name="MOSI" class="0">
+<net name="SPI_MOSI" class="0">
 <segment>
 <wire x1="-25.4" y1="-17.78" x2="-38.1" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-38.1" y="-17.78" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="MOSI"/>
 </segment>
 </net>
-<net name="MISO" class="0">
+<net name="SPI_MISO" class="0">
 <segment>
 <wire x1="-25.4" y1="-20.32" x2="-38.1" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-38.1" y="-20.32" size="1.778" layer="95"/>
@@ -5954,59 +5954,45 @@ Source: Fairchild .. BAT54.pdf</description>
 <pinref part="U3" gate="G$1" pin="GPIO17"/>
 </segment>
 </net>
-<net name="GPIO18" class="0">
-<segment>
-<wire x1="48.26" y1="-15.24" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
-<label x="40.64" y="-15.24" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="GPIO18"/>
-</segment>
-</net>
-<net name="GPIO19" class="0">
+<net name="SX_CS" class="0">
 <segment>
 <wire x1="48.26" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <label x="40.64" y="-17.78" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="GPIO19"/>
 </segment>
 </net>
-<net name="GPIO21" class="0">
-<segment>
-<wire x1="48.26" y1="-20.32" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
-<label x="40.64" y="-20.32" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="GPIO21"/>
-</segment>
-</net>
-<net name="GPIO22" class="0">
+<net name="GPS_CS" class="0">
 <segment>
 <wire x1="48.26" y1="-22.86" x2="25.4" y2="-22.86" width="0.1524" layer="91"/>
 <label x="40.64" y="-22.86" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="GPIO22"/>
 </segment>
 </net>
-<net name="GPIO23" class="0">
+<net name="TIME_SYNC" class="0">
 <segment>
 <wire x1="48.26" y1="-25.4" x2="25.4" y2="-25.4" width="0.1524" layer="91"/>
-<label x="40.64" y="-25.4" size="1.778" layer="95"/>
+<label x="38.1" y="-25.4" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="GPIO23"/>
 </segment>
 </net>
-<net name="GPIO25" class="0">
+<net name="DATA_SYNC" class="0">
 <segment>
 <wire x1="48.26" y1="-27.94" x2="25.4" y2="-27.94" width="0.1524" layer="91"/>
-<label x="40.64" y="-27.94" size="1.778" layer="95"/>
+<label x="38.1" y="-27.94" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="GPIO25"/>
 </segment>
 </net>
-<net name="GPIO26" class="0">
+<net name="CLK_SER" class="0">
 <segment>
 <wire x1="48.26" y1="-30.48" x2="25.4" y2="-30.48" width="0.1524" layer="91"/>
-<label x="40.64" y="-30.48" size="1.778" layer="95"/>
+<label x="38.1" y="-30.48" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="GPIO26"/>
 </segment>
 </net>
-<net name="GPIO27" class="0">
+<net name="DATA_OUT" class="0">
 <segment>
 <wire x1="48.26" y1="-33.02" x2="25.4" y2="-33.02" width="0.1524" layer="91"/>
-<label x="40.64" y="-33.02" size="1.778" layer="95"/>
+<label x="38.1" y="-33.02" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="GPIO27"/>
 </segment>
 </net>
@@ -6086,7 +6072,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <pinref part="U3" gate="G$1" pin="CHIP_PU"/>
 </segment>
 </net>
-<net name="GPIO34" class="0">
+<net name="GPS_ANT_SEL" class="0">
 <segment>
 <wire x1="-25.4" y1="10.16" x2="-48.26" y2="10.16" width="0.1524" layer="91"/>
 <label x="-48.26" y="10.16" size="1.778" layer="95"/>
@@ -6118,21 +6104,21 @@ Source: Fairchild .. BAT54.pdf</description>
 <label x="-48.26" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO13" class="0">
+<net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="MTCK"/>
 <wire x1="-25.4" y1="-10.16" x2="-48.26" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-48.26" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO14" class="0">
+<net name="SPI_CLK" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="MTMS"/>
 <wire x1="-25.4" y1="-7.62" x2="-48.26" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-48.26" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO12" class="0">
+<net name="SPI_MISO" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="MTDI"/>
 <wire x1="-25.4" y1="-5.08" x2="-48.26" y2="-5.08" width="0.1524" layer="91"/>
@@ -6385,6 +6371,20 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="-50.8" y1="30.48" x2="-50.8" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C70" gate="G$1" pin="2"/>
 <pinref part="C71" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="GPS_SHDN" class="0">
+<segment>
+<wire x1="48.26" y1="-20.32" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
+<label x="40.64" y="-20.32" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="GPIO21"/>
+</segment>
+</net>
+<net name="SX_RST" class="0">
+<segment>
+<wire x1="48.26" y1="-15.24" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
+<label x="40.64" y="-15.24" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="GPIO18"/>
 </segment>
 </net>
 </nets>
