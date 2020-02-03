@@ -8379,7 +8379,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="48.26" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="~RST" class="0">
+<net name="!RST" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="!RST"/>
 <wire x1="2.54" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
