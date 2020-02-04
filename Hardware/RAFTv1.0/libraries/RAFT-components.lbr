@@ -387,6 +387,66 @@
 <wire x1="3.075" y1="-2.45" x2="-3.075" y2="-2.45" width="0.25" layer="21"/>
 <circle x="-3.878" y="1.899" radius="0.046" width="0.25" layer="25"/>
 </package>
+<package name="ANT_2450AD47A1590E">
+<description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
+<wire x1="-5.65" y1="2.05" x2="5.65" y2="2.05" width="0.0508" layer="39"/>
+<wire x1="5.65" y1="2.05" x2="5.65" y2="-2.05" width="0.0508" layer="39"/>
+<wire x1="5.65" y1="-2.05" x2="-5.65" y2="-2.05" width="0.0508" layer="39"/>
+<wire x1="-5.65" y1="-2.05" x2="-5.65" y2="2.05" width="0.0508" layer="39"/>
+<text x="-5.09996875" y="2.51585" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.099590625" y="-3.92648125" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-5" y1="0.48" x2="-5" y2="-0.48" width="0.127" layer="21"/>
+<wire x1="-3.08" y1="1.6" x2="-1.72" y2="1.6" width="0.127" layer="21"/>
+<wire x1="5" y1="-1.6" x2="5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="5" y1="-1.6" x2="-5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-5" y1="1.6" x2="5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="1.72" y1="1.6" x2="3.08" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-0.08" y1="1.6" x2="0.08" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-5" y1="1.6" x2="-5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="5" y1="-0.48" x2="5" y2="0.48" width="0.127" layer="21"/>
+<wire x1="3.08" y1="-1.6" x2="1.72" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1.72" y1="-1.6" x2="-3.08" y2="-1.6" width="0.127" layer="21"/>
+<circle x="-5.974" y="-1.234" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5.974" y="-1.234" radius="0.1" width="0.2" layer="51"/>
+<polygon width="0.01" layer="1">
+<vertex x="-1.35" y="-1.1"/>
+<vertex x="-0.45" y="-1.1"/>
+<vertex x="-0.45" y="-1.5"/>
+<vertex x="0.55" y="-1.5"/>
+<vertex x="0.55" y="-1.05"/>
+<vertex x="1.3" y="-1.05"/>
+<vertex x="1.3" y="-1.8"/>
+<vertex x="-1.35" y="-1.8"/>
+</polygon>
+<rectangle x1="-1.3" y1="1.3" x2="-0.5" y2="1.6" layer="31"/>
+<rectangle x1="0.5" y1="1.3" x2="1.3" y2="1.6" layer="31"/>
+<rectangle x1="-4.8" y1="1.3" x2="-4" y2="1.6" layer="31"/>
+<rectangle x1="-4.8" y1="-1.6" x2="-4" y2="-1.3" layer="31"/>
+<rectangle x1="4" y1="-1.6" x2="4.8" y2="-1.3" layer="31"/>
+<rectangle x1="4" y1="1.3" x2="4.8" y2="1.6" layer="31"/>
+<rectangle x1="0.5" y1="-1.6" x2="1.3" y2="-1.3" layer="31" rot="R180"/>
+<rectangle x1="-1.3" y1="-1.6" x2="-0.5" y2="-1.3" layer="31" rot="R180"/>
+<rectangle x1="-1.3" y1="1.3" x2="-0.5" y2="1.6" layer="29"/>
+<rectangle x1="0.5" y1="1.3" x2="1.3" y2="1.6" layer="29"/>
+<rectangle x1="-4.8" y1="1.3" x2="-4" y2="1.6" layer="29"/>
+<rectangle x1="-4.8" y1="-1.6" x2="-4" y2="-1.3" layer="29"/>
+<rectangle x1="4" y1="-1.6" x2="4.8" y2="-1.3" layer="29"/>
+<rectangle x1="4" y1="1.3" x2="4.8" y2="1.6" layer="29"/>
+<rectangle x1="0.5" y1="-1.6" x2="1.3" y2="-1.3" layer="29" rot="R180"/>
+<rectangle x1="-1.3" y1="-1.6" x2="-0.5" y2="-1.3" layer="29" rot="R180"/>
+<smd name="1" x="-4.65" y="-1.3" dx="1.5" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.9" y="-1.3" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.9" y="-1.3" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="4.65" y="-1.3" dx="1.5" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="5" x="4.65" y="1.3" dx="1.5" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="0.9" y="1.3" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="7" x="-0.9" y="1.3" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="8" x="-4.65" y="1.3" dx="1.5" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+<pad name="9" x="-1.15" y="1.05" drill="0.2" diameter="0.4" stop="no"/>
+<pad name="10" x="-0.65" y="1.05" drill="0.2" diameter="0.4" stop="no"/>
+<pad name="11" x="0.65" y="1.05" drill="0.2" diameter="0.4" stop="no"/>
+<pad name="12" x="1.15" y="1.05" drill="0.2" diameter="0.4" stop="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-US-V-POLARITY">
@@ -705,6 +765,17 @@
 <vertex x="3.302" y="-0.254"/>
 <vertex x="4.318" y="-0.254"/>
 </polygon>
+</symbol>
+<symbol name="2450AD47A1590E">
+<text x="-17.7885" y="8.00418125" size="1.780959375" layer="95">&gt;NAME</text>
+<text x="-17.7854" y="-10.1627" size="1.779909375" layer="96">&gt;VALUE</text>
+<wire x1="-17.78" y1="7.62" x2="-17.78" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-7.62" x2="17.78" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="-17.78" y2="7.62" width="0.1524" layer="94"/>
+<pin name="GND" x="22.86" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="2.4GHZ_FEED_POINT" x="-22.86" y="5.08" length="middle"/>
+<pin name="1.5-1.6GHZ_FEED_POINT" x="-22.86" y="0" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1912,6 +1983,31 @@ Source: &lt;a href="https://www.vishay.com/docs/65366/si7288dp.pdf"&gt; Datashee
 <attribute name="MP" value="GRM155D80J225ME95D"/>
 <attribute name="PACKAGE" value="1005 Taiyo Yuden"/>
 <attribute name="VALUE" value="2.2uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2450AD47A1590E" prefix="ANT">
+<description>Antenna Ceramic Chip -1dBi/-2.5dBi/-2dBi Gain 2500MHz 8-Pin SMD T/R</description>
+<gates>
+<gate name="G$1" symbol="2450AD47A1590E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ANT_2450AD47A1590E">
+<connects>
+<connect gate="G$1" pin="1.5-1.6GHZ_FEED_POINT" pad="4"/>
+<connect gate="G$1" pin="2.4GHZ_FEED_POINT" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2 3 5 6 7 8 9 10 11 12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 1.561GHz, 1.575GHz, 1.602GHz, 2.4GHz Beidou, Bluetooth, GLONASS, GPS, Wi-Fi Chip RF Antenna 1.561GHz ~ 1.602GHz, 2.4GHz ~ 2.5GHz 0.5dBi, 1.5dBi, 1.5dBi, 1dBi Solder Surface Mount "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="712-1594-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AD47A1590E/712-1594-1-ND/5980452?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Johanson Technology"/>
+<attribute name="MP" value="2450AD47A1590E"/>
+<attribute name="PACKAGE" value="FBGA-780 Johanson Technology"/>
 </technology>
 </technologies>
 </device>
