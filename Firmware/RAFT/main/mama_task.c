@@ -1,32 +1,25 @@
 
 #include "queue.h"
+#include "notify_events.h"
 
 
-
-#define LORA_RECEIVED    0x00000001         //LoRa Message Received
-#define WIFI_RECEIVED    0x00000002         //WiFi Message Received
-#define GPS_RECEIVED     0x00000004
-#define ACK_RECEIVED     0x00000008
-
-#define LORA_READY_SEND  0x00000100        //LoRa Message ReadySend
 
 #define MESSAGE_SIZE     30
 
-typedef int did_t;
+typedef uint32_t did_t;
 
 typedef struct Packet{
     did_t senderId;
     did_t destinationId;
     did_t nextHop;
-    int rssi
-    char* messageId;
-    char* payload;
-    char* path;
+    uint16_t rssi
+    uint32_t messageId;
+    uint8_t* payload;
 } *Packet;
 
 
 
-void MamaTaskFunc(void){
+static void MamaTaskFunc(void){
 
    const TickType_t xMaxBlockTime = pdMS_TO_TICKS( 500 );
    BaseType_t xResult;
@@ -67,7 +60,7 @@ void MamaTaskFunc(void){
    }
 }
 
-void processMessage(Packet message){
+static void processMessage(Packet message){
 
    did_t dest = findNextHop(message->destination, message->rssi);
    message->nextHop = dest;
@@ -76,9 +69,15 @@ void processMessage(Packet message){
 
 }
 
-did_t findNextHop(did_t destination, int rssi){
+static did_t findNextHop(did_t destination, int rssi){
 
    Mama hash_searc
    return hash_search(mamaTable, destination)->nextHop;
+
+}
+
+
+void Mama_Task_Entry(void){
+
 
 }
