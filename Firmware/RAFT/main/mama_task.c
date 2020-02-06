@@ -6,6 +6,7 @@
 #define LORA_RECEIVED    0x00000001         //LoRa Message Received
 #define WIFI_RECEIVED    0x00000002         //WiFi Message Received
 #define GPS_RECEIVED     0x00000004
+#define ACK_RECEIVED     0x00000008
 
 #define LORA_READY_SEND  0x00000100        //LoRa Message ReadySend
 
