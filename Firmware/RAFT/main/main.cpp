@@ -13,11 +13,36 @@
 #include "esp_spi_flash.h"
 
 
+//#define PAPA_DUCK 1
+#define MAMA_DUCK 1
+//#define DUCK_LINK 1
+
+
+
 void app_main()
 {
+
+
+    #ifdef PAPA_DUCK
+        new PapaDuck();
+    #endif
+
+    #ifdef MAMA_DUCK
+        new MamaTask();
+    #endif
+    #ifdef DUCK_LINK
+        new DuckLink();
+    #endif
+
+    new LoRa();
+    new Wifi();
+    new GPS();
+
+
+    /*
     printf("Hello world!\n");
 
-    /* Print chip information */
+    // Print chip information
     esp_chip_info_t chip_info;
     esp_chip_info(&chip_info);
     printf("This is ESP32 chip with %d CPU cores, WiFi%s%s, ",
@@ -37,4 +62,6 @@ void app_main()
     printf("Restarting now.\n");
     fflush(stdout);
     esp_restart();
+
+    */
 }
