@@ -375,10 +375,10 @@
 <smd name="6" x="2.795" y="-0.635" dx="1.02" dy="0.61" layer="1"/>
 <smd name="7" x="2.795" y="0.635" dx="1.02" dy="0.61" layer="1"/>
 <smd name="8" x="2.795" y="1.905" dx="1.02" dy="0.61" layer="1"/>
-<smd name="9" x="0.69" y="-1.155" dx="3.81" dy="1.65" layer="1"/>
-<smd name="10" x="0.69" y="1.155" dx="3.81" dy="1.65" layer="1"/>
-<text x="-0.226" y="0.175" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<text x="-0.226" y="0.175" size="1.27" layer="25" align="center">&gt;NAME</text>
+<smd name="9" x="0.09" y="-1.155" dx="3.81" dy="1.65" layer="1"/>
+<smd name="10" x="0.09" y="1.155" dx="3.81" dy="1.65" layer="1"/>
+<text x="-0.226" y="-3.635" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-1.496" y="3.985" size="1.27" layer="25" align="center">&gt;NAME</text>
 <wire x1="-3.075" y1="2.45" x2="3.075" y2="2.45" width="0.25" layer="51"/>
 <wire x1="3.075" y1="2.45" x2="3.075" y2="-2.45" width="0.25" layer="51"/>
 <wire x1="3.075" y1="-2.45" x2="-3.075" y2="-2.45" width="0.25" layer="51"/>
@@ -442,10 +442,22 @@
 <smd name="6" x="0.9" y="1.3" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="7" x="-0.9" y="1.3" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="8" x="-4.65" y="1.3" dx="1.5" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
-<pad name="9" x="-1.15" y="1.05" drill="0.2" diameter="0.4" stop="no"/>
-<pad name="10" x="-0.65" y="1.05" drill="0.2" diameter="0.4" stop="no"/>
-<pad name="11" x="0.65" y="1.05" drill="0.2" diameter="0.4" stop="no"/>
-<pad name="12" x="1.15" y="1.05" drill="0.2" diameter="0.4" stop="no"/>
+</package>
+<package name="RESC3116X60N">
+<text x="-2.26" y="-1.23" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.26" y="1.23" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.65" y1="-0.88" x2="-1.65" y2="-0.88" width="0.127" layer="51"/>
+<wire x1="1.65" y1="0.88" x2="-1.65" y2="0.88" width="0.127" layer="51"/>
+<wire x1="1.65" y1="-0.88" x2="1.65" y2="0.88" width="0.127" layer="51"/>
+<wire x1="-1.65" y1="-0.88" x2="-1.65" y2="0.88" width="0.127" layer="51"/>
+<wire x1="-0.64" y1="0.88" x2="0.64" y2="0.88" width="0.127" layer="21"/>
+<wire x1="-0.64" y1="-0.88" x2="0.64" y2="-0.88" width="0.127" layer="21"/>
+<wire x1="-2.26" y1="-1.135" x2="2.26" y2="-1.135" width="0.05" layer="39"/>
+<wire x1="-2.26" y1="1.135" x2="2.26" y2="1.135" width="0.05" layer="39"/>
+<wire x1="-2.26" y1="-1.135" x2="-2.26" y2="1.135" width="0.05" layer="39"/>
+<wire x1="2.26" y1="-1.135" x2="2.26" y2="1.135" width="0.05" layer="39"/>
+<smd name="1" x="-1.485" y="0" dx="1.05" dy="1.77" layer="1"/>
+<smd name="2" x="1.485" y="0" dx="1.05" dy="1.77" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -1998,7 +2010,7 @@ Source: &lt;a href="https://www.vishay.com/docs/65366/si7288dp.pdf"&gt; Datashee
 <connects>
 <connect gate="G$1" pin="1.5-1.6GHZ_FEED_POINT" pad="4"/>
 <connect gate="G$1" pin="2.4GHZ_FEED_POINT" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2 3 5 6 7 8 9 10 11 12"/>
+<connect gate="G$1" pin="GND" pad="2 3 5 6 7 8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2058,6 +2070,31 @@ Source: &lt;a href="https://www.vishay.com/docs/65366/si7288dp.pdf"&gt; Datashee
 <attribute name="MP" value="CRCW040230K1FKED"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components"/>
 <attribute name="VALUE" value="30.1k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW1206165RFKEA" prefix="R">
+<description>RES, THICK FILM, 165R, 1%, 0.25W, 1206</description>
+<gates>
+<gate name="G$1" symbol="R-US-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC3116X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 165 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 _3216 Metric_ Automotive AEC-Q200 Thick Film "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-165FCT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW1206165RFKEA/541-165FCT-ND/1181669?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Vishay Dale"/>
+<attribute name="MP" value="CRCW1206165RFKEA"/>
+<attribute name="PACKAGE" value="3116 Vishay"/>
+<attribute name="VALUE" value="165R" constant="no"/>
 </technology>
 </technologies>
 </device>
