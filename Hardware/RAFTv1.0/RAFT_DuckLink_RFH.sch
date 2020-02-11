@@ -9934,6 +9934,14 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCW?m"&gt;http:/
 <pinref part="GND58" gate="1" pin="GND"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="GND"/>
+<wire x1="-2.54" y1="-38.1" x2="0" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<wire x1="0" y1="-38.1" x2="0" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="0" y1="-45.72" x2="-10.16" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-10.16" y="-45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$53" class="0">
 <segment>
@@ -9974,15 +9982,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCW?m"&gt;http:/
 <wire x1="-35.56" y1="-55.88" x2="-15.24" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="B"/>
 <wire x1="-15.24" y1="-55.88" x2="-15.24" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="GND"/>
-<wire x1="-2.54" y1="-38.1" x2="0" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="GND"/>
-<wire x1="0" y1="-38.1" x2="0" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="0" y1="-45.72" x2="-10.16" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DTR" class="0">
