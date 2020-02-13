@@ -1661,22 +1661,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="7" x="-0.9" y="1.3" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="8" x="-4.65" y="1.3" dx="1.5" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
 </package>
-<package name="RESC3116X60N">
-<text x="-2.26" y="-1.23" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-2.26" y="1.23" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="1.65" y1="-0.88" x2="-1.65" y2="-0.88" width="0.127" layer="51"/>
-<wire x1="1.65" y1="0.88" x2="-1.65" y2="0.88" width="0.127" layer="51"/>
-<wire x1="1.65" y1="-0.88" x2="1.65" y2="0.88" width="0.127" layer="51"/>
-<wire x1="-1.65" y1="-0.88" x2="-1.65" y2="0.88" width="0.127" layer="51"/>
-<wire x1="-0.64" y1="0.88" x2="0.64" y2="0.88" width="0.127" layer="21"/>
-<wire x1="-0.64" y1="-0.88" x2="0.64" y2="-0.88" width="0.127" layer="21"/>
-<wire x1="-2.26" y1="-1.135" x2="2.26" y2="-1.135" width="0.05" layer="39"/>
-<wire x1="-2.26" y1="1.135" x2="2.26" y2="1.135" width="0.05" layer="39"/>
-<wire x1="-2.26" y1="-1.135" x2="-2.26" y2="1.135" width="0.05" layer="39"/>
-<wire x1="2.26" y1="-1.135" x2="2.26" y2="1.135" width="0.05" layer="39"/>
-<smd name="1" x="-1.485" y="0" dx="1.05" dy="1.77" layer="1"/>
-<smd name="2" x="1.485" y="0" dx="1.05" dy="1.77" layer="1"/>
-</package>
 </packages>
 <symbols>
 <symbol name="C-US-V">
@@ -2660,31 +2644,6 @@ Source: &lt;a href="https://www.vishay.com/docs/65366/si7288dp.pdf"&gt; Datashee
 <technology name="">
 <attribute name="MANUFACTURER" value="  NDK America, Inc." constant="no"/>
 <attribute name="VALUE" value="40MHz" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRCW1206165RFKEA" prefix="R">
-<description>RES, THICK FILM, 165R, 1%, 0.25W, 1206</description>
-<gates>
-<gate name="G$1" symbol="R-US-H" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC3116X60N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" 165 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 _3216 Metric_ Automotive AEC-Q200 Thick Film "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="541-165FCT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW1206165RFKEA/541-165FCT-ND/1181669?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MF" value="Vishay Dale"/>
-<attribute name="MP" value="CRCW1206165RFKEA"/>
-<attribute name="PACKAGE" value="3116 Vishay"/>
-<attribute name="VALUE" value="165R" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7620,455 +7579,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="WL-SMCW">
-<packages>
-<package name="WL-SMCW_0603">
-<description>WL-SMCW SMD mono-color Chip LED
-waterclear,Size: 0603,</description>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="51"/>
-<text x="-0.67" y="0.87" size="0.3048" layer="25">&gt;NAME</text>
-<text x="-0.84" y="-1.14" size="0.3048" layer="27">&gt;VALUE</text>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="-0.2" y1="0.4" x2="0.2" y2="0.4" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="-0.4" x2="0.2" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="0.2" y1="0.25" x2="0.2" y2="-0.25" width="0.127" layer="21"/>
-<wire x1="0.2" y1="0.25" x2="-0.2" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="-0.25" width="0.127" layer="21"/>
-<polygon width="0.127" layer="39">
-<vertex x="-1.4" y="0.6"/>
-<vertex x="1.4" y="0.6"/>
-<vertex x="1.4" y="-0.6"/>
-<vertex x="-1.4" y="-0.6"/>
-</polygon>
-<smd name="1" x="-0.8" y="0" dx="0.8" dy="0.8" layer="1" rot="R180"/>
-<smd name="2" x="0.8" y="0" dx="0.8" dy="0.8" layer="1" rot="R180"/>
-</package>
-<package name="WL-SMCW_0805">
-<description>WL-SMCW SMD mono-color Chip LED
-waterclear,Size: 0805,</description>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<text x="-0.84" y="1.17" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.04" y="-1.44" size="0.4064" layer="27">&gt;VALUE</text>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-0.313" y1="0.626" x2="0.319" y2="0.626" width="0.127" layer="21"/>
-<wire x1="-0.306" y1="-0.623" x2="0.312" y2="-0.623" width="0.127" layer="21"/>
-<wire x1="0.3" y1="0.45" x2="0.3" y2="-0.45" width="0.127" layer="21"/>
-<wire x1="0.3" y1="-0.45" x2="-0.3" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="0" x2="0.3" y2="0.45" width="0.127" layer="21"/>
-<polygon width="0.127" layer="39">
-<vertex x="-1.8" y="0.8"/>
-<vertex x="1.8" y="0.8"/>
-<vertex x="1.8" y="-0.8"/>
-<vertex x="-1.8" y="-0.8"/>
-</polygon>
-<smd name="1" x="-1.05" y="0" dx="1.1" dy="1.2" layer="1" rot="R180"/>
-<smd name="2" x="1.05" y="0" dx="1.1" dy="1.2" layer="1" rot="R180"/>
-</package>
-<package name="WL-SMCW_1206">
-<description>WL-SMCW SMD mono-color Chip LED
-waterclear,Size: 1206</description>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
-<text x="-1.44" y="1.47" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-1.44" y="-1.74" size="0.6096" layer="27">&gt;VALUE</text>
-<wire x1="1" y1="0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
-<wire x1="0.7" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="0.8" x2="0.6" y2="0.8" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-0.8" x2="0.6" y2="-0.8" width="0.127" layer="21"/>
-<polygon width="0.127" layer="39">
-<vertex x="-2.4" y="1"/>
-<vertex x="2.4" y="1"/>
-<vertex x="2.4" y="-1"/>
-<vertex x="-2.4" y="-1"/>
-</polygon>
-<wire x1="0.5" y1="0.6" x2="0.5" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-0.6" x2="-0.6" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="0" x2="0.5" y2="0.6" width="0.127" layer="21"/>
-<smd name="1" x="-1.5" y="0" dx="1.4" dy="1.5" layer="1" rot="R180"/>
-<smd name="2" x="1.5" y="0" dx="1.4" dy="1.5" layer="1" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LED">
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WL-SMCW" prefix="D">
-<description>&lt;B&gt;SMD mono-color Chip LED
-&lt;br&gt;
-
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Low energy consumption
-&lt;br&gt; High reliability
-&lt;br&gt; Low current requirement
-&lt;br&gt; Fast switching
-&lt;br&gt; No UV/IR radiation
-&lt;br&gt; Smallest SMD package with exceptional brightness
-&lt;br&gt; Top view
-&lt;br&gt; Wide viewing angle
-&lt;br&gt; PBC high-usage
-&lt;br&gt;
-
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Backlight for mobile and portable device keypads
-&lt;br&gt; Indoor and outdoor message boards
-&lt;br&gt; Flat backlight for LCDs, switches and symbols
-&lt;br&gt; Display for industrial control systems and traffic
-&lt;br&gt; Miniaturized color effects
-&lt;br&gt; Pedestrian mark
-&lt;br&gt; Optical indicators
-&lt;br&gt; General lighting
-&lt;br&gt; Toys
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eipal/WL-SMCW_pf2.jpg" title="Enlarge picture"&gt;
-&lt;img src="http://katalog.we-online.de/media/thumbs2/eipal/thb_WL-SMCW_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCW?m"&gt;http://katalog.we-online.de/en/led/WL-SMCW?m&lt;/a&gt;&lt;p&gt;
-
-&lt;/b&gt;Updated  2015-04-10&lt;br&gt;
-&lt;/b&gt;2015 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="-150060BS75000-B" package="WL-SMCW_0603">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="VALUE" value="150060RS75000" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-150060RS75000-R" package="WL-SMCW_0603">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150060SS75000-S-R" package="WL-SMCW_0603">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150060GS75000-G" package="WL-SMCW_0603">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150060VS75000-B-G" package="WL-SMCW_0603">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150060YS75000-Y" package="WL-SMCW_0603">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150080BS75000-B" package="WL-SMCW_0805">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150080GS75000-G" package="WL-SMCW_0805">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150080RS75000-R" package="WL-SMCW_0805">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150080SS75000-S-R" package="WL-SMCW_0805">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150080VS75000-B-G" package="WL-SMCW_0805">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150080YS75000-Y" package="WL-SMCW_0805">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150120AS75000-A" package="WL-SMCW_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150120BS75000-B" package="WL-SMCW_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150120GS75000-G" package="WL-SMCW_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150120RS75000-R" package="WL-SMCW_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150120SS75000-S-R" package="WL-SMCW_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150120VS75000-B-G" package="WL-SMCW_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-<device name="-150120YS75000-Y" package="WL-SMCW_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Red 625nm LED Indication - Discrete 2V 0603 _1608 Metric_ "/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MP" value="150060RS75000"/>
-<attribute name="PACKAGE" value="0603 Würth Elektronik"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8335,11 +7845,11 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCW?m"&gt;http:/
 <part name="J6" library="S2B-PH-K-S_LF__SN_" deviceset="S2B-PH-K-S(LF)(SN)" device=""/>
 <part name="GND88" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
-<part name="R21" library="RAFT-components" deviceset="CRCW1206165RFKEA" device="" value="165R"/>
 <part name="GND89" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D6" library="WL-SMCW" deviceset="WL-SMCW" device="-150060BS75000-B" value="150060RS75000"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="POWER_JACK" device=""/>
 <part name="GND90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R21" library="CRCW040210K0JNED" deviceset="CRCW040210K0JNED" device="" value="10K"/>
+<part name="D6" library="LTST-C190GKT" deviceset="LTST-C190GKT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10226,16 +9736,15 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCW?m"&gt;http:/
 <attribute name="VALUE" x="71.12" y="18.034" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="71.12" y="28.448" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="GND89" gate="1" x="83.82" y="50.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="86.36" y="53.34" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R21" gate="G$1" x="83.82" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.3214" y="31.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="87.122" y="31.75" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND89" gate="1" x="83.82" y="50.8" smashed="yes" rot="R180">
-<attribute name="VALUE" x="86.36" y="53.34" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="D6" gate="G$1" x="83.82" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="80.264" y="47.752" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="78.105" y="47.752" size="1.778" layer="96" rot="R270"/>
+<instance part="D6" gate="G$1" x="83.82" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="81.28203125" y="43.17796875" size="1.77941875" layer="95" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -10304,8 +9813,8 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCW?m"&gt;http:/
 <pinref part="C53" gate="G$1" pin="2"/>
 </segment>
 <segment>
+<pinref part="D6" gate="G$1" pin="K2"/>
 <pinref part="GND89" gate="1" pin="GND"/>
-<pinref part="D6" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="V_BAT" class="0">
@@ -10458,14 +9967,14 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMCW?m"&gt;http:/
 <segment>
 <pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="25.4" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
+<pinref part="D6" gate="G$1" pin="A2"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="D6" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
