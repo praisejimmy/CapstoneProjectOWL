@@ -10,29 +10,22 @@ typedef struct Packet{
     uint8_t* payload;
 } *Packet;
 
-class DuckLink{
-public:
+void DuckTaskEntry();
 
-    DuckLink();
+did_t getDid();
 
-    did_t getDid();
+did_t getMama();
 
-    did_t getMama();
+did_t did;
 
-private:
+did_t mama;
 
-    did_t did;
+void DuckTaskFunc(void);
 
-    did_t mama;
+void processMessage(Packet message);
 
-    void DuckTaskFunc(void);
+did_t findMama();
 
-    void processMessage(Packet message);
-
-    did_t findMama();
-
-
-};
 
 
 #endif //PROJECT_DUCK_TASK_H

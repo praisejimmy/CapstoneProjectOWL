@@ -5,7 +5,11 @@
 
 #include "duck_task.h"
 
-MamaDuck::DuckLink() {
+
+int did;
+int mama;
+
+DuckTaskEntry() {
     BaseType_t xReturned;
     TaskHandle_t DuckTask = NULL;
 
@@ -28,7 +32,7 @@ MamaDuck::DuckLink() {
 
 }
 
-void DuckLink::DuckTaskFunc() {
+void DuckTaskFunc() {
 
     const TickType_t xMaxBlockTime = pdMS_TO_TICKS( 500 );
     BaseType_t xResult;
@@ -53,7 +57,7 @@ void DuckLink::DuckTaskFunc() {
             if( ( ulNotifiedValue & (WIFI_RECEIVED | LORA_RECEIVED)) != 0 )
             {
 
-                if (xQueue != 0) {
+                if (duckQueue != 0) {
                     Packet message = malloc(sizeof(struct Packet));
                     // Receive a message on the created queue.  Block for 10 ticks if a
                     // message is not immediately available.
@@ -63,12 +67,12 @@ void DuckLink::DuckTaskFunc() {
                 }
             }
             if( ( ulNotifiedValue & ACK_RECEIVED) != 0 ){
-                if (xQueue != 0) {
+                if (duckQueue != 0) {
                     Packet message = malloc(sizeof(struct Packet));
                     // Receive a message on the created queue.  Block for 10 ticks if a
                     // message is not immediately available.
                     if (xQueueReceive(duckQueue, message, (TickType_t) 10)) {
-                        this.mama = message->senderId;
+                        mama = message->senderId;
                     }
                 }
             }
@@ -81,10 +85,10 @@ void DuckLink::DuckTaskFunc() {
     }
 }
 
-void DuckLink::processMessage(Packet message){
+void processMessage(Packet message){
 
-    if(this.mama != 0) {
-        message->destinationId = this.mama;
+    if(mama != 0) {
+        message->destinationId = mama;
         xQueueSend(loraQueue, message, (TickType_t) 10);
         xTaskNotify(loraTask, LORA_READY_SEND, eSetBits);
     } else{
@@ -94,12 +98,12 @@ void DuckLink::processMessage(Packet message){
     }
 }
 
-did_t DuckLink::getDid(){
+did_t getDid(){
     return this.did;
 }
 
-did_t DuckLink::getMama(){
-    return this.mama;
+did_t getMama(){
+    return mama;
 }
 
 Packet emptyBroadcast(){

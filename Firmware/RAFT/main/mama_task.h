@@ -11,27 +11,20 @@ typedef struct Packet{
     uint8_t* payload;
 } *Packet;
 
-class MamaDuck{
-    public:
+void MamaTaskEntry();
 
-        MamaDuck();
+did_t getDid();
 
-        did_t getDid();
+did_t did;
 
+did_t nextHop;
 
-    private:
+void MamaTaskFunc(void);
 
-        did_t did;
+void processMessage(Packet message);
 
-        did_t nextHop;
+did_t getNextHop();
 
-        void MamaTaskFunc(void);
-
-        void processMessage(Packet message);
-
-        did_t getNextHop();
-
-};
 
 
 #endif //FIRMWARE_MAMA_TASK_H

@@ -3,7 +3,7 @@
 #include "hash_table.h"
 
 
-HashTableEntry::HashTableEntry(did_t did, MamaTableEntry mama) {
+struct HashTableEntry{
     this->did= did;
     this->mama = mama;
 }

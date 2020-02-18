@@ -4,11 +4,10 @@
 
 #include "mama_task.h"
 
+int did;
+int nextHop;
 
-#define MESSAGE_SIZE     30
-
-
-MamaDuck::MamaDuck() {
+MamaTaskEntry() {
    BaseType_t xReturned;
    TaskHandle_t MamaTask = NULL;
 
@@ -26,7 +25,7 @@ MamaDuck::MamaDuck() {
 
 }
 
-void MamaDuck::MamaTaskFunc() {
+void MamaTaskFunc() {
 
    const TickType_t xMaxBlockTime = pdMS_TO_TICKS( 500 );
    BaseType_t xResult;
@@ -51,7 +50,7 @@ void MamaDuck::MamaTaskFunc() {
          if( ( ulNotifiedValue & (WIFI_RECEIVED | LORA_RECEIVED)) != 0 )
          {
 
-               if (xQueue != 0) {
+               if (mamaQueue != 0) {
                   Packet message = malloc(sizeof(struct Packet));
                   // Receive a message on the created queue.  Block for 10 ticks if a
                   // message is not immediately available.
@@ -61,12 +60,12 @@ void MamaDuck::MamaTaskFunc() {
                }
          }
          if( ( ulNotifiedValue & ACK_RECEIVED) != 0 ){
-            if (xQueue != 0) {
+            if (mamaQueue != 0) {
                Packet message = malloc(sizeof(struct Packet));
                // Receive a message on the created queue.  Block for 10 ticks if a
                // message is not immediately available.
                if (xQueueReceive(duckQueue, message, (TickType_t) 10)) {
-                  this.mama = message->senderId;
+                  nextHop = message->senderId;
                }
             }
          }
@@ -79,7 +78,7 @@ void MamaDuck::MamaTaskFunc() {
    }
 }
 
-void MamaDuck::processMessage(Packet message){
+void processMessage(Packet message){
 
    message->destinationId = getNextHop();
    xQueueSend(loraQueue, message, ( TickType_t ) 10 );
@@ -89,11 +88,11 @@ void MamaDuck::processMessage(Packet message){
 
 
 did_t getDid(){
-   return this.did;
+   return did;
 }
 
 did_t getNextHop(){
-   return this.nextHop;
+   return nextHop;
 }
 
 
