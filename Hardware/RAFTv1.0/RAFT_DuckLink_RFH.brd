@@ -2015,15 +2015,15 @@ design rules under a new name.</description>
 <board_group name="GPS"/>
 </groups>
 <elements>
-<element name="ANT1" library="RAFT-components" package="ANT_2450AD47A1590E" value="2450AD47A1590E" x="35.306" y="78.232" smashed="yes" rot="R180" grouprefs="MCU">
-<attribute name="DESCRIPTION" value=" 1.561GHz, 1.575GHz, 1.602GHz, 2.4GHz Beidou, Bluetooth, GLONASS, GPS, Wi-Fi Chip RF Antenna 1.561GHz ~ 1.602GHz, 2.4GHz ~ 2.5GHz 0.5dBi, 1.5dBi, 1.5dBi, 1dBi Solder Surface Mount " x="11.176" y="120.142" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="712-1594-1-ND" x="11.176" y="120.142" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AD47A1590E/712-1594-1-ND/5980452?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="11.176" y="120.142" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Johanson Technology" x="11.176" y="120.142" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="2450AD47A1590E" x="11.176" y="120.142" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="40.40596875" y="75.71615" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="FBGA-780 Johanson Technology" x="11.176" y="120.142" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="40.405590625" y="82.15848125" size="1.27" layer="27" rot="R180"/>
+<element name="ANT1" library="RAFT-components" package="ANT_2450AD47A1590E" value="2450AD47A1590E" x="29.972" y="80.264" smashed="yes" rot="R180" grouprefs="MCU">
+<attribute name="DESCRIPTION" value=" 1.561GHz, 1.575GHz, 1.602GHz, 2.4GHz Beidou, Bluetooth, GLONASS, GPS, Wi-Fi Chip RF Antenna 1.561GHz ~ 1.602GHz, 2.4GHz ~ 2.5GHz 0.5dBi, 1.5dBi, 1.5dBi, 1dBi Solder Surface Mount " x="5.842" y="122.174" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="712-1594-1-ND" x="5.842" y="122.174" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AD47A1590E/712-1594-1-ND/5980452?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="5.842" y="122.174" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Johanson Technology" x="5.842" y="122.174" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="2450AD47A1590E" x="5.842" y="122.174" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35.07196875" y="77.74815" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="FBGA-780 Johanson Technology" x="5.842" y="122.174" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35.071590625" y="84.19048125" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C1" library="rcl-raft" package="CAPC1005X55N" value="15pF" x="26.416" y="60.452" smashed="yes" rot="R90" grouprefs="GPS">
 <attribute name="DESCRIPTION" value=" Cap Ceramic 15pF 50V C0G 5% Pad SMD 0402 125C Automotive T/R " x="101.346" y="107.442" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2089,45 +2089,45 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.414" y="63.114" size="0.5" layer="27" rot="R180" align="top-left"/>
 <attribute name="VENDOR" value="Murata" x="-25.908" y="140.462" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C16" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="-65.786" y="98.806" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="-103.886" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="-103.886" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-103.886" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-103.886" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="GCM155R71C104KA55J" x="-103.886" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-64.836" y="98.176" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-103.886" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-64.836" y="99.436" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="C16" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="62.484" y="30.48" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="-8.636" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="-8.636" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-8.636" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="-8.636" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GCM155R71C104KA55J" x="-8.636" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="63.114" y="31.43" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-8.636" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="61.854" y="31.43" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C17" library="RAFT-components" package="CAPC1005X55N" value="15pF" x="-58.42" y="101.6" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 15pF 50V C0G 5% Pad SMD 0402 125C Automotive T/R " x="-115.57" y="176.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-11147-1-ND" x="-115.57" y="176.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H150JA16D/490-11147-1-ND/5332987?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-115.57" y="176.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-115.57" y="176.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="GCM1555C1H150JA16D" x="-115.57" y="176.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-57.47" y="103.256" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-115.57" y="176.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-57.47" y="102.23" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="C17" library="RAFT-components" package="CAPC1005X55N" value="15pF" x="59.69" y="37.846" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 15pF 50V C0G 5% Pad SMD 0402 125C Automotive T/R " x="-15.24" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-11147-1-ND" x="-15.24" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H150JA16D/490-11147-1-ND/5332987?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-15.24" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="-15.24" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GCM1555C1H150JA16D" x="-15.24" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.034" y="38.796" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-15.24" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="59.06" y="38.796" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C18" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="-68.326" y="98.806" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="-108.966" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="-108.966" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-108.966" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-108.966" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="GCM155R71C104KA55J" x="-108.966" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-67.376" y="98.176" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-108.966" y="169.926" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-67.376" y="99.436" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="C18" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="62.484" y="27.94" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="-8.636" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="-8.636" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-8.636" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="-8.636" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GCM155R71C104KA55J" x="-8.636" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="63.114" y="28.89" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-8.636" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="61.854" y="28.89" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C19" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="-58.42" y="107.696" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="12.7" y="150.876" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="12.7" y="150.876" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="12.7" y="150.876" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata" x="12.7" y="150.876" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="GCM155R71C104KA55J" x="12.7" y="150.876" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-59.05" y="106.746" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="12.7" y="150.876" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-57.79" y="106.746" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="C19" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="53.594" y="37.846" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="10.414" y="108.966" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="10.414" y="108.966" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="10.414" y="108.966" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Murata" x="10.414" y="108.966" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="GCM155R71C104KA55J" x="10.414" y="108.966" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="54.544" y="37.216" size="0.5" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="10.414" y="108.966" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="54.544" y="38.476" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="C2" library="rcl-raft" package="CAPC1005X55N" value="470pF" x="20.32" y="60.706" smashed="yes" rot="R90" grouprefs="GPS">
 <attribute name="DESCRIPTION" value=" CAP CER 470PF 50V C0G/NP0 0402 " x="87.63" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2139,102 +2139,102 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1005 Taiyo Yuden" x="87.63" y="128.016" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="20.95" y="59.756" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="C20" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="-63.5" y="98.298" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="7.62" y="144.018" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="7.62" y="144.018" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="7.62" y="144.018" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata" x="7.62" y="144.018" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="GCM155R71C104KA55J" x="7.62" y="144.018" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-64.13" y="97.348" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="7.62" y="144.018" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-62.87" y="97.348" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="C20" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="62.865" y="32.766" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="17.145" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="17.145" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="17.145" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Murata" x="17.145" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="GCM155R71C104KA55J" x="17.145" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="63.815" y="32.136" size="0.5" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="17.145" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="63.815" y="33.396" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="C21" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="-68.072" y="106.934" smashed="yes" rot="MR90">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="-139.192" y="155.194" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="-139.192" y="155.194" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-139.192" y="155.194" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="Murata" x="-139.192" y="155.194" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MP" value="GCM155R71C104KA55J" x="-139.192" y="155.194" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-67.442" y="105.984" size="0.5" layer="26" rot="MR90"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-139.192" y="155.194" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="-68.702" y="105.984" size="0.5" layer="28" rot="MR90" align="top-left"/>
+<element name="C21" library="RAFT-components" package="CAPC1005X55N" value="0.1uF" x="54.356" y="28.194" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 0.1uF 16V X7R 10% Pad SMD 0402 125°C Automotive T/R " x="6.096" y="-42.926" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-7998-1-ND" x="6.096" y="-42.926" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND/4380283?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="6.096" y="-42.926" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Murata" x="6.096" y="-42.926" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="GCM155R71C104KA55J" x="6.096" y="-42.926" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="55.306" y="28.824" size="0.5" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="6.096" y="-42.926" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="55.306" y="27.564" size="0.5" layer="28" rot="MR0" align="top-left"/>
 </element>
-<element name="C22" library="RAFT-components" package="CAPC1005X55N" value="15pF" x="-56.134" y="96.266" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 15pF 50V C0G 5% Pad SMD 0402 125C Automotive T/R " x="-115.824" y="171.196" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-11147-1-ND" x="-115.824" y="171.196" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H150JA16D/490-11147-1-ND/5332987?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-115.824" y="171.196" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-115.824" y="171.196" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="GCM1555C1H150JA16D" x="-115.824" y="171.196" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-55.184" y="95.636" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-115.824" y="171.196" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-55.184" y="96.896" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="C22" library="RAFT-components" package="CAPC1005X55N" value="15pF" x="65.024" y="40.132" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 15pF 50V C0G 5% Pad SMD 0402 125C Automotive T/R " x="-9.906" y="-19.558" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-11147-1-ND" x="-9.906" y="-19.558" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H150JA16D/490-11147-1-ND/5332987?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-9.906" y="-19.558" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="-9.906" y="-19.558" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GCM1555C1H150JA16D" x="-9.906" y="-19.558" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="65.654" y="41.082" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-9.906" y="-19.558" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="64.394" y="41.082" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C23" library="RAFT-components" package="CAPC1005X55N" value="47nF" x="-65.786" y="96.52" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 0.047uF 16V X7R 10% Pad SMD 0402 125C Automotive T/R " x="-128.016" y="171.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-6042-1-ND" x="-128.016" y="171.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C473KA37D/490-6042-1-ND/3845242?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-128.016" y="171.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-128.016" y="171.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="GCM155R71C473KA37D" x="-128.016" y="171.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-64.836" y="95.89" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-128.016" y="171.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-64.836" y="97.15" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="C23" library="RAFT-components" package="CAPC1005X55N" value="47nF" x="64.77" y="30.48" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 0.047uF 16V X7R 10% Pad SMD 0402 125C Automotive T/R " x="-10.16" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-6042-1-ND" x="-10.16" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C473KA37D/490-6042-1-ND/3845242?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-10.16" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="-10.16" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GCM155R71C473KA37D" x="-10.16" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="65.4" y="31.43" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-10.16" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="64.14" y="31.43" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C24" library="RAFT-components" package="CAPC1005X55N" value="47nF" x="-70.104" y="103.124" smashed="yes">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 0.047uF 16V X7R 10% Pad SMD 0402 125C Automotive T/R " x="-5.334" y="28.194" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-6042-1-ND" x="-5.334" y="28.194" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C473KA37D/490-6042-1-ND/3845242?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-5.334" y="28.194" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Murata" x="-5.334" y="28.194" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="GCM155R71C473KA37D" x="-5.334" y="28.194" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-68.448" y="102.428" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-5.334" y="28.194" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-68.204" y="102.428" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="C24" library="RAFT-components" package="CAPC1005X55N" value="47nF" x="58.166" y="26.162" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 0.047uF 16V X7R 10% Pad SMD 0402 125C Automotive T/R " x="133.096" y="90.932" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-6042-1-ND" x="133.096" y="90.932" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM155R71C473KA37D/490-6042-1-ND/3845242?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="133.096" y="90.932" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Murata" x="133.096" y="90.932" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="GCM155R71C473KA37D" x="133.096" y="90.932" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="58.862" y="27.818" size="0.5" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="133.096" y="90.932" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.862" y="28.062" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="C25" library="RAFT-components" package="CAPC1005X55N" value="10nF" x="-70.104" y="101.854" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="-2.794" y="26.924" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GCM155R71H103KA55D" x="-2.794" y="26.924" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-71.054" y="100.198" size="0.5" layer="25"/>
-<attribute name="VALUE" x="-71.054" y="101.224" size="0.5" layer="27" align="top-left"/>
-<attribute name="VENDOR" value="Murata" x="-2.794" y="26.924" size="1.778" layer="27" display="off"/>
+<element name="C25" library="RAFT-components" package="CAPC1005X55N" value="10nF" x="59.436" y="26.162" smashed="yes" rot="R90">
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="134.366" y="93.472" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GCM155R71H103KA55D" x="134.366" y="93.472" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="61.092" y="25.212" size="0.5" layer="25" rot="R90"/>
+<attribute name="VALUE" x="60.066" y="25.212" size="0.5" layer="27" rot="R90" align="top-left"/>
+<attribute name="VENDOR" value="Murata" x="134.366" y="93.472" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C26" library="RAFT-components" package="CAPC1005X55N" value="1.5pF" x="-72.2376" y="106.934" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value=" Cap Auto-Grade 1.5pf 50vdc C0g 5% Smd 0402 " x="-1.1176" y="157.734" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-16452-1-ND" x="-1.1176" y="157.734" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H1R5JA16D/490-16452-1-ND/7363434?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-1.1176" y="157.734" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata Electronics" x="-1.1176" y="157.734" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="GCM1555C1H1R5JA16D" x="-1.1176" y="157.734" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-72.8676" y="105.984" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-1.1176" y="157.734" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-71.6076" y="105.984" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="C26" library="RAFT-components" package="CAPC1005X55N" value="1.5pF" x="56.4896" y="24.4348" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value=" Cap Auto-Grade 1.5pf 50vdc C0g 5% Smd 0402 " x="5.6896" y="95.5548" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-16452-1-ND" x="5.6896" y="95.5548" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H1R5JA16D/490-16452-1-ND/7363434?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="5.6896" y="95.5548" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Murata Electronics" x="5.6896" y="95.5548" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="GCM1555C1H1R5JA16D" x="5.6896" y="95.5548" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="54.9352" y="24.9784" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="5.6896" y="95.5548" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="54.6912" y="24.9784" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C27" library="RAFT-components" package="CAPC1005X55N" value="33pF" x="-75.184" y="104.394" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" CAP CER 33PF 50V C0G/NP0 0402 " x="-145.034" y="179.324" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="" x="-145.034" y="179.324" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="" x="-145.034" y="179.324" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-145.034" y="179.324" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="GCM1555C1H330JA16D" x="-145.034" y="179.324" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-74.234" y="103.764" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-145.034" y="179.324" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-74.234" y="105.024" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="C27" library="RAFT-components" package="CAPC1005X55N" value="33pF" x="56.896" y="20.066" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" CAP CER 33PF 50V C0G/NP0 0402 " x="-18.034" y="-49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="" x="-18.034" y="-49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="" x="-18.034" y="-49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="-18.034" y="-49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GCM1555C1H330JA16D" x="-18.034" y="-49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="57.526" y="21.016" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-18.034" y="-49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="56.266" y="21.016" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="C28" library="RAFT-components" package="CAPC1005X55N" value="4.7pF" x="-76.962" y="102.362" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value=" 0402 4.7 pF 50V ±0.25 pF Tolerance C0G SMT Multilayer Ceramic Capacitor " x="-5.842" y="155.702" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-12652-1-ND" x="-5.842" y="155.702" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H4R7CA16D/490-12652-1-ND/5797621?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-5.842" y="155.702" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata Electronics" x="-5.842" y="155.702" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="GCM1555C1H4R7CA16D" x="-5.842" y="155.702" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-77.592" y="101.412" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-5.842" y="155.702" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-76.332" y="101.412" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="C28" library="RAFT-components" package="CAPC1005X55N" value="4.7pF" x="56.4896" y="18.3134" smashed="yes">
+<attribute name="DESCRIPTION" value=" 0402 4.7 pF 50V ±0.25 pF Tolerance C0G SMT Multilayer Ceramic Capacitor " x="109.8296" y="-52.8066" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-12652-1-ND" x="109.8296" y="-52.8066" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H4R7CA16D/490-12652-1-ND/5797621?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="109.8296" y="-52.8066" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata Electronics" x="109.8296" y="-52.8066" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="GCM1555C1H4R7CA16D" x="109.8296" y="-52.8066" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="55.4786" y="17.6936" size="0.5" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="109.8296" y="-52.8066" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="54.4526" y="17.6936" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="C29" library="RAFT-components" package="CAPC1005X55N" value="4.7pF" x="-80.518" y="102.362" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value=" 0402 4.7 pF 50V ±0.25 pF Tolerance C0G SMT Multilayer Ceramic Capacitor " x="-9.398" y="158.242" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-12652-1-ND" x="-9.398" y="158.242" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H4R7CA16D/490-12652-1-ND/5797621?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-9.398" y="158.242" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata Electronics" x="-9.398" y="158.242" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="GCM1555C1H4R7CA16D" x="-9.398" y="158.242" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-81.148" y="101.412" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-9.398" y="158.242" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-79.888" y="101.412" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="C29" library="RAFT-components" package="CAPC1005X55N" value="4.7pF" x="58.9788" y="12.5984" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" 0402 4.7 pF 50V ±0.25 pF Tolerance C0G SMT Multilayer Ceramic Capacitor " x="-12.1412" y="-43.2816" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-12652-1-ND" x="-12.1412" y="-43.2816" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H4R7CA16D/490-12652-1-ND/5797621?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-12.1412" y="-43.2816" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata Electronics" x="-12.1412" y="-43.2816" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GCM1555C1H4R7CA16D" x="-12.1412" y="-43.2816" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.5368" y="13.7364" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-12.1412" y="-43.2816" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="58.5368" y="14.7624" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="C3" library="rcl-raft" package="CAPC1608X90N" value="750pF" x="30.48" y="59.944" smashed="yes" rot="R90" grouprefs="GPS">
 <attribute name="DESCRIPTION" value=" Cap Ceramic 750pF 100V C0G 5% SMD 0603 125°C Paper T/R " x="93.98" y="90.424" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2246,15 +2246,15 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1608 Murata" x="93.98" y="90.424" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.28" y="58.484" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="C30" library="RAFT-components" package="CAPC1005X55N" value="1.8pF" x="-84.074" y="102.362" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value=" Cap Ceramic 1.8pF 50V C0G 0.25pF Pad SMD 0402 125C Automotive T/R " x="-12.954" y="160.782" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-17746-1-ND" x="-12.954" y="160.782" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H1R8CA16D/490-17746-1-ND/8539982?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-12.954" y="160.782" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata Electronics" x="-12.954" y="160.782" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="GCM1555C1H1R8CA16D" x="-12.954" y="160.782" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-84.704" y="101.412" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-12.954" y="160.782" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-83.444" y="101.412" size="0.5" layer="27" rot="R90" align="top-left"/>
+<element name="C30" library="RAFT-components" package="CAPC1005X55N" value="1.8pF" x="60.9854" y="13.8684" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" Cap Ceramic 1.8pF 50V C0G 0.25pF Pad SMD 0402 125C Automotive T/R " x="-10.1346" y="-44.5516" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-17746-1-ND" x="-10.1346" y="-44.5516" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GCM1555C1H1R8CA16D/490-17746-1-ND/8539982?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-10.1346" y="-44.5516" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata Electronics" x="-10.1346" y="-44.5516" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="GCM1555C1H1R8CA16D" x="-10.1346" y="-44.5516" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="62.2096" y="13.0454" size="0.5" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden" x="-10.1346" y="-44.5516" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="62.4536" y="13.0454" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C31" library="RAFT-components" package="CAPC1005X55N" value="15pF" x="53.0606" y="50.0126" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="DESCRIPTION" value=" Cap Ceramic 15pF 50V C0G 5% Pad SMD 0402 125C Automotive T/R " x="127.9906" y="122.4026" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2786,15 +2786,15 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="PowerDI™-5 Diodes Inc." x="-20.066" y="87.376" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PRICE" value="None" x="-20.066" y="87.376" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="J1" library="AmphenolRF" package="AMPHENOL_132134-15" value="AMPHENOL_132134" x="-91.44" y="104.394" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="-33.02" y="98.044" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" RF Connector SMA Straight PCB Jack Surface Mount 50 Ohm " x="-33.02" y="98.044" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Amphenol RF" x="-33.02" y="98.044" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="132134-15" x="-33.02" y="98.044" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-95.246109375" y="108.600759375" size="1.272040625" layer="25"/>
-<attribute name="PACKAGE" value="None" x="-33.02" y="98.044" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-33.02" y="98.044" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-95.24521875" y="98.88645" size="1.271740625" layer="27"/>
+<element name="J1" library="AmphenolRF" package="AMPHENOL_132134-15" value="AMPHENOL_132134" x="67.818" y="12.192" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Unavailable" x="74.168" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" RF Connector SMA Straight PCB Jack Surface Mount 50 Ohm " x="74.168" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Amphenol RF" x="74.168" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="132134-15" x="74.168" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="63.611240625" y="8.385890625" size="1.272040625" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="None" x="74.168" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="74.168" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="73.32555" y="8.38678125" size="1.271740625" layer="27" rot="R90"/>
 </element>
 <element name="J2" library="AmphenolRF" package="AMPHENOL_132134-15" value="AMPHENOL_132134" x="8.128" y="80.264" smashed="yes" grouprefs="GPS">
 <attribute name="AVAILABILITY" value="Unavailable" x="34.798" y="59.944" size="1.778" layer="27" display="off"/>
@@ -2806,9 +2806,9 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="34.798" y="59.944" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="4.32278125" y="74.75645" size="1.271740625" layer="27"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="2X10" value="" x="52.832" y="4.572" smashed="yes">
-<attribute name="NAME" x="51.562" y="8.636" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="51.562" y="2.159" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J3" library="SparkFun-Connectors" package="2X10" value="" x="70.866" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.802" y="48.768" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="73.279" y="48.768" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J4" library="105017-0001" package="MOLEX_105017-0001" value="Micro-USB" x="2.032" y="9.398" smashed="yes" rot="MR90" grouprefs="POWER">
 <attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole " x="-47.498" y="70.358" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2848,55 +2848,55 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1608 Murata" x="-0.508" y="-32.004" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="35.242" y="30.696" size="0.5" layer="28" rot="MR0" align="top-left"/>
 </element>
-<element name="L2" library="RAFT-components" package="INDC1005X55N" value="33nF" x="-70.104" y="104.394" smashed="yes">
-<attribute name="DESCRIPTION" value=" Inductor RF Chip Multi-Layer 33nH 5% 100MHz 8Q-Factor Air 200mA 580mOhm DCR 0402 T/R " x="-29.464" y="37.084" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-2629-1-ND" x="-29.464" y="37.084" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS33NJ02D/490-2629-1-ND/662909?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-29.464" y="37.084" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Murata" x="-29.464" y="37.084" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="LQG15HS33NJ02D" x="-29.464" y="37.084" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-69.408" y="105.542" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Murata" x="-29.464" y="37.084" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-69.408" y="105.532" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="L2" library="RAFT-components" package="INDC1005X55N" value="33nF" x="56.896" y="26.162" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value=" Inductor RF Chip Multi-Layer 33nH 5% 100MHz 8Q-Factor Air 200mA 580mOhm DCR 0402 T/R " x="124.206" y="66.802" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-2629-1-ND" x="124.206" y="66.802" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS33NJ02D/490-2629-1-ND/662909?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="124.206" y="66.802" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Murata" x="124.206" y="66.802" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="LQG15HS33NJ02D" x="124.206" y="66.802" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="55.748" y="26.858" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Murata" x="124.206" y="66.802" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="55.758" y="26.858" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="L3" library="RAFT-components" package="INDC1005X55N" value="10nH" x="-72.644" y="104.394" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" 10nH Unshielded Multilayer Inductor 500mA 260mOhm Max 0402 _1005 Metric_ " x="-117.094" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-2623-1-ND" x="-117.094" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS10NJ02D/490-2623-1-ND/662903?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-117.094" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-117.094" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="LQG15HS10NJ02D" x="-117.094" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-73.594" y="102.738" size="0.5" layer="25"/>
-<attribute name="PACKAGE" value="1005 Murata" x="-117.094" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-73.594" y="103.764" size="0.5" layer="27" align="top-left"/>
+<element name="L3" library="RAFT-components" package="INDC1005X55N" value="10nH" x="56.896" y="22.606" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" 10nH Unshielded Multilayer Inductor 500mA 260mOhm Max 0402 _1005 Metric_ " x="-10.414" y="-21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-2623-1-ND" x="-10.414" y="-21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS10NJ02D/490-2623-1-ND/662903?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-10.414" y="-21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="-10.414" y="-21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="LQG15HS10NJ02D" x="-10.414" y="-21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.552" y="21.656" size="0.5" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1005 Murata" x="-10.414" y="-21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="57.526" y="21.656" size="0.5" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="L4" library="RAFT-components" package="INDC1005X55N" value="5.6nH" x="-66.548" y="109.982" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value=" 5.6nH Unshielded Multilayer Inductor 650mA 180mOhm Max 0402 _1005 Metric_ " x="-133.858" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-15129-1-ND" x="-133.858" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS5N6C02D/490-15129-1-ND/6799794?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-133.858" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Murata" x="-133.858" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="LQG15HS5N6C02D" x="-133.858" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-65.918" y="110.932" size="0.5" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="1005 Murata" x="-133.858" y="61.722" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-67.178" y="110.932" size="0.5" layer="27" rot="R270" align="top-left"/>
+<element name="L4" library="RAFT-components" package="INDC1005X55N" value="5.6nH" x="51.816" y="29.718" smashed="yes">
+<attribute name="DESCRIPTION" value=" 5.6nH Unshielded Multilayer Inductor 650mA 180mOhm Max 0402 _1005 Metric_ " x="100.076" y="-37.592" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-15129-1-ND" x="100.076" y="-37.592" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS5N6C02D/490-15129-1-ND/6799794?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="100.076" y="-37.592" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="100.076" y="-37.592" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="LQG15HS5N6C02D" x="100.076" y="-37.592" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.866" y="30.348" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="1005 Murata" x="100.076" y="-37.592" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="50.866" y="29.088" size="0.5" layer="27" align="top-left"/>
 </element>
-<element name="L5" library="RAFT-components" package="INDC1005X55N" value="8.2nH" x="-78.74" y="104.394" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" Inductor RF Chip Multi-Layer 8.2nH 5% 100MHz 8Q-Factor Air 300mA 240mOhm DCR 0402 T/R " x="-130.81" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-2622-6-ND" x="-130.81" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS8N2J02D/490-2622-6-ND/1825762?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-130.81" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-130.81" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="LQG15HS8N2J02D" x="-130.81" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-77.79" y="106.05" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Murata" x="-130.81" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-77.79" y="105.024" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="L5" library="RAFT-components" package="INDC1005X55N" value="8.2nH" x="56.896" y="16.51" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" Inductor RF Chip Multi-Layer 8.2nH 5% 100MHz 8Q-Factor Air 300mA 240mOhm DCR 0402 T/R " x="-10.414" y="-35.56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-2622-6-ND" x="-10.414" y="-35.56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HS8N2J02D/490-2622-6-ND/1825762?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-10.414" y="-35.56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Murata" x="-10.414" y="-35.56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="LQG15HS8N2J02D" x="-10.414" y="-35.56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="55.24" y="17.46" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Murata" x="-10.414" y="-35.56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="56.266" y="17.46" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="L6" library="RAFT-components" package="INDC1005X55N" value="7.5nH" x="-82.296" y="104.394" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" Fixed Ind 7.5nh 500ma 240 Mohm " x="-138.176" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-15095-1-ND" x="-138.176" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HN7N5H02D/490-15095-1-ND/6799760?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-138.176" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-138.176" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="LQG15HN7N5H02D" x="-138.176" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-81.346" y="106.05" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Murata" x="-138.176" y="171.704" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-81.346" y="105.024" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="L6" library="RAFT-components" package="INDC1005X55N" value="7.5nH" x="60.706" y="12.192" smashed="yes">
+<attribute name="DESCRIPTION" value=" Fixed Ind 7.5nh 500ma 240 Mohm " x="116.586" y="-55.118" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-15095-1-ND" x="116.586" y="-55.118" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/LQG15HN7N5H02D/490-15095-1-ND/6799760?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="116.586" y="-55.118" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="116.586" y="-55.118" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="LQG15HN7N5H02D" x="116.586" y="-55.118" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="59.756" y="10.536" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="1005 Murata" x="116.586" y="-55.118" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.756" y="11.562" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="L7" library="rcl-raft" package="INDC1005X55N" value="2nH" x="47.9044" y="57.4294" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="DESCRIPTION" value=" Fixed Ind 2nh 900ma 90 Mohm " x="115.2144" y="117.1194" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3137,15 +3137,15 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="-53.6194" y="118.0846" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="24.4906" y="49.8246" size="0.5" layer="28" rot="MR90" align="top-left"/>
 </element>
-<element name="R3" library="rcl-raft" package="RESC1005X40N" value="0R" x="-58.42" y="96.266" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value=" 0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 _1005 Metric_ Automotive AEC-Q200 Thick Film " x="-90.17" y="175.006" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="541-0.0JCT-ND" x="-90.17" y="175.006" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW04020000Z0ED/541-0.0JCT-ND/1182611?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-90.17" y="175.006" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Vishay" x="-90.17" y="175.006" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="CRCW04020000Z0ED" x="-90.17" y="175.006" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-57.47" y="95.636" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="-90.17" y="175.006" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-58.486" y="96.896" size="0.5" layer="27" rot="R180" align="top-left"/>
+<element name="R3" library="rcl-raft" package="RESC1005X40N" value="0R" x="65.024" y="37.846" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" 0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 _1005 Metric_ Automotive AEC-Q200 Thick Film " x="-13.716" y="6.096" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-0.0JCT-ND" x="-13.716" y="6.096" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW04020000Z0ED/541-0.0JCT-ND/1182611?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-13.716" y="6.096" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Vishay" x="-13.716" y="6.096" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="CRCW04020000Z0ED" x="-13.716" y="6.096" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="65.654" y="38.796" size="0.5" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="-13.716" y="6.096" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="64.394" y="37.78" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="R4" library="rcl-raft" package="RESC1005X40N" value="0R" x="26.416" y="65.532" smashed="yes" rot="R180" grouprefs="GPS">
 <attribute name="DESCRIPTION" value=" 0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 _1005 Metric_ Automotive AEC-Q200 Thick Film " x="-7.874" y="144.272" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3231,20 +3231,20 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.306" y="64.992" size="1.27" layer="21"/>
 <attribute name="VALUE" x="31.306" y="66.85" size="1.27" layer="21"/>
 </element>
-<element name="U$2" library="RAFT-components" package="SMD-4" value="32MHz" x="-58.166" y="99.314" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER" value="  NDK America, Inc." x="-7.366" y="114.554" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-53.816" y="98.108" size="1.27" layer="21" rot="R90"/>
-<attribute name="VALUE" x="-55.42" y="98.108" size="1.27" layer="21" rot="R90"/>
+<element name="U$2" library="RAFT-components" package="SMD-4" value="32MHz" x="61.976" y="38.1" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="  NDK America, Inc." x="46.736" y="88.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="63.182" y="42.45" size="1.27" layer="21" rot="R180"/>
+<attribute name="VALUE" x="63.182" y="40.846" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="U1" library="Semtech-rf" package="QFN65P600X600X100-29N" value="SX1276" x="-63.5" y="104.394" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Unavailable" x="-57.15" y="120.904" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" RF Transceiver FSK/GFSK/MSK/GMSK/LoRa/OOK 137MHz to 1020MHz 28-Pin QFN " x="-57.15" y="120.904" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Semtech Corporation" x="-57.15" y="120.904" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SX1276" x="-57.15" y="120.904" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-59.59" y="109.939" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="VQFN-28 Semtech Corporation" x="-57.15" y="120.904" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="-57.15" y="120.904" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-60.606" y="93.007" size="1.27" layer="27" rot="R180" align="top-left"/>
+<element name="U1" library="Semtech-rf" package="QFN65P600X600X100-29N" value="SX1276" x="56.896" y="32.766" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="40.386" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" RF Transceiver FSK/GFSK/MSK/GMSK/LoRa/OOK 137MHz to 1020MHz 28-Pin QFN " x="40.386" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Semtech Corporation" x="40.386" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="SX1276" x="40.386" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="51.351" y="36.676" size="1.27" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="VQFN-28 Semtech Corporation" x="40.386" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="40.386" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="68.283" y="35.66" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="U10" library="PeregrineSemi" package="SOT65P215X110-6N" value="PE4259" x="50.292" y="67.564" smashed="yes" rot="R270" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="Unavailable" x="-8.128" y="25.654" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3271,20 +3271,20 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Smd Ic Esp32-D0wd, Dual Core Mcu " x="25.908" y="-0.254" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Espressif Systems" x="25.908" y="-0.254" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="ESP32-D0WD" x="25.908" y="-0.254" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="58.71515" y="65.315190625" size="1.271590625" layer="25" rot="R270"/>
+<attribute name="NAME" x="41.69715" y="53.377190625" size="1.271590625" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="VFQFN-48 Espressif Systems" x="25.908" y="-0.254" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="25.908" y="-0.254" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="57.61433125" y="65.317240625" size="1.27238125" layer="27" rot="R270" align="top-left"/>
+<attribute name="VALUE" x="39.32633125" y="70.651240625" size="1.27238125" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="U4" library="Winbond" package="SOIC127P790X216-8N" value="W25Q16BVSSIG" x="43.688" y="37.592" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="AVAILABILITY" value="Unavailable" x="75.438" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" FLASH - NOR Memory IC 16Mb _2M x 8_ SPI 104MHz 8-SOIC " x="75.438" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Winbond" x="75.438" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="W25Q16BVSSIG" x="75.438" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="41.57986875" y="29.801390625" size="1.27138125" layer="25" rot="R90"/>
+<attribute name="NAME" x="48.18386875" y="34.881390625" size="1.27138125" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="SOIC-8 Winbond" x="75.438" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="75.438" y="70.612" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="38.93936875" y="29.799540625" size="1.27193125" layer="27" rot="R90" align="top-left"/>
+<attribute name="VALUE" x="38.93936875" y="30.307540625" size="1.27193125" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="U5" library="INTERFACE-CP2102-GMR_QFN28_" package="QFN28G_0.5-5X5MM" value="INTERFACE-CP2102-GMR(QFN28)" x="22.606" y="10.16" smashed="yes" rot="MR180" grouprefs="POWER">
 <attribute name="AVAILABILITY" value="Unavailable" x="73.406" y="41.91" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3345,8 +3345,8 @@ design rules under a new name.</description>
 </element>
 <element name="U$4" library="RAFT-components" package="SMD-4" value="40MHz" x="55.118" y="49.53" smashed="yes" rot="R90" grouprefs="MCU">
 <attribute name="MANUFACTURER" value="  NDK America, Inc." x="55.118" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="56.61" y="47.942" size="1.27" layer="21" rot="R270"/>
-<attribute name="VALUE" x="58.214" y="47.942" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="58.198" y="51.88" size="1.27" layer="21" rot="R90"/>
+<attribute name="VALUE" x="56.594" y="51.88" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="C74" library="rcl-raft" package="CAPC1005X70N" value="1uF" x="50.292" y="55.2196" smashed="yes" rot="MR90" grouprefs="MCU">
 <attribute name="DESCRIPTION" value=" Cap Ceramic 1uF 10V X7S 10% Pad SMD 0402 125C Automotive T/R " x="50.292" y="55.2196" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3775,43 +3775,43 @@ design rules under a new name.</description>
 <wire x1="6.858" y1="30.242" x2="13.5128" y2="27.254" width="0" layer="19" extent="16-16"/>
 <wire x1="25.654" y1="3.302" x2="18.796" y2="5.842" width="0" layer="19" extent="1-1"/>
 <wire x1="38.1508" y1="12.4206" x2="32.512" y2="17.209" width="0" layer="19" extent="16-16"/>
-<wire x1="39.956" y1="76.932" x2="50.292" y2="68.564" width="0" layer="19" extent="1-1"/>
-<wire x1="36.206" y1="76.932" x2="39.956" y2="76.932" width="0" layer="19" extent="1-1"/>
-<wire x1="34.406" y1="76.932" x2="36.206" y2="76.932" width="0" layer="19" extent="1-1"/>
-<wire x1="36.206" y1="79.532" x2="36.206" y2="76.932" width="0" layer="19" extent="1-1"/>
-<wire x1="34.406" y1="79.532" x2="36.206" y2="79.532" width="0" layer="19" extent="1-1"/>
-<wire x1="30.656" y1="76.932" x2="34.406" y2="76.932" width="0" layer="19" extent="1-1"/>
+<wire x1="34.622" y1="78.964" x2="50.292" y2="68.564" width="0" layer="19" extent="1-1"/>
+<wire x1="30.872" y1="78.964" x2="34.622" y2="78.964" width="0" layer="19" extent="1-1"/>
+<wire x1="29.072" y1="78.964" x2="30.872" y2="78.964" width="0" layer="19" extent="1-1"/>
+<wire x1="30.872" y1="81.564" x2="30.872" y2="78.964" width="0" layer="19" extent="1-1"/>
+<wire x1="29.072" y1="81.564" x2="30.872" y2="81.564" width="0" layer="19" extent="1-1"/>
+<wire x1="25.322" y1="78.964" x2="29.072" y2="78.964" width="0" layer="19" extent="1-1"/>
 <wire x1="45.593" y1="32.1818" x2="38.4048" y2="24.8158" width="0" layer="19" extent="1-1"/>
 <wire x1="10.954" y1="40.512" x2="6.858" y2="30.242" width="0" layer="19" extent="1-1"/>
 <wire x1="7.954" y1="45.212" x2="10.954" y2="40.512" width="0" layer="19" extent="1-1"/>
-<wire x1="75.692" y1="7.112" x2="38.1508" y2="12.4206" width="0" layer="19" extent="1-1"/>
-<wire x1="75.692" y1="4.572" x2="75.692" y2="7.112" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.702" y1="96.266" x2="7.954" y2="45.212" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.691" y1="98.639" x2="-55.702" y2="96.266" width="0" layer="19" extent="1-1"/>
-<wire x1="-57.641" y1="99.989" x2="-58.691" y2="98.639" width="0" layer="19" extent="1-1"/>
-<wire x1="-57.988" y1="101.6" x2="-57.641" y2="99.989" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.5" y1="98.73" x2="-58.691" y2="98.639" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.218" y1="98.806" x2="-63.5" y2="98.73" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.218" y1="96.52" x2="-66.218" y2="98.806" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.758" y1="98.806" x2="-66.218" y2="98.806" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.45" y1="101.439" x2="-66.218" y2="98.806" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.455" y1="103.744" x2="-65.45" y2="101.439" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.455" y1="105.694" x2="-66.455" y2="103.744" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.072" y1="107.366" x2="-66.455" y2="105.694" width="0" layer="19" extent="1-16"/>
-<wire x1="-63.5" y1="104.394" x2="-66.455" y2="103.744" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.548" y1="110.414" x2="-68.072" y2="107.366" width="0" layer="19" extent="1-16"/>
-<wire x1="-70.536" y1="101.854" x2="-68.758" y2="98.806" width="0" layer="19" extent="1-1"/>
-<wire x1="-70.536" y1="103.124" x2="-70.536" y2="101.854" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.55" y1="107.349" x2="-63.5" y2="104.394" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.42" y1="108.128" x2="-61.55" y2="107.349" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.962" y1="101.93" x2="-70.536" y2="101.854" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.518" y1="101.93" x2="-76.962" y2="101.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-84.074" y1="101.93" x2="-80.518" y2="101.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.9" y1="101.854" x2="-84.074" y2="101.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.9" y1="106.934" x2="-88.9" y2="101.854" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.98" y1="106.934" x2="-88.9" y2="106.934" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.98" y1="101.854" x2="-88.9" y2="101.854" width="0" layer="19" extent="1-1"/>
-<wire x1="23.8" y1="59.69" x2="-66.548" y2="110.414" width="0" layer="19" extent="1-1"/>
+<wire x1="68.326" y1="72.898" x2="38.1508" y2="12.4206" width="0" layer="19" extent="1-1"/>
+<wire x1="70.866" y1="72.898" x2="68.326" y2="72.898" width="0" layer="19" extent="1-1"/>
+<wire x1="65.024" y1="40.564" x2="7.954" y2="45.212" width="0" layer="19" extent="1-1"/>
+<wire x1="62.651" y1="37.575" x2="65.024" y2="40.564" width="0" layer="19" extent="1-1"/>
+<wire x1="61.301" y1="38.625" x2="62.651" y2="37.575" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="38.278" x2="61.301" y2="38.625" width="0" layer="19" extent="1-1"/>
+<wire x1="62.433" y1="32.766" x2="62.651" y2="37.575" width="0" layer="19" extent="1-1"/>
+<wire x1="62.484" y1="30.048" x2="62.433" y2="32.766" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="30.048" x2="62.484" y2="30.048" width="0" layer="19" extent="1-1"/>
+<wire x1="62.484" y1="27.508" x2="62.484" y2="30.048" width="0" layer="19" extent="1-1"/>
+<wire x1="59.851" y1="30.816" x2="62.484" y2="30.048" width="0" layer="19" extent="1-1"/>
+<wire x1="57.546" y1="29.811" x2="59.851" y2="30.816" width="0" layer="19" extent="1-1"/>
+<wire x1="55.596" y1="29.811" x2="57.546" y2="29.811" width="0" layer="19" extent="1-1"/>
+<wire x1="53.924" y1="28.194" x2="55.596" y2="29.811" width="0" layer="19" extent="1-16"/>
+<wire x1="56.896" y1="32.766" x2="57.546" y2="29.811" width="0" layer="19" extent="1-1"/>
+<wire x1="51.384" y1="29.718" x2="53.924" y2="28.194" width="0" layer="19" extent="1-16"/>
+<wire x1="59.436" y1="25.73" x2="62.484" y2="27.508" width="0" layer="19" extent="1-1"/>
+<wire x1="58.166" y1="25.73" x2="59.436" y2="25.73" width="0" layer="19" extent="1-1"/>
+<wire x1="53.941" y1="34.716" x2="56.896" y2="32.766" width="0" layer="19" extent="1-1"/>
+<wire x1="53.162" y1="37.846" x2="53.941" y2="34.716" width="0" layer="19" extent="1-1"/>
+<wire x1="56.0576" y1="18.3134" x2="59.436" y2="25.73" width="0" layer="19" extent="1-1"/>
+<wire x1="58.9788" y1="13.0304" x2="56.0576" y2="18.3134" width="0" layer="19" extent="1-1"/>
+<wire x1="60.9854" y1="14.3004" x2="58.9788" y2="13.0304" width="0" layer="19" extent="1-1"/>
+<wire x1="70.358" y1="14.732" x2="60.9854" y2="14.3004" width="0" layer="19" extent="1-1"/>
+<wire x1="65.278" y1="14.732" x2="70.358" y2="14.732" width="0" layer="19" extent="1-1"/>
+<wire x1="65.278" y1="9.652" x2="65.278" y2="14.732" width="0" layer="19" extent="1-1"/>
+<wire x1="70.358" y1="9.652" x2="70.358" y2="14.732" width="0" layer="19" extent="1-1"/>
+<wire x1="23.8" y1="59.69" x2="51.384" y2="29.718" width="0" layer="19" extent="1-1"/>
 <wire x1="26.416" y1="60.02" x2="24.892" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="24.892" y1="61.468" x2="24.892" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="26.848" y1="63.5" x2="24.892" y2="61.468" width="0" layer="19" extent="1-1"/>
@@ -3999,14 +3999,14 @@ design rules under a new name.</description>
 <wire x1="48.153" y1="48.101" x2="48.673" y2="50.371" width="0" layer="19" extent="1-1"/>
 <wire x1="43.783" y1="50.721" x2="48.673" y2="50.371" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="16.256" x2="49.276" y2="43.7644" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.42" y1="107.264" x2="45.194021875" y2="62.3531875" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.545" y1="106.344" x2="-58.42" y2="107.264" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.455" y1="105.044" x2="-60.545" y2="106.344" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.072" y1="106.502" x2="-66.455" y2="105.044" width="0" layer="19" extent="1-16"/>
-<wire x1="-64.15" y1="101.439" x2="-66.455" y2="105.044" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.354" y1="98.806" x2="-64.15" y2="101.439" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.354" y1="96.52" x2="-65.354" y2="98.806" width="0" layer="19" extent="1-1"/>
-<wire x1="22.936" y1="59.69" x2="-58.42" y2="107.264" width="0" layer="19" extent="1-1"/>
+<wire x1="54.026" y1="37.846" x2="45.194021875" y2="62.3531875" width="0" layer="19" extent="1-1"/>
+<wire x1="54.946" y1="35.721" x2="54.026" y2="37.846" width="0" layer="19" extent="1-1"/>
+<wire x1="56.246" y1="29.811" x2="54.946" y2="35.721" width="0" layer="19" extent="1-1"/>
+<wire x1="54.788" y1="28.194" x2="56.246" y2="29.811" width="0" layer="19" extent="1-16"/>
+<wire x1="59.851" y1="32.116" x2="56.246" y2="29.811" width="0" layer="19" extent="1-1"/>
+<wire x1="62.484" y1="30.912" x2="59.851" y2="32.116" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="30.912" x2="62.484" y2="30.912" width="0" layer="19" extent="1-1"/>
+<wire x1="22.936" y1="59.69" x2="54.026" y2="37.846" width="0" layer="19" extent="1-1"/>
 <wire x1="23.188" y1="64.532" x2="22.328" y2="63.172" width="0" layer="19" extent="1-1"/>
 <wire x1="23.188" y1="66.532" x2="23.188" y2="64.532" width="0" layer="19" extent="1-1"/>
 <wire x1="19.328" y1="63.172" x2="21.828" y2="63.172" width="0" layer="19" extent="1-1"/>
@@ -4052,7 +4052,7 @@ design rules under a new name.</description>
 <wire x1="7.858" y1="64.374" x2="47.803" y2="48.101" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPS_INT_ANT">
-<wire x1="30.656" y1="79.532" x2="5.858" y2="65.674" width="0" layer="19" extent="1-1"/>
+<wire x1="25.322" y1="81.564" x2="5.858" y2="65.674" width="0" layer="19" extent="1-1"/>
 <contactref element="U6" pad="1"/>
 <contactref element="ANT1" pad="4"/>
 </signal>
@@ -4067,8 +4067,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="SPI_MOSI">
 <wire x1="43.783" y1="50.371" x2="23.188" y2="67.032" width="0" layer="19" extent="1-1"/>
-<wire x1="55.372" y1="4.572" x2="43.783" y2="50.371" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.5" y1="107.349" x2="43.783" y2="50.371" width="0" layer="19" extent="1-1"/>
+<wire x1="70.866" y1="52.578" x2="43.783" y2="50.371" width="0" layer="19" extent="1-1"/>
+<wire x1="53.941" y1="32.766" x2="43.783" y2="50.371" width="0" layer="19" extent="1-1"/>
 <contactref element="U2" pad="7"/>
 <contactref element="U1" pad="18"/>
 <contactref element="U3" pad="20"/>
@@ -4076,8 +4076,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="SPI_CLK">
 <wire x1="43.783" y1="51.421" x2="22.328" y2="67.892" width="0" layer="19" extent="1-1"/>
-<wire x1="57.912" y1="4.572" x2="43.783" y2="51.421" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.2" y1="107.349" x2="43.783" y2="51.421" width="0" layer="19" extent="1-1"/>
+<wire x1="70.866" y1="55.118" x2="43.783" y2="51.421" width="0" layer="19" extent="1-1"/>
+<wire x1="53.941" y1="34.066" x2="43.783" y2="51.421" width="0" layer="19" extent="1-1"/>
 <contactref element="U2" pad="8"/>
 <contactref element="U1" pad="16"/>
 <contactref element="U3" pad="17"/>
@@ -4127,25 +4127,25 @@ design rules under a new name.</description>
 <wire x1="23.188" y1="65.532" x2="25.971" y2="65.532" width="0.2" layer="1" grouprefs="GPS"/>
 </signal>
 <signal name="N$12">
-<wire x1="-64.8" y1="101.439" x2="-67.894" y2="98.806" width="0" layer="19" extent="1-1"/>
+<wire x1="59.851" y1="31.466" x2="62.484" y2="28.372" width="0" layer="19" extent="1-1"/>
 <contactref element="C18" pad="1"/>
 <contactref element="U1" pad="2"/>
 </signal>
 <signal name="N$14">
-<wire x1="-63.5" y1="101.439" x2="-63.5" y2="97.866" width="0" layer="19" extent="1-1"/>
+<wire x1="59.851" y1="32.766" x2="63.297" y2="32.766" width="0" layer="19" extent="1-1"/>
 <contactref element="C20" pad="1"/>
 <contactref element="U1" pad="4"/>
 </signal>
 <signal name="N$13">
 <contactref element="R3" pad="1"/>
-<wire x1="-56.566" y1="96.266" x2="-57.975" y2="96.266" width="0" layer="19" extent="1-1"/>
-<wire x1="-57.641" y1="98.639" x2="-57.975" y2="96.266" width="0" layer="19" extent="1-1"/>
+<wire x1="65.024" y1="39.7" x2="65.024" y2="38.291" width="0" layer="19" extent="1-1"/>
+<wire x1="62.651" y1="38.625" x2="65.024" y2="38.291" width="0" layer="19" extent="1-1"/>
 <contactref element="U$2" pad="1"/>
 <contactref element="C22" pad="2"/>
 </signal>
 <signal name="N$15">
-<wire x1="-62.2" y1="101.439" x2="-58.701" y2="99.989" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.852" y1="101.6" x2="-58.701" y2="99.989" width="0" layer="19" extent="1-1"/>
+<wire x1="59.851" y1="34.066" x2="61.301" y2="37.565" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="37.414" x2="61.301" y2="37.565" width="0" layer="19" extent="1-1"/>
 <contactref element="C17" pad="2"/>
 <contactref element="U$2" pad="3"/>
 <contactref element="U1" pad="6"/>
@@ -4157,11 +4157,11 @@ design rules under a new name.</description>
 <wire x1="48.503" y1="48.101" x2="48.503" y2="45.9270375" width="0.2" layer="1" grouprefs="MCU"/>
 <wire x1="49.022" y1="45.4208" x2="49.0092375" y2="45.4208" width="0.2" layer="1" grouprefs="MCU"/>
 <wire x1="49.0092375" y1="45.4208" x2="48.503" y2="45.9270375" width="0.2" layer="1" grouprefs="MCU"/>
-<wire x1="-64.15" y1="107.349" x2="48.503" y2="48.101" width="0" layer="19" extent="1-1"/>
+<wire x1="53.941" y1="32.116" x2="48.503" y2="48.101" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_MISO">
-<wire x1="43.783" y1="51.071" x2="52.832" y2="4.572" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.85" y1="107.349" x2="43.783" y2="51.071" width="0" layer="19" extent="1-1"/>
+<wire x1="43.783" y1="51.071" x2="70.866" y2="50.038" width="0" layer="19" extent="1-1"/>
+<wire x1="53.941" y1="33.416" x2="43.783" y2="51.071" width="0" layer="19" extent="1-1"/>
 <contactref element="U1" pad="17"/>
 <contactref element="U3" pad="18"/>
 <contactref element="J3" pad="1"/>
@@ -4172,13 +4172,13 @@ design rules under a new name.</description>
 <wire x1="47.453" y1="48.101" x2="47.453" y2="44.241" width="0.2" layer="1" grouprefs="MCU"/>
 <wire x1="47.453" y1="44.241" x2="48.26" y2="43.434" width="0.2" layer="1" grouprefs="MCU"/>
 <via x="48.26" y="43.434" extent="1-16" drill="0.35" grouprefs="MCU"/>
-<wire x1="-61.55" y1="101.439" x2="47.453" y2="48.101" width="0" layer="19" extent="1-1"/>
+<wire x1="59.851" y1="34.716" x2="47.453" y2="48.101" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="L2" pad="2"/>
-<wire x1="-69.672" y1="103.124" x2="-69.672" y2="104.394" width="0" layer="19" extent="1-1"/>
-<wire x1="-69.672" y1="101.854" x2="-69.672" y2="103.124" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.455" y1="104.394" x2="-69.672" y2="104.394" width="0" layer="19" extent="1-1"/>
+<wire x1="58.166" y1="26.594" x2="56.896" y2="26.594" width="0" layer="19" extent="1-1"/>
+<wire x1="59.436" y1="26.594" x2="58.166" y2="26.594" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="29.811" x2="56.896" y2="26.594" width="0" layer="19" extent="1-1"/>
 <contactref element="U1" pad="25"/>
 <contactref element="C24" pad="2"/>
 <contactref element="C25" pad="2"/>
@@ -4187,71 +4187,71 @@ design rules under a new name.</description>
 <contactref element="L3" pad="1"/>
 <contactref element="C26" pad="1"/>
 <contactref element="L2" pad="1"/>
-<wire x1="-72.212" y1="104.394" x2="-70.536" y2="104.394" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.2376" y1="106.502" x2="-72.212" y2="104.394" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.455" y1="106.344" x2="-70.536" y2="104.394" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="23.038" x2="56.896" y2="25.73" width="0" layer="19" extent="1-1"/>
+<wire x1="56.9216" y1="24.4348" x2="56.896" y2="23.038" width="0" layer="19" extent="1-1"/>
+<wire x1="54.946" y1="29.811" x2="56.896" y2="25.73" width="0" layer="19" extent="1-1"/>
 <contactref element="U1" pad="22"/>
 </signal>
 <signal name="N$17">
 <contactref element="C26" pad="2"/>
 <contactref element="U1" pad="21"/>
 <contactref element="L4" pad="2"/>
-<wire x1="-66.548" y1="109.55" x2="-65.45" y2="107.349" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.2376" y1="107.366" x2="-66.548" y2="109.55" width="0" layer="19" extent="1-1"/>
+<wire x1="52.248" y1="29.718" x2="53.941" y2="30.816" width="0" layer="19" extent="1-1"/>
+<wire x1="56.0576" y1="24.4348" x2="52.248" y2="29.718" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="L3" pad="2"/>
 <contactref element="C27" pad="1"/>
-<wire x1="-74.752" y1="104.394" x2="-73.076" y2="104.394" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="20.498" x2="56.896" y2="22.174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="C27" pad="2"/>
 <contactref element="L5" pad="1"/>
-<wire x1="-78.308" y1="104.394" x2="-76.962" y2="102.794" width="0" layer="19" extent="1-1"/>
-<wire x1="-75.616" y1="104.394" x2="-76.962" y2="102.794" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="16.942" x2="56.9216" y2="18.3134" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="19.634" x2="56.9216" y2="18.3134" width="0" layer="19" extent="1-1"/>
 <contactref element="C28" pad="2"/>
 </signal>
 <signal name="N$20">
 <contactref element="L5" pad="2"/>
 <contactref element="L6" pad="1"/>
-<wire x1="-81.864" y1="104.394" x2="-80.518" y2="102.794" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.172" y1="104.394" x2="-81.864" y2="104.394" width="0" layer="19" extent="1-1"/>
+<wire x1="60.274" y1="12.192" x2="58.9788" y2="12.1664" width="0" layer="19" extent="1-1"/>
+<wire x1="56.896" y1="16.078" x2="60.274" y2="12.192" width="0" layer="19" extent="1-1"/>
 <contactref element="C29" pad="2"/>
 </signal>
 <signal name="N$21">
 <contactref element="L6" pad="2"/>
-<wire x1="-82.728" y1="104.394" x2="-91.44" y2="104.394" width="0" layer="19" extent="1-1"/>
-<wire x1="-84.074" y1="102.794" x2="-82.728" y2="104.394" width="0" layer="19" extent="1-1"/>
+<wire x1="61.138" y1="12.192" x2="67.818" y2="12.192" width="0" layer="19" extent="1-1"/>
+<wire x1="60.9854" y1="13.4364" x2="61.138" y2="12.192" width="0" layer="19" extent="1-1"/>
 <contactref element="J1" pad="1"/>
 <contactref element="C30" pad="2"/>
 </signal>
 <signal name="N$31">
 <contactref element="R3" pad="2"/>
-<wire x1="-62.85" y1="101.439" x2="-58.865" y2="96.266" width="0" layer="19" extent="1-1"/>
+<wire x1="59.851" y1="33.416" x2="65.024" y2="37.401" width="0" layer="19" extent="1-1"/>
 <contactref element="U1" pad="5"/>
 </signal>
 <signal name="GPIO0">
-<wire x1="52.832" y1="7.112" x2="43.783" y2="49.321" width="0" layer="19" extent="1-1"/>
+<wire x1="68.326" y1="50.038" x2="43.783" y2="49.321" width="0" layer="19" extent="1-1"/>
 <contactref element="U3" pad="23"/>
 <contactref element="J3" pad="2"/>
 </signal>
 <signal name="GPIO2">
-<wire x1="55.372" y1="7.112" x2="43.783" y2="49.671" width="0" layer="19" extent="1-1"/>
+<wire x1="68.326" y1="52.578" x2="43.783" y2="49.671" width="0" layer="19" extent="1-1"/>
 <contactref element="U3" pad="22"/>
 <contactref element="J3" pad="4"/>
 </signal>
 <signal name="GPIO3">
-<wire x1="43.783" y1="48.971" x2="57.912" y2="7.112" width="0" layer="19" extent="1-1"/>
+<wire x1="43.783" y1="48.971" x2="68.326" y2="55.118" width="0" layer="19" extent="1-1"/>
 <contactref element="U3" pad="24"/>
 <contactref element="J3" pad="6"/>
 </signal>
 <signal name="GPIO4">
 <contactref element="U3" pad="34"/>
 <contactref element="J3" pad="8"/>
-<wire x1="60.452" y1="7.112" x2="47.103" y2="48.101" width="0" layer="19" extent="1-1"/>
+<wire x1="68.326" y1="57.658" x2="47.103" y2="48.101" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO16">
-<wire x1="43.953" y1="48.101" x2="65.532" y2="7.112" width="0" layer="19" extent="1-1"/>
+<wire x1="43.953" y1="48.101" x2="68.326" y2="62.738" width="0" layer="19" extent="1-1"/>
 <contactref element="U3" pad="25"/>
 <contactref element="J3" pad="12"/>
 </signal>
@@ -4261,7 +4261,7 @@ design rules under a new name.</description>
 <wire x1="44.653" y1="48.101" x2="44.653" y2="46.685" width="0.2" layer="1" grouprefs="MCU"/>
 <wire x1="44.653" y1="46.685" x2="44.196" y2="46.228" width="0.2" layer="1" grouprefs="MCU"/>
 <via x="44.196" y="46.228" extent="1-16" drill="0.3" grouprefs="MCU"/>
-<wire x1="68.072" y1="7.112" x2="44.196" y2="46.228" width="0" layer="19" extent="1-1"/>
+<wire x1="68.326" y1="65.278" x2="44.196" y2="46.228" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="L7" pad="1"/>
@@ -4312,7 +4312,7 @@ design rules under a new name.</description>
 <wire x1="43.18" y1="45.466" x2="41.783" y2="44.069" width="0.254" layer="1" grouprefs="MCU"/>
 </signal>
 <signal name="GPIO15">
-<wire x1="62.992" y1="7.112" x2="43.783" y2="50.021" width="0" layer="19" extent="1-1"/>
+<wire x1="68.326" y1="60.198" x2="43.783" y2="50.021" width="0" layer="19" extent="1-1"/>
 <contactref element="U3" pad="21"/>
 <contactref element="J3" pad="10"/>
 </signal>
@@ -4380,8 +4380,8 @@ design rules under a new name.</description>
 <wire x1="22.606" y1="7.57" x2="22.606" y2="6.604" width="0.254" layer="16" grouprefs="POWER"/>
 <wire x1="22.606" y1="6.604" x2="23.368" y2="5.842" width="0.254" layer="16" grouprefs="POWER"/>
 <via x="23.368" y="5.842" extent="1-16" drill="0.35" grouprefs="POWER"/>
-<wire x1="60.452" y1="4.572" x2="52.578" y2="44.704" width="0" layer="19" extent="1-1"/>
-<wire x1="22.606" y1="7.57" x2="60.452" y2="4.572" width="0" layer="19" extent="16-16"/>
+<wire x1="70.866" y1="57.658" x2="52.578" y2="44.704" width="0" layer="19" extent="1-1"/>
+<wire x1="22.606" y1="7.57" x2="70.866" y2="57.658" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$32">
 <contactref element="R18" pad="2"/>
@@ -4400,8 +4400,8 @@ design rules under a new name.</description>
 <wire x1="22.106" y1="7.57" x2="22.106" y2="6.088" width="0.254" layer="16" grouprefs="POWER"/>
 <wire x1="22.106" y1="6.088" x2="22.352" y2="5.842" width="0.254" layer="16" grouprefs="POWER"/>
 <via x="22.352" y="5.842" extent="1-16" drill="0.35" grouprefs="POWER"/>
-<wire x1="62.992" y1="4.572" x2="52.6034" y2="45.6946" width="0" layer="19" extent="1-1"/>
-<wire x1="22.106" y1="7.57" x2="62.992" y2="4.572" width="0" layer="19" extent="16-16"/>
+<wire x1="70.866" y1="60.198" x2="52.6034" y2="45.6946" width="0" layer="19" extent="1-1"/>
+<wire x1="22.106" y1="7.57" x2="70.866" y2="60.198" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$30">
 <contactref element="R2" pad="2"/>
@@ -4503,12 +4503,16 @@ design rules under a new name.</description>
 <wire x1="49.5806" y1="59.4866" x2="49.5806" y2="59.7154" width="0.2" layer="1" grouprefs="MCU"/>
 <wire x1="49.5806" y1="59.7154" x2="49.53" y2="59.766" width="0.2" layer="1" grouprefs="MCU"/>
 <wire x1="49.53" y1="59.766" x2="49.53" y2="61.29" width="0.3048" layer="1" grouprefs="MCU"/>
-<wire x1="48.153" y1="52.991" x2="49.5806" y2="59.4866" width="0" layer="19" extent="1-1"/>
+<wire x1="48.153" y1="52.991" x2="48.153" y2="53.741" width="0.2032" layer="1"/>
+<wire x1="48.153" y1="53.741" x2="48.768" y2="54.356" width="0.2032" layer="1"/>
+<wire x1="49.5806" y1="56.6926" x2="49.5806" y2="59.7154" width="0.2032" layer="1"/>
+<wire x1="48.768" y1="54.356" x2="48.768" y2="55.88" width="0.2032" layer="1"/>
+<wire x1="48.768" y1="55.88" x2="49.5806" y2="56.6926" width="0.2032" layer="1"/>
 </signal>
 <signal name="2G4_INT_ANT">
 <contactref element="ANT1" pad="1"/>
 <contactref element="U10" pad="3"/>
-<wire x1="49.642" y1="68.564" x2="39.956" y2="79.532" width="0" layer="19" extent="1-1"/>
+<wire x1="49.642" y1="68.564" x2="34.622" y2="81.564" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="2G4_ANT_SEL">
 <contactref element="U3" pad="14"/>
@@ -4671,8 +4675,8 @@ design rules under a new name.</description>
 <wire x1="25.146" y1="54.864" x2="24.384" y2="54.102" width="0.254" layer="16" grouprefs="POWER"/>
 <wire x1="27.178" y1="54.864" x2="25.146" y2="54.864" width="0.254" layer="16" grouprefs="POWER"/>
 <wire x1="24.384" y1="54.102" x2="22.86" y2="54.102" width="0.254" layer="16"/>
-<wire x1="70.612" y1="7.112" x2="73.152" y2="7.112" width="0" layer="19" extent="1-1"/>
-<wire x1="37.341" y1="47.752" x2="70.612" y2="7.112" width="0" layer="19" extent="16-16"/>
+<wire x1="68.326" y1="67.818" x2="68.326" y2="70.358" width="0" layer="19" extent="1-1"/>
+<wire x1="37.341" y1="47.752" x2="68.326" y2="67.818" width="0" layer="19" extent="16-16"/>
 <wire x1="34.273" y1="48.751" x2="35.306" y2="47.752" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$47">
@@ -4828,8 +4832,8 @@ design rules under a new name.</description>
 <wire x1="15.0732" y1="14.67" x2="12.604" y2="14.67" width="0.6096" layer="16" grouprefs="POWER"/>
 <wire x1="12.604" y1="14.67" x2="10.764" y2="14.67" width="0.6096" layer="16" grouprefs="POWER"/>
 <wire x1="20.016" y1="11.66" x2="21.106" y2="12.75" width="0" layer="19" extent="16-16"/>
-<wire x1="73.152" y1="4.572" x2="4.707" y2="8.098" width="0" layer="19" extent="16-16"/>
-<wire x1="70.612" y1="4.572" x2="73.152" y2="4.572" width="0" layer="19" extent="1-1"/>
+<wire x1="70.866" y1="70.358" x2="4.707" y2="8.098" width="0" layer="19" extent="16-16"/>
+<wire x1="70.866" y1="67.818" x2="70.866" y2="70.358" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$58">
 <contactref element="R12" pad="1"/>
@@ -5063,7 +5067,7 @@ design rules under a new name.</description>
 <via x="25.654" y="31.242" extent="1-16" drill="0.4572" grouprefs="POWER"/>
 <wire x1="25.654" y1="31.242" x2="26.162" y2="30.734" width="0.3048" layer="16" grouprefs="POWER"/>
 <wire x1="26.162" y1="30.734" x2="26.162" y2="30.1498" width="0.3048" layer="16" grouprefs="POWER"/>
-<wire x1="12.208" y1="32.274" x2="13.5128" y2="30.9692" width="0.4572" layer="1" grouprefs="POWER"/>
+<wire x1="13.5128" y1="30.9692" x2="12.208" y2="32.274" width="0.4572" layer="1" grouprefs="POWER"/>
 <wire x1="13.5128" y1="30.9692" x2="13.5128" y2="29.6418" width="0.4572" layer="1" grouprefs="POWER"/>
 <via x="13.5128" y="29.6418" extent="1-16" drill="0.6858" grouprefs="POWER"/>
 <wire x1="13.5128" y1="29.6418" x2="13.5198" y2="29.6348" width="0.4572" layer="16" grouprefs="POWER"/>
@@ -5085,8 +5089,9 @@ design rules under a new name.</description>
 <wire x1="26.67" y1="40.132" x2="27.432" y2="40.894" width="0.4572" layer="1" grouprefs="POWER"/>
 <wire x1="27.432" y1="40.894" x2="28.956" y2="40.894" width="0.4572" layer="1" grouprefs="POWER"/>
 <via x="28.956" y="40.894" extent="1-16" drill="0.6858" grouprefs="POWER"/>
+<wire x1="12.208" y1="32.274" x2="6.89" y2="32.274" width="0.4572" layer="1"/>
+<wire x1="6.89" y1="32.274" x2="6.858" y2="32.242" width="0.4572" layer="1"/>
 <wire x1="28.956" y1="40.894" x2="29.606" y2="42.2675" width="0" layer="19" extent="16-16"/>
-<wire x1="6.858" y1="32.242" x2="12.208" y2="32.274" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$64">
 <contactref element="J7" pad="2"/>
