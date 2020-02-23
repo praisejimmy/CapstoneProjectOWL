@@ -234,24 +234,6 @@
 <smd name="1" x="-0.435" y="0" dx="0.56" dy="0.6" layer="1"/>
 <smd name="2" x="0.435" y="0" dx="0.56" dy="0.6" layer="1"/>
 </package>
-<package name="SC70-6L-DUAL">
-<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.127" layer="41"/>
-<wire x1="-1.25" y1="1.25" x2="-1.25" y2="-1.25" width="0.127" layer="41"/>
-<wire x1="-1.25" y1="-1.25" x2="1.25" y2="-1.25" width="0.127" layer="41"/>
-<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.127" layer="41"/>
-<smd name="P$1" x="-0.65" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$2" x="0" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$3" x="0.65" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="D$1" x="-0.4565" y="0" dx="0.613" dy="0.95" layer="1"/>
-<smd name="D$2" x="0.4565" y="0" dx="0.613" dy="0.95" layer="1"/>
-<smd name="P$6" x="-0.65" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$5" x="0" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$4" x="0.65" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<wire x1="-1.025" y1="1.025" x2="1.025" y2="1.025" width="0.127" layer="51"/>
-<wire x1="-1.025" y1="1.025" x2="-1.025" y2="-1.025" width="0.127" layer="51"/>
-<wire x1="-1.025" y1="-1.025" x2="1.025" y2="-1.025" width="0.127" layer="51"/>
-<wire x1="1.025" y1="1.025" x2="1.025" y2="-1.025" width="0.127" layer="51"/>
-</package>
 <package name="INDC1608X95N">
 <text x="-1.49" y="-0.82" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-1.49" y="0.82" size="0.5" layer="25">&gt;NAME</text>
@@ -458,6 +440,33 @@
 <wire x1="2.26" y1="-1.135" x2="2.26" y2="1.135" width="0.05" layer="39"/>
 <smd name="1" x="-1.485" y="0" dx="1.05" dy="1.77" layer="1"/>
 <smd name="2" x="1.485" y="0" dx="1.05" dy="1.77" layer="1"/>
+</package>
+<package name="POWERPAKSC-70">
+<description>Dual P Channel 12 V 0.041 O 10.5 nC Power Mosfet - PowerPAK SC-70-6 Dual</description>
+<wire x1="-1.075" y1="-1.075" x2="-1.075" y2="1.075" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="1.075" x2="1.075" y2="1.075" width="0.127" layer="51"/>
+<wire x1="1.075" y1="1.075" x2="1.075" y2="-1.075" width="0.127" layer="51"/>
+<wire x1="1.075" y1="-1.075" x2="-1.075" y2="-1.075" width="0.127" layer="51"/>
+<circle x="-1.55" y="0.66" radius="0.05" width="0.1" layer="51"/>
+<circle x="-1.55" y="0.66" radius="0.05" width="0.1" layer="21"/>
+<text x="-1.1" y="1.398" size="0.3048" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.7" size="0.3048" layer="27">&gt;VALUE</text>
+<wire x1="1.075" y1="1.1" x2="-1.075" y2="1.1" width="0.127" layer="21"/>
+<wire x1="1.075" y1="-1.1" x2="-1.075" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.325" y1="1.325" x2="1.325" y2="1.325" width="0.05" layer="39"/>
+<wire x1="1.325" y1="1.325" x2="1.325" y2="-1.325" width="0.05" layer="39"/>
+<wire x1="1.325" y1="-1.325" x2="-1.325" y2="-1.325" width="0.05" layer="39"/>
+<wire x1="-1.325" y1="-1.325" x2="-1.325" y2="1.325" width="0.05" layer="39"/>
+<rectangle x1="-0.3" y1="0.2725" x2="0.3" y2="0.6605" layer="31"/>
+<rectangle x1="-0.3" y1="-0.6605" x2="0.3" y2="-0.2725" layer="31"/>
+<smd name="7" x="0" y="-0.4665" dx="0.95" dy="0.613" layer="1" rot="R180" cream="no"/>
+<smd name="8" x="0" y="0.4665" dx="0.95" dy="0.613" layer="1" cream="no"/>
+<smd name="2" x="-0.9125" y="0" dx="0.325" dy="0.3" layer="1"/>
+<smd name="3" x="-0.9125" y="-0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="1" x="-0.9125" y="0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="6" x="0.9125" y="0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="5" x="0.9125" y="0" dx="0.325" dy="0.3" layer="1"/>
+<smd name="4" x="0.9125" y="-0.65" dx="0.325" dy="0.3" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -1561,13 +1570,13 @@
 <gate name="G$1" symbol="MOSFET_P_SD" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="SC70-6L-DUAL">
+<device name="" package="POWERPAKSC-70">
 <connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="D" pad="P$3"/>
-<connect gate="G$1" pin="G" pad="P$5"/>
-<connect gate="G$1" pin="K" pad="P$6"/>
-<connect gate="G$1" pin="S" pad="P$4"/>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="5"/>
+<connect gate="G$1" pin="K" pad="6"/>
+<connect gate="G$1" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

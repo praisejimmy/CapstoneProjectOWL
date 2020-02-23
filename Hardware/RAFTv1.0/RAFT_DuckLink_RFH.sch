@@ -1480,24 +1480,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="1" x="-0.432" y="0" dx="0.54" dy="0.6" layer="1"/>
 <smd name="2" x="0.432" y="0" dx="0.54" dy="0.6" layer="1"/>
 </package>
-<package name="SC70-6L-DUAL">
-<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.127" layer="41"/>
-<wire x1="-1.25" y1="1.25" x2="-1.25" y2="-1.25" width="0.127" layer="41"/>
-<wire x1="-1.25" y1="-1.25" x2="1.25" y2="-1.25" width="0.127" layer="41"/>
-<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.127" layer="41"/>
-<smd name="P$1" x="-0.65" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$2" x="0" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$3" x="0.65" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="D$1" x="-0.4565" y="0" dx="0.613" dy="0.95" layer="1"/>
-<smd name="D$2" x="0.4565" y="0" dx="0.613" dy="0.95" layer="1"/>
-<smd name="P$6" x="-0.65" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$5" x="0" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$4" x="0.65" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<wire x1="-1.025" y1="1.025" x2="1.025" y2="1.025" width="0.127" layer="51"/>
-<wire x1="-1.025" y1="1.025" x2="-1.025" y2="-1.025" width="0.127" layer="51"/>
-<wire x1="-1.025" y1="-1.025" x2="1.025" y2="-1.025" width="0.127" layer="51"/>
-<wire x1="1.025" y1="1.025" x2="1.025" y2="-1.025" width="0.127" layer="51"/>
-</package>
 <package name="RESC1005X40N">
 <text x="-0.95" y="-0.63" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-0.95" y="0.63" size="0.5" layer="25">&gt;NAME</text>
@@ -1661,6 +1643,33 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="7" x="-0.9" y="1.3" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="8" x="-4.65" y="1.3" dx="1.5" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
 </package>
+<package name="POWERPAKSC-70">
+<description>Dual P Channel 12 V 0.041 O 10.5 nC Power Mosfet - PowerPAK SC-70-6 Dual</description>
+<wire x1="-1.075" y1="-1.075" x2="-1.075" y2="1.075" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="1.075" x2="1.075" y2="1.075" width="0.127" layer="51"/>
+<wire x1="1.075" y1="1.075" x2="1.075" y2="-1.075" width="0.127" layer="51"/>
+<wire x1="1.075" y1="-1.075" x2="-1.075" y2="-1.075" width="0.127" layer="51"/>
+<circle x="-1.55" y="0.66" radius="0.05" width="0.1" layer="51"/>
+<circle x="-1.55" y="0.66" radius="0.05" width="0.1" layer="21"/>
+<text x="-1.1" y="1.398" size="0.3048" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.7" size="0.3048" layer="27">&gt;VALUE</text>
+<wire x1="1.075" y1="1.1" x2="-1.075" y2="1.1" width="0.127" layer="21"/>
+<wire x1="1.075" y1="-1.1" x2="-1.075" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.325" y1="1.325" x2="1.325" y2="1.325" width="0.05" layer="39"/>
+<wire x1="1.325" y1="1.325" x2="1.325" y2="-1.325" width="0.05" layer="39"/>
+<wire x1="1.325" y1="-1.325" x2="-1.325" y2="-1.325" width="0.05" layer="39"/>
+<wire x1="-1.325" y1="-1.325" x2="-1.325" y2="1.325" width="0.05" layer="39"/>
+<rectangle x1="-0.3" y1="0.2725" x2="0.3" y2="0.6605" layer="31"/>
+<rectangle x1="-0.3" y1="-0.6605" x2="0.3" y2="-0.2725" layer="31"/>
+<smd name="7" x="0" y="-0.4665" dx="0.95" dy="0.613" layer="1" rot="R180" cream="no"/>
+<smd name="8" x="0" y="0.4665" dx="0.95" dy="0.613" layer="1" cream="no"/>
+<smd name="2" x="-0.9125" y="0" dx="0.325" dy="0.3" layer="1"/>
+<smd name="3" x="-0.9125" y="-0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="1" x="-0.9125" y="0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="6" x="0.9125" y="0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="5" x="0.9125" y="0" dx="0.325" dy="0.3" layer="1"/>
+<smd name="4" x="0.9125" y="-0.65" dx="0.325" dy="0.3" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-US-V">
@@ -1706,60 +1715,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-</symbol>
-<symbol name="MOSFET_P_SD">
-<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.159" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.159" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.159" x2="0.5334" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.159" x2="3.81" y2="-0.127" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.159" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="-2.159" radius="0.127" width="0.4064" layer="94"/>
-<text x="10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="10.16" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.397" y="-4.318" size="0.8128" layer="93">D</text>
-<text x="1.397" y="3.556" size="0.8128" layer="93">S</text>
-<text x="-2.286" y="1.143" size="0.8128" layer="93">G</text>
-<rectangle x1="-0.254" y1="-2.794" x2="0.508" y2="-1.27" layer="94"/>
-<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.794" layer="94"/>
-<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
-<pin name="G" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
-<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<polygon width="0.1524" layer="94">
-<vertex x="2.54" y="0"/>
-<vertex x="1.27" y="0.508"/>
-<vertex x="1.27" y="-0.508"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-</polygon>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="0.762" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="6.731" y1="0.762" x2="7.62" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="0.762" x2="8.509" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="8.509" y1="0.762" x2="8.509" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="6.731" y1="0.762" x2="6.731" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="6.731" y1="0.508" x2="6.985" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="8.509" y1="1.016" x2="8.255" y2="1.016" width="0.1524" layer="94"/>
-<pin name="K" x="7.62" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="A" x="7.62" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<polygon width="0.1524" layer="94">
-<vertex x="7.62" y="0.762"/>
-<vertex x="6.985" y="-0.635"/>
-<vertex x="8.255" y="-0.635"/>
-</polygon>
 </symbol>
 <symbol name="R-US-H">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
@@ -1854,6 +1809,60 @@ In this library the device names are the same as the pin names of the symbols, t
 <pin name="GND" x="22.86" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="2.4GHZ_FEED_POINT" x="-22.86" y="5.08" length="middle"/>
 <pin name="1.5-1.6GHZ_FEED_POINT" x="-22.86" y="0" length="middle"/>
+</symbol>
+<symbol name="MOSFET_P_SD">
+<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.159" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.159" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.159" x2="0.5334" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.159" x2="3.81" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.159" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="-2.159" radius="0.127" width="0.4064" layer="94"/>
+<text x="10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.397" y="-4.318" size="0.8128" layer="93">D</text>
+<text x="1.397" y="3.556" size="0.8128" layer="93">S</text>
+<text x="-2.286" y="1.143" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.254" y1="-2.794" x2="0.508" y2="-1.27" layer="94"/>
+<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.794" layer="94"/>
+<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.27" y="0.508"/>
+<vertex x="1.27" y="-0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0.762" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="6.731" y1="0.762" x2="7.62" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0.762" x2="8.509" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="8.509" y1="0.762" x2="8.509" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="6.731" y1="0.762" x2="6.731" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="6.731" y1="0.508" x2="6.985" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="8.509" y1="1.016" x2="8.255" y2="1.016" width="0.1524" layer="94"/>
+<pin name="K" x="7.62" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="A" x="7.62" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="7.62" y="0.762"/>
+<vertex x="6.985" y="-0.635"/>
+<vertex x="8.255" y="-0.635"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -2197,26 +2206,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PACKAGE" value="1005 Taiyo Yuden"/>
 <attribute name="VALUE" value="1.8pF" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SIA817EDJ" prefix="Q">
-<description>P-Channel 30V 4.5A (Tc) 1.9W (Ta), 6.5W (Tc) Surface Mount PowerPAK® SC-70-6 Dual</description>
-<gates>
-<gate name="G$1" symbol="MOSFET_P_SD" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SC70-6L-DUAL">
-<connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="D" pad="P$3"/>
-<connect gate="G$1" pin="G" pad="P$5"/>
-<connect gate="G$1" pin="K" pad="P$6"/>
-<connect gate="G$1" pin="S" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2645,6 +2634,26 @@ Source: &lt;a href="https://www.vishay.com/docs/65366/si7288dp.pdf"&gt; Datashee
 <attribute name="MANUFACTURER" value="  NDK America, Inc." constant="no"/>
 <attribute name="VALUE" value="40MHz" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIA817EDJ" prefix="Q">
+<description>P-Channel 30V 4.5A (Tc) 1.9W (Ta), 6.5W (Tc) Surface Mount PowerPAK® SC-70-6 Dual</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P_SD" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERPAKSC-70">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="5"/>
+<connect gate="G$1" pin="K" pad="6"/>
+<connect gate="G$1" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7767,7 +7776,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R_SR" library="ERJ-3BWFR020V" deviceset="ERJ-3BWFR020V" device="" value="20m"/>
 <part name="GND77" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R18" library="rcl-raft" deviceset="CRCW0402499RFKEDC" device="" value="499R"/>
-<part name="Q1" library="RAFT-components" deviceset="SIA817EDJ" device=""/>
 <part name="GND78" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7850,6 +7858,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R21" library="CRCW040210K0JNED" deviceset="CRCW040210K0JNED" device="" value="10K"/>
 <part name="D6" library="LTST-C190GKT" deviceset="LTST-C190GKT" device=""/>
+<part name="Q1" library="RAFT-components" deviceset="SIA817EDJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9648,10 +9657,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="SHEET" x="106.68" y="-102.87" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="38.1" y="-85.09" size="2.54" layer="94"/>
 </instance>
-<instance part="Q1" gate="G$1" x="-78.74" y="17.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="-73.66" y="20.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-73.66" y="17.78" size="1.778" layer="96"/>
-</instance>
 <instance part="GND78" gate="1" x="-96.52" y="7.62" smashed="yes">
 <attribute name="VALUE" x="-99.06" y="5.08" size="1.778" layer="96"/>
 </instance>
@@ -9747,6 +9752,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="D6" gate="G$1" x="83.82" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.28203125" y="43.17796875" size="1.77941875" layer="95" rot="R270"/>
 </instance>
+<instance part="Q1" gate="G$1" x="-78.74" y="17.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="-76.2" y="7.62" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-81.28" y="7.62" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9820,21 +9829,19 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </net>
 <net name="V_BAT" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="-88.9" y1="15.24" x2="-83.82" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="15.24" x2="-88.9" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="-2.54" x2="-101.6" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-101.6" y="-2.54" size="1.778" layer="95"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="-101.6" y1="22.86" x2="-96.52" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="22.86" x2="-86.36" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="22.86" x2="-76.2" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="22.86" x2="-76.2" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="A"/>
 <wire x1="-83.82" y1="10.16" x2="-86.36" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="10.16" x2="-86.36" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-86.36" y="22.86"/>
@@ -9842,14 +9849,14 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="-96.52" y1="20.32" x2="-96.52" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-96.52" y="22.86"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="Q1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="VIN_SYS" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="-73.66" y1="15.24" x2="-68.58" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="15.24" x2="-68.58" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="K"/>
 <wire x1="-73.66" y1="10.16" x2="-68.58" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G$1" pin="VIN"/>
 <wire x1="-17.78" y1="10.16" x2="-25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -9871,6 +9878,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="-33.02" y1="5.08" x2="-35.56" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="5.08" x2="-35.56" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-35.56" y="10.16"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="N$29" class="0">
