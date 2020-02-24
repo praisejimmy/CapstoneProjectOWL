@@ -1,6 +1,7 @@
 #include "queue.h"
 #include "notify_events.h"
 #include "hash_table.h"
+#include "shared.h"
 
 #include "mama_task.h"
 
@@ -20,7 +21,9 @@ MamaTaskEntry() {
            tskIDLE_PRIORITY,/* Priority at which the task is created. */
            &MamaTask );      /* Used to pass out the created task's handle. */
 
-   did = 129;
+   appTask = MamaTask;
+
+   did = getDid();
    nextHop = 0;
 
 }
@@ -31,8 +34,9 @@ void MamaTaskFunc() {
    BaseType_t xResult;
 
    QueueHandle_t mamaQueue;
-
    mamaQueue = xQueueCreate(15, sizeof(Packet));
+   appQueue = mamaQueue;
+
 
    uint32_t ulNotifiedValue;
 
@@ -88,7 +92,9 @@ void processMessage(Packet message){
 
 
 did_t getDid(){
-   return did;
+   uint8_t mac[6] = {0};
+   esp_efuse_mac_get_default(mac);
+   return mac[5];
 }
 
 did_t getNextHop(){

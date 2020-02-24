@@ -3,12 +3,15 @@
 #include <string.h>
 #include "board.h"
 #include "radio.h"
+#include "shared.h"
 
 #include "lora_task.h"
 
 
 uint16_t BufferSize = BUFFER_SIZE;
 uint8_t Buffer[BUFFER_SIZE];
+
+
 
 LoraTaskEntry() {
     BaseType_t xReturned;
@@ -75,18 +78,17 @@ void LoraTaskFunc() {
 
             }
             if ((ulNotifiedValue & (LORA_RX_DONE)) != 0) {
-
                 Packet message = malloc(sizeof(struct Packet));
                 message->rssi = RssiValue;
                 memcpy(message->senderId, Buffer, 1);
                 memcpy(message->destinationId, Buffer+1, 1);
                 memcpy(message->messageId, Buffer+2, 1);
-                if(message->destinationId = 0){
-                    xQueueSend(mamaQueue, message, ( TickType_t ) 10 );
-                    xTaskNotify( MamaTask, LORA_RECEIVED, eSetBits);
+                if(message->destinationId != 0){
+                    xQueueSend(appQueue,message, ( TickType_t ) 10 );
+                    xTaskNotify( appTask, LORA_RECEIVED, eSetBits);
                 }else if(message->destinationId = getDid()) {
-                    xQueueSend(mamaQueue, message, (TickType_t) 10);
-                    xTaskNotify(MamaTask, ACK_RECEIVED, eSetBits);
+                    xQueueSend(appQueue, message, (TickType_t) 10);
+                    xTaskNotify(appTask, ACK_RECEIVED, eSetBits);
                 }
                 Radio.Rx( RX_TIMEOUT_VALUE );
 

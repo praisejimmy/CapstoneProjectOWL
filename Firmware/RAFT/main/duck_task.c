@@ -2,6 +2,7 @@
 // Created by Jake Loveland on 2020-02-10.
 //
 #include "notify_events.h"
+#include "shared.h"
 
 #include "duck_task.h"
 
@@ -23,8 +24,8 @@ DuckTaskEntry() {
             &DuckTask );      /* Used to pass out the created task's handle. */
 
     did = 1;
-
     mama = 0;
+    appTask = DuckTask;
 
     Packet message = emptyBroadcast();
     xQueueSend(loraQueue, message, ( TickType_t ) 10 );
@@ -38,8 +39,8 @@ void DuckTaskFunc() {
     BaseType_t xResult;
 
     QueueHandle_t duckQueue;
-
     duckQueue = xQueueCreate(15, sizeof(Packet));
+    appQueue = duckQueue;
 
     uint32_t ulNotifiedValue;
 

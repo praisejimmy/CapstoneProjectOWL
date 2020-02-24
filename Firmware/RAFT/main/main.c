@@ -3,17 +3,15 @@
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
+#import "shared.h"
 
 
-//#define PAPA_DUCK 1
-#define MAMA_DUCK 1
-//#define DUCK_LINK 1
 
 
 
 void app_main()
 {
-
+    ESP_ERROR_CHECK(nvs_flash_init());
 
 #ifdef PAPA_DUCK
     PapaTaskEntry();
