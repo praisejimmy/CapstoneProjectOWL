@@ -15,17 +15,6 @@
 #define LORA_FIX_LENGTH_PAYLOAD_ON                  false
 #define LORA_IQ_INVERSION_ON                        false
 
-typedef enum
-{
-    LOWPOWER,
-    RX,
-    RX_TIMEOUT,
-    RX_ERROR,
-    TX,
-    TX_TIMEOUT,
-}States_t;
-
-States_t State = LOWPOWER;
 
 int8_t RssiValue;
 int8_t SnrValue;

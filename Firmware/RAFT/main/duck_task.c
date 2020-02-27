@@ -7,26 +7,20 @@
 #include "duck_task.h"
 
 
-int did;
-int mama;
 
 DuckTaskEntry() {
     BaseType_t xReturned;
     TaskHandle_t DuckTask = NULL;
 
     /* Create the task, storing the handle. */
-    xReturned = xTaskCreate(
-            DuckTaskFunc,       /* Function that implements the task. */
-            "DuckTask",          /* Text name for the task. */
-            50,      /* Stack size in words, not bytes. */
-            void,    /* Parameter passed into the task. */
-            tskIDLE_PRIORITY,/* Priority at which the task is created. */
-            &DuckTask );      /* Used to pass out the created task's handle. */
+    xReturned = xTaskCreate(DuckTaskFunc, "DuckTask", 500, void, tskIDLE_PRIORITY, &DuckTask );
 
-    did = 1;
+    did = getDid();
     mama = 0;
-    appTask = DuckTask;
+    mamaRSSI = 255;
+    appTask = DuckTask;  //Used by RF Tasks
 
+    /* Sends empty broadcast to get an ACK message and determine the nearest Mama*/
     Packet message = emptyBroadcast();
     xQueueSend(loraQueue, message, ( TickType_t ) 10 );
     xTaskNotify( loraTask, LORA_READY_SEND, eSetBits);
@@ -35,27 +29,30 @@ DuckTaskEntry() {
 
 void DuckTaskFunc() {
 
-    const TickType_t xMaxBlockTime = pdMS_TO_TICKS( 500 );
+    const TickType_t xMaxBlockTime = pdMS_TO_TICKS( 5000 );
     BaseType_t xResult;
 
+    /*Creates a queue for other tasks to pass data in the form of a struct Packet*/
     QueueHandle_t duckQueue;
-    duckQueue = xQueueCreate(15, sizeof(Packet));
+    duckQueue = xQueueCreate(15, sizeof(struct Packet));
     appQueue = duckQueue;
 
-    uint32_t ulNotifiedValue;
+    uint32_t ulNotifiedValue; //Changes when Task Notify Received
 
     for( ;; )
     {
-        /* Wait to be notified of an interrupt. */
-        xResult = xTaskNotifyWait( pdFALSE,    /* Don't clear bits on entry. */
-                                   ULONG_MAX,        /* Clear all bits on exit. */
-                                   &ulNotifiedValue, /* Stores the notified value. */
-                                   xMaxBlockTime );
+        /*if there are still events to be processed*/
+        if(uxQueueMessagesWaiting(duckQueue)) {
+            /* Wait to be notified of an event. */
+            xResult = xTaskNotifyWait(0, ULONG_MAX, &ulNotifiedValue, xMaxBlockTime);
+        }
 
         if( xResult == pdPASS )
         {
             /* A notification was received.  See which bits were set. */
-            if( ( ulNotifiedValue & (WIFI_RECEIVED | LORA_RECEIVED)) != 0 )
+
+            /* A user has submitted a message through Wifi and it has been processed into a struct */
+            if( ( ulNotifiedValue & (WIFI_RECEIVED)) != 0 )
             {
 
                 if (duckQueue != 0) {
@@ -66,22 +63,24 @@ void DuckTaskFunc() {
                         processMessage(message);
                     }
                 }
+                /*clear notify value*/
+                ulNotifiedValue = ulNotifiedValue & (~WIFI_RECEIVED);
             }
+            /* A Mama has responded to a LoRa message */
             if( ( ulNotifiedValue & ACK_RECEIVED) != 0 ){
                 if (duckQueue != 0) {
                     Packet message = malloc(sizeof(struct Packet));
-                    // Receive a message on the created queue.  Block for 10 ticks if a
-                    // message is not immediately available.
+                    /* Receive a message from the queue to see who is the mama */
                     if (xQueueReceive(duckQueue, message, (TickType_t) 10)) {
-                        mama = message->senderId;
+                        if(message->rssi<mamaRSSI) {
+                            mama = message->senderId;
+                            mamaRSSI = message->rssi;
+                        }
                     }
                 }
+                /*clear notify value*/
+                ulNotifiedValue = ulNotifiedValue & (~ACK_RECEIVED);
             }
-        }
-        else
-        {
-            /* Did not receive a notification within the expected time. */
-            prvCheckForErrors();
         }
     }
 }
@@ -93,6 +92,12 @@ void processMessage(Packet message){
         xQueueSend(loraQueue, message, (TickType_t) 10);
         xTaskNotify(loraTask, LORA_READY_SEND, eSetBits);
     } else{
+
+        /*Put the message back on the queue until a mama is found */
+        xQueueSend(appQueue, message, (TickType_t) 10);
+        xTaskNotify(appTask, LORA_RECEIVED, eSetBits);
+
+        /* ask for a mama again */
         Packet message = emptyBroadcast();
         xQueueSend(loraQueue, message, ( TickType_t ) 10 );
         xTaskNotify( loraTask, LORA_READY_SEND, eSetBits);
@@ -100,17 +105,15 @@ void processMessage(Packet message){
 }
 
 did_t getDid(){
-    return this.did;
-}
+    uint8_t mac[6] = {0};
+    esp_efuse_mac_get_default(mac);
+    return mac[5];}
 
-did_t getMama(){
-    return mama;
-}
 
 Packet emptyBroadcast(){
     Packet empty = malloc(sizeof(struct Packet));
     empty->rssi = 0;
-    empty->senderId = getDid();
+    empty->senderId = did;
     empty->destinationId = 0;
     empty->messageId = 0;
     empty->payload = NULL;

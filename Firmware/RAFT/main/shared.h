@@ -11,7 +11,6 @@
 
 typedef uint8_t did_t;
 
-did_t getDid();
 
 did_t did;
 
