@@ -367,5 +367,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="3840 3360"
+Screen="1920 1200"
 Window="Win_1"
