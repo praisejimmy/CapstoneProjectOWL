@@ -234,24 +234,6 @@
 <smd name="1" x="-0.435" y="0" dx="0.56" dy="0.6" layer="1"/>
 <smd name="2" x="0.435" y="0" dx="0.56" dy="0.6" layer="1"/>
 </package>
-<package name="SC70-6L-DUAL">
-<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.127" layer="41"/>
-<wire x1="-1.25" y1="1.25" x2="-1.25" y2="-1.25" width="0.127" layer="41"/>
-<wire x1="-1.25" y1="-1.25" x2="1.25" y2="-1.25" width="0.127" layer="41"/>
-<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.127" layer="41"/>
-<smd name="P$1" x="-0.65" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$2" x="0" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$3" x="0.65" y="0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="D$1" x="-0.4565" y="0" dx="0.613" dy="0.95" layer="1"/>
-<smd name="D$2" x="0.4565" y="0" dx="0.613" dy="0.95" layer="1"/>
-<smd name="P$6" x="-0.65" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$5" x="0" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<smd name="P$4" x="0.65" y="-0.9125" dx="0.3" dy="0.325" layer="1"/>
-<wire x1="-1.025" y1="1.025" x2="1.025" y2="1.025" width="0.127" layer="51"/>
-<wire x1="-1.025" y1="1.025" x2="-1.025" y2="-1.025" width="0.127" layer="51"/>
-<wire x1="-1.025" y1="-1.025" x2="1.025" y2="-1.025" width="0.127" layer="51"/>
-<wire x1="1.025" y1="1.025" x2="1.025" y2="-1.025" width="0.127" layer="51"/>
-</package>
 <package name="INDC1608X95N">
 <text x="-1.49" y="-0.82" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-1.49" y="0.82" size="0.5" layer="25">&gt;NAME</text>
@@ -375,10 +357,10 @@
 <smd name="6" x="2.795" y="-0.635" dx="1.02" dy="0.61" layer="1"/>
 <smd name="7" x="2.795" y="0.635" dx="1.02" dy="0.61" layer="1"/>
 <smd name="8" x="2.795" y="1.905" dx="1.02" dy="0.61" layer="1"/>
-<smd name="9" x="0.69" y="-1.155" dx="3.81" dy="1.65" layer="1"/>
-<smd name="10" x="0.69" y="1.155" dx="3.81" dy="1.65" layer="1"/>
-<text x="-0.226" y="0.175" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<text x="-0.226" y="0.175" size="1.27" layer="25" align="center">&gt;NAME</text>
+<smd name="9" x="0.09" y="-1.155" dx="3.81" dy="1.65" layer="1"/>
+<smd name="10" x="0.09" y="1.155" dx="3.81" dy="1.65" layer="1"/>
+<text x="-0.226" y="-3.635" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-1.496" y="3.985" size="1.27" layer="25" align="center">&gt;NAME</text>
 <wire x1="-3.075" y1="2.45" x2="3.075" y2="2.45" width="0.25" layer="51"/>
 <wire x1="3.075" y1="2.45" x2="3.075" y2="-2.45" width="0.25" layer="51"/>
 <wire x1="3.075" y1="-2.45" x2="-3.075" y2="-2.45" width="0.25" layer="51"/>
@@ -386,6 +368,105 @@
 <wire x1="-3.075" y1="2.45" x2="3.075" y2="2.45" width="0.25" layer="21"/>
 <wire x1="3.075" y1="-2.45" x2="-3.075" y2="-2.45" width="0.25" layer="21"/>
 <circle x="-3.878" y="1.899" radius="0.046" width="0.25" layer="25"/>
+</package>
+<package name="ANT_2450AD47A1590E">
+<description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
+<wire x1="-5.65" y1="2.05" x2="5.65" y2="2.05" width="0.0508" layer="39"/>
+<wire x1="5.65" y1="2.05" x2="5.65" y2="-2.05" width="0.0508" layer="39"/>
+<wire x1="5.65" y1="-2.05" x2="-5.65" y2="-2.05" width="0.0508" layer="39"/>
+<wire x1="-5.65" y1="-2.05" x2="-5.65" y2="2.05" width="0.0508" layer="39"/>
+<text x="-5.09996875" y="2.51585" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.099590625" y="-3.92648125" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-5" y1="0.48" x2="-5" y2="-0.48" width="0.127" layer="21"/>
+<wire x1="-3.08" y1="1.6" x2="-1.72" y2="1.6" width="0.127" layer="21"/>
+<wire x1="5" y1="-1.6" x2="5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="5" y1="-1.6" x2="-5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-5" y1="1.6" x2="5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="1.72" y1="1.6" x2="3.08" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-0.08" y1="1.6" x2="0.08" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-5" y1="1.6" x2="-5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="5" y1="-0.48" x2="5" y2="0.48" width="0.127" layer="21"/>
+<wire x1="3.08" y1="-1.6" x2="1.72" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1.72" y1="-1.6" x2="-3.08" y2="-1.6" width="0.127" layer="21"/>
+<circle x="-5.974" y="-1.234" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5.974" y="-1.234" radius="0.1" width="0.2" layer="51"/>
+<polygon width="0.01" layer="1">
+<vertex x="-1.35" y="-1.1"/>
+<vertex x="-0.45" y="-1.1"/>
+<vertex x="-0.45" y="-1.5"/>
+<vertex x="0.55" y="-1.5"/>
+<vertex x="0.55" y="-1.05"/>
+<vertex x="1.3" y="-1.05"/>
+<vertex x="1.3" y="-1.8"/>
+<vertex x="-1.35" y="-1.8"/>
+</polygon>
+<rectangle x1="-1.3" y1="1.3" x2="-0.5" y2="1.6" layer="31"/>
+<rectangle x1="0.5" y1="1.3" x2="1.3" y2="1.6" layer="31"/>
+<rectangle x1="-4.8" y1="1.3" x2="-4" y2="1.6" layer="31"/>
+<rectangle x1="-4.8" y1="-1.6" x2="-4" y2="-1.3" layer="31"/>
+<rectangle x1="4" y1="-1.6" x2="4.8" y2="-1.3" layer="31"/>
+<rectangle x1="4" y1="1.3" x2="4.8" y2="1.6" layer="31"/>
+<rectangle x1="0.5" y1="-1.6" x2="1.3" y2="-1.3" layer="31" rot="R180"/>
+<rectangle x1="-1.3" y1="-1.6" x2="-0.5" y2="-1.3" layer="31" rot="R180"/>
+<rectangle x1="-1.3" y1="1.3" x2="-0.5" y2="1.6" layer="29"/>
+<rectangle x1="0.5" y1="1.3" x2="1.3" y2="1.6" layer="29"/>
+<rectangle x1="-4.8" y1="1.3" x2="-4" y2="1.6" layer="29"/>
+<rectangle x1="-4.8" y1="-1.6" x2="-4" y2="-1.3" layer="29"/>
+<rectangle x1="4" y1="-1.6" x2="4.8" y2="-1.3" layer="29"/>
+<rectangle x1="4" y1="1.3" x2="4.8" y2="1.6" layer="29"/>
+<rectangle x1="0.5" y1="-1.6" x2="1.3" y2="-1.3" layer="29" rot="R180"/>
+<rectangle x1="-1.3" y1="-1.6" x2="-0.5" y2="-1.3" layer="29" rot="R180"/>
+<smd name="1" x="-4.65" y="-1.3" dx="1.5" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.9" y="-1.3" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.9" y="-1.3" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="4.65" y="-1.3" dx="1.5" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="5" x="4.65" y="1.3" dx="1.5" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="0.9" y="1.3" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="7" x="-0.9" y="1.3" dx="1" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="8" x="-4.65" y="1.3" dx="1.5" dy="1" layer="1" rot="R180" stop="no" cream="no"/>
+</package>
+<package name="RESC3116X60N">
+<text x="-2.26" y="-1.23" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.26" y="1.23" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.65" y1="-0.88" x2="-1.65" y2="-0.88" width="0.127" layer="51"/>
+<wire x1="1.65" y1="0.88" x2="-1.65" y2="0.88" width="0.127" layer="51"/>
+<wire x1="1.65" y1="-0.88" x2="1.65" y2="0.88" width="0.127" layer="51"/>
+<wire x1="-1.65" y1="-0.88" x2="-1.65" y2="0.88" width="0.127" layer="51"/>
+<wire x1="-0.64" y1="0.88" x2="0.64" y2="0.88" width="0.127" layer="21"/>
+<wire x1="-0.64" y1="-0.88" x2="0.64" y2="-0.88" width="0.127" layer="21"/>
+<wire x1="-2.26" y1="-1.135" x2="2.26" y2="-1.135" width="0.05" layer="39"/>
+<wire x1="-2.26" y1="1.135" x2="2.26" y2="1.135" width="0.05" layer="39"/>
+<wire x1="-2.26" y1="-1.135" x2="-2.26" y2="1.135" width="0.05" layer="39"/>
+<wire x1="2.26" y1="-1.135" x2="2.26" y2="1.135" width="0.05" layer="39"/>
+<smd name="1" x="-1.485" y="0" dx="1.05" dy="1.77" layer="1"/>
+<smd name="2" x="1.485" y="0" dx="1.05" dy="1.77" layer="1"/>
+</package>
+<package name="POWERPAKSC-70">
+<description>Dual P Channel 12 V 0.041 O 10.5 nC Power Mosfet - PowerPAK SC-70-6 Dual</description>
+<wire x1="-1.075" y1="-1.075" x2="-1.075" y2="1.075" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="1.075" x2="1.075" y2="1.075" width="0.127" layer="51"/>
+<wire x1="1.075" y1="1.075" x2="1.075" y2="-1.075" width="0.127" layer="51"/>
+<wire x1="1.075" y1="-1.075" x2="-1.075" y2="-1.075" width="0.127" layer="51"/>
+<circle x="-1.55" y="0.66" radius="0.05" width="0.1" layer="51"/>
+<circle x="-1.55" y="0.66" radius="0.05" width="0.1" layer="21"/>
+<text x="-1.1" y="1.398" size="0.3048" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.7" size="0.3048" layer="27">&gt;VALUE</text>
+<wire x1="1.075" y1="1.1" x2="-1.075" y2="1.1" width="0.127" layer="21"/>
+<wire x1="1.075" y1="-1.1" x2="-1.075" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.325" y1="1.325" x2="1.325" y2="1.325" width="0.05" layer="39"/>
+<wire x1="1.325" y1="1.325" x2="1.325" y2="-1.325" width="0.05" layer="39"/>
+<wire x1="1.325" y1="-1.325" x2="-1.325" y2="-1.325" width="0.05" layer="39"/>
+<wire x1="-1.325" y1="-1.325" x2="-1.325" y2="1.325" width="0.05" layer="39"/>
+<rectangle x1="-0.3" y1="0.2725" x2="0.3" y2="0.6605" layer="31"/>
+<rectangle x1="-0.3" y1="-0.6605" x2="0.3" y2="-0.2725" layer="31"/>
+<smd name="7" x="0" y="-0.4665" dx="0.95" dy="0.613" layer="1" rot="R180" cream="no"/>
+<smd name="8" x="0" y="0.4665" dx="0.95" dy="0.613" layer="1" cream="no"/>
+<smd name="2" x="-0.9125" y="0" dx="0.325" dy="0.3" layer="1"/>
+<smd name="3" x="-0.9125" y="-0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="1" x="-0.9125" y="0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="6" x="0.9125" y="0.65" dx="0.325" dy="0.3" layer="1"/>
+<smd name="5" x="0.9125" y="0" dx="0.325" dy="0.3" layer="1"/>
+<smd name="4" x="0.9125" y="-0.65" dx="0.325" dy="0.3" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -705,6 +786,17 @@
 <vertex x="3.302" y="-0.254"/>
 <vertex x="4.318" y="-0.254"/>
 </polygon>
+</symbol>
+<symbol name="2450AD47A1590E">
+<text x="-17.7885" y="8.00418125" size="1.780959375" layer="95">&gt;NAME</text>
+<text x="-17.7854" y="-10.1627" size="1.779909375" layer="96">&gt;VALUE</text>
+<wire x1="-17.78" y1="7.62" x2="-17.78" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-7.62" x2="17.78" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="-17.78" y2="7.62" width="0.1524" layer="94"/>
+<pin name="GND" x="22.86" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="2.4GHZ_FEED_POINT" x="-22.86" y="5.08" length="middle"/>
+<pin name="1.5-1.6GHZ_FEED_POINT" x="-22.86" y="0" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1478,13 +1570,13 @@
 <gate name="G$1" symbol="MOSFET_P_SD" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="SC70-6L-DUAL">
+<device name="" package="POWERPAKSC-70">
 <connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="D" pad="P$3"/>
-<connect gate="G$1" pin="G" pad="P$5"/>
-<connect gate="G$1" pin="K" pad="P$6"/>
-<connect gate="G$1" pin="S" pad="P$4"/>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="5"/>
+<connect gate="G$1" pin="K" pad="6"/>
+<connect gate="G$1" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1887,6 +1979,131 @@ Source: &lt;a href="https://www.vishay.com/docs/65366/si7288dp.pdf"&gt; Datashee
 <attribute name="MP" value="GCM155R71H332KA37D"/>
 <attribute name="PACKAGE" value="1005 Taiyo Yuden"/>
 <attribute name="VALUE" value="3.3nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM155D80J225ME95D" prefix="C">
+<description>2.2µF ±20% 6.3V Ceramic Capacitor X6T 0402 (1005 Metric)</description>
+<gates>
+<gate name="G$1" symbol="C-US-V" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" SMD Capacitor X6T_EIA_ with Capacitance: 2.2uF Tol. 20%. Rated Voltage: 6.3Vdc "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-10450-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM155D80J225ME95D/490-10450-1-ND/5026360?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="GRM155D80J225ME95D"/>
+<attribute name="PACKAGE" value="1005 Taiyo Yuden"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2450AD47A1590E" prefix="ANT">
+<description>Antenna Ceramic Chip -1dBi/-2.5dBi/-2dBi Gain 2500MHz 8-Pin SMD T/R</description>
+<gates>
+<gate name="G$1" symbol="2450AD47A1590E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ANT_2450AD47A1590E">
+<connects>
+<connect gate="G$1" pin="1.5-1.6GHZ_FEED_POINT" pad="4"/>
+<connect gate="G$1" pin="2.4GHZ_FEED_POINT" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2 3 5 6 7 8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 1.561GHz, 1.575GHz, 1.602GHz, 2.4GHz Beidou, Bluetooth, GLONASS, GPS, Wi-Fi Chip RF Antenna 1.561GHz ~ 1.602GHz, 2.4GHz ~ 2.5GHz 0.5dBi, 1.5dBi, 1.5dBi, 1dBi Solder Surface Mount "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="712-1594-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/johanson-technology-inc/2450AD47A1590E/712-1594-1-ND/5980452?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Johanson Technology"/>
+<attribute name="MP" value="2450AD47A1590E"/>
+<attribute name="PACKAGE" value="FBGA-780 Johanson Technology"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW04025K23FKED" prefix="R">
+<description>CRCW Series 0402 0.063 W 5.23 kOhm ±1 % ±100 ppm/K SMT Thick Film Chip Resistor</description>
+<gates>
+<gate name="G$1" symbol="R-US-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 5.23 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 _1005 Metric_ Automotive AEC-Q200 Thick Film "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-5.23KLCT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW04025K23FKED/541-5.23KLCT-ND/1183205?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Vishay Dale"/>
+<attribute name="MP" value="CRCW04025K23FKED"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components"/>
+<attribute name="VALUE" value="5.23k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW040230K1FKED" prefix="R">
+<description>Res Thick Film 0402 30.1K Ohm 1% 1/16W ±100ppm/°C Molded SMD Paper T/R</description>
+<gates>
+<gate name="G$1" symbol="R-US-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Res Thick Film 0402 30.1K Ohm 1% 0.063W_1/16W_ ±100ppm/C Molded SMD Automotive Paper T/R "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-30.1KLCT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW040230K1FKED/541-30.1KLCT-ND/1183290?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MP" value="CRCW040230K1FKED"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components"/>
+<attribute name="VALUE" value="30.1k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW1206165RFKEA" prefix="R">
+<description>RES, THICK FILM, 165R, 1%, 0.25W, 1206</description>
+<gates>
+<gate name="G$1" symbol="R-US-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC3116X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 165 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 _3216 Metric_ Automotive AEC-Q200 Thick Film "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-165FCT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/vishay-dale/CRCW1206165RFKEA/541-165FCT-ND/1181669?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Vishay Dale"/>
+<attribute name="MP" value="CRCW1206165RFKEA"/>
+<attribute name="PACKAGE" value="3116 Vishay"/>
+<attribute name="VALUE" value="165R" constant="no"/>
 </technology>
 </technologies>
 </device>

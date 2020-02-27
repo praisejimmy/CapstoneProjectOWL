@@ -357,9 +357,10 @@ UsedLibrary="libraries/Espressif.lbr"
 UsedLibrary="libraries/Semtech-rf.lbr"
 UsedLibrary="libraries/RAFT-components.lbr"
 UsedLibrary="libraries/TexasInstruments.lbr"
-UsedLibrary="libraries/SparkFun-Batteries.lbr"
 UsedLibrary="libraries/SparkFun-Connectors.lbr"
 UsedLibrary="libraries/SparkFun-Switches.lbr"
+UsedLibrary="libraries/PeregrineSemi.lbr"
+UsedLibrary="libraries/WL-SMCW.lbr"
 
 [Win_1]
 Type="Control Panel"
