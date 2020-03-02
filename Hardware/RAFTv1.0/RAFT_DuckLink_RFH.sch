@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -9050,6 +9050,13 @@ Picofuse/slow Littlefuse</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="SX_INT" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="DIO0"/>
+<wire x1="25.4" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
+<label x="35.56" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -9838,13 +9845,6 @@ Picofuse/slow Littlefuse</description>
 <pinref part="U3" gate="G$1" pin="GPIO21"/>
 </segment>
 </net>
-<net name="SX_RST" class="0">
-<segment>
-<wire x1="66.04" y1="-15.24" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
-<label x="58.42" y="-15.24" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="GPIO18"/>
-</segment>
-</net>
 <net name="GPS_ANT_SEL" class="0">
 <segment>
 <wire x1="66.04" y1="-25.4" x2="38.1" y2="-25.4" width="0.1524" layer="91"/>
@@ -9858,6 +9858,13 @@ Picofuse/slow Littlefuse</description>
 <wire x1="-190.5" y1="-53.34" x2="-190.5" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-190.5" y1="-86.36" x2="-213.36" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-213.36" y="-86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SX_INT" class="0">
+<segment>
+<wire x1="66.04" y1="-15.24" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
+<label x="58.42" y="-15.24" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="GPIO18"/>
 </segment>
 </net>
 </nets>
@@ -11201,7 +11208,7 @@ Picofuse/slow Littlefuse</description>
 <label x="-22.86" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$44" class="0">
+<net name="SX_RST" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="D1"/>
 <wire x1="-25.4" y1="5.08" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
@@ -11213,6 +11220,8 @@ Picofuse/slow Littlefuse</description>
 <wire x1="-48.26" y1="-10.16" x2="-45.72" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="-10.16" x2="-45.72" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-45.72" y="-10.16"/>
+<wire x1="-17.78" y1="-10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-15.24" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
