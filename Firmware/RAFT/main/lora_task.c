@@ -1,51 +1,72 @@
-#include "notify_events.h"
-#include "mama_task.h"
+#include <unistd.h>
+#include <stdint.h>
 #include <string.h>
-#include "board.h"
-#include "radio.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/queue.h"
+#include "freertos/task.h"
+#include "lora.h"
+#include "notify_events.h"
 #include "shared.h"
 
 #include "lora_task.h"
 
-int mama = 0;
+//int mamaDefined = 0;
 #ifdef MAMA_DUCK
-    mama = 1;
+    int mamaDefined = 1;
+#else
+    int mamaDefined = 0;
 #endif
 
-uint16_t BufferSize = BUFFER_SIZE;
-uint8_t Buffer[BUFFER_SIZE];
 
 int needAck = 0;
 Packet temp = NULL;
 
-LoraTaskEntry() {
+void LoraTaskEntry() {
+
+    lora_init();
+    lora_set_frequency(915e6);
+    lora_enable_crc();
+
     BaseType_t xReturned;
-    TaskHandle_t LoraTask = NULL;
+    loraTask = NULL;
 
     /* Create the task, storing the handle. */
-    xReturned = xTaskCreate(LoraTaskFunc, "LoraTask", 500, void, tskIDLE_PRIORITY + 2, &LoraTask );
+    xReturned = xTaskCreate(LoraTaskFunc, "LoraTask", 2048, NULL, tskIDLE_PRIORITY + 2, &loraTask );
 
 
-    RssiValue = 0;
-    SnrValue = 0;
+    lora_receive();    // put into receive mode
 
-    Radio.Rx( RX_TIMEOUT_VALUE );
+
 
 }
 
 //Main code
-void LoraTaskFunc() {
+void LoraTaskFunc(void * parameters) {
 
-    const TickType_t xMaxBlockTime = pdMS_TO_TICKS(5000);
+    const TickType_t xMaxBlockTime = pdMS_TO_TICKS(2000);
     BaseType_t xResult;
 
     /*Creates a queue for other tasks to pass data in the form of a struct Packet*/
-    QueueHandle_t loraQueue;
-    loraQueue = xQueueCreate(15, sizeof(Packet));
+    loraQueue = xQueueCreate(15, sizeof(struct Packet));
 
     uint32_t ulNotifiedValue;
 
     for (;;) {
+
+
+        if(lora_received()){
+            Packet message = malloc(sizeof(struct Packet));
+            int x = lora_receive_packet(message->payload, PAYLOAD_SIZE-1);
+            message->payload[x] = 0;
+            memcpy(&message->senderId, message->payload, 1);
+            memcpy(&message->destinationId, message->payload+1, 1);
+            memcpy(&message->messageId, message->payload+2, 1);
+            message->rssi = lora_packet_rssi();
+
+            xQueueSend(loraQueue, message, (TickType_t) 10);
+            xTaskNotify(loraTask, LORA_RX_DONE, eSetBits);
+        }
+
         /* Wait to be notified of an interrupt. */
         xResult = xTaskNotifyWait(pdFALSE, ULONG_MAX, &ulNotifiedValue, xMaxBlockTime);
 
@@ -61,113 +82,76 @@ void LoraTaskFunc() {
                     // message is not immediately available.
                     if (xQueueReceive(loraQueue, message, (TickType_t) 10)) {
 
-                        memcpy(message->payload, message->senderId, 1);
-                        memcpy(message->payload + 1, message->destinationId, 1);
-                        memcpy(message->payload + 2, message->messageId, 1);
-                        memcpy(Buffer, message->payload);
+                        memcpy(message->payload, &(message->senderId), 1);
+                        memcpy(message->payload + 1, &(message->destinationId), 1);
+                        memcpy(message->payload + 2, &(message->messageId), 1);
 
-                        DelayMs( 1 );
                         /* Send Message */
                         needAck = 1;
                         temp = message;
-                        Radio.Send( Buffer, BufferSize );
+                        lora_send_packet(message->payload, PAYLOAD_SIZE);
+
+
                     }
                 }
             if ((ulNotifiedValue & (LORA_TX_DONE)) != 0) {
 
                 /* Listen for Acknowledgment, or if it is Duck the radio will sleep */
-                if(needAck || mama)
-                    Radio.Rx( RX_TIMEOUT_VALUE );
+                if(needAck || mamaDefined)
+                    lora_receive();    // put into receive mode
                 else
-                    Radio.Sleep();
-
+                    lora_sleep();
             }
             if ((ulNotifiedValue & (LORA_RX_DONE)) != 0) {
 
-                /* Build packet */
                 Packet message = malloc(sizeof(struct Packet));
-                message->rssi = RssiValue;
-                memcpy(message->senderId, Buffer, 1);
-                memcpy(message->destinationId, Buffer + 1, 1);
-                memcpy(message->messageId, Buffer + 2, 1);
-                message->payload = Buffer;
 
-                /* message needs to be addressed to the device */
-                if (message->destinationId == did) {
+                if (xQueueReceive(loraQueue, message, (TickType_t) 10)) {
 
-                    /* normal message */
-                    if (message->messageId != 0) {
-                        xQueueSend(appQueue, message, (TickType_t) 10);
-                        xTaskNotify(appTask, LORA_RECEIVED, eSetBits);
+
+                    /* message needs to be addressed to the device */
+                    if (message->destinationId == did) {
+
+                        /* normal message */
+                        if (message->messageId != 0) {
+                            xQueueSend(appQueue, message, (TickType_t) 10);
+                            xTaskNotify(appTask, LORA_RECEIVED, eSetBits);
+                        }
+                            /* Ack message */
+                        else {
+                            xQueueSend(appQueue, message, (TickType_t) 10);
+                            xTaskNotify(appTask, ACK_RECEIVED, eSetBits);
+                            needAck = 0;
+
+                        }
                     }
-                    /* Ack message */
-                    else {
+                        /*Broacast message*/
+                    } else if (message->destinationId == 0) {
                         xQueueSend(appQueue, message, (TickType_t) 10);
-                        xTaskNotify(appTask, ACK_RECEIVED, eSetBits);
-                        needAck = 0;
+                        xTaskNotify(appTask, CAST_RECEIVED, eSetBits);
 
                     }
                 }
-                else if(message->senderId = 0){
-                    xQueueSend(appQueue, message, (TickType_t) 10);
-                    xTaskNotify(appTask, CAST_RECEIVED, eSetBits);
-
-                }
-            }
-                if(needAck || mama)
-                    Radio.Rx( RX_TIMEOUT_VALUE );
+                if(needAck || mamaDefined)
+                    lora_receive();
                 else
-                    Radio.Sleep();
+                    lora_sleep();
 
 
             }
             if ((ulNotifiedValue & (LORA_TX_TIMEOUT)) != 0) {
-                Radio.Send( Buffer, BufferSize );
-                DelayMs(1);
-                Radio.Rx( RX_TIMEOUT_VALUE );
+                if(temp)
+                    lora_send_packet(temp->payload, PAYLOAD_SIZE);
+                lora_receive();
             }
             if ((ulNotifiedValue & (LORA_RX_TIMEOUT)) != 0) {
-                Radio.Rx( RX_TIMEOUT_VALUE );
+                lora_receive();
             }
             if ((ulNotifiedValue & (LORA_RX_ERROR)) != 0) {
 
-                Radio.Rx( RX_TIMEOUT_VALUE );
+                lora_receive();
 
             }
         }
     }
-}
-
-void OnTxDone( void )
-{
-    Radio.Sleep( );
-    xTaskNotify( loraTask, LORA_TX_DONE, eSetBits);
-}
-
-void OnRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
-{
-    Radio.Sleep( );
-    BufferSize = size;
-    memcpy( Buffer, payload, BufferSize );
-    RssiValue = rssi;
-    SnrValue = snr;
-    xTaskNotify( loraTask, LORA_RX_DONE, eSetBits);
-}
-
-void OnTxTimeout( void )
-{
-    Radio.Sleep( );
-    xTaskNotify( loraTask, LORA_TX_TIMEOUT, eSetBits);
-}
-
-void OnRxTimeout( void )
-{
-    Radio.Sleep( );
-    xTaskNotify( loraTask, LORA_RX_TIMEOUT, eSetBits);
-}
-
-void OnRxError( void )
-{
-    Radio.Sleep( );
-    xTaskNotify( loraTask, LORA_RX_ERROR, eSetBits);
 }

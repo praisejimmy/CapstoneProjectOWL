@@ -1,17 +1,24 @@
+#include <unistd.h>
 #include <stdio.h>
+#include <stdint.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "freertos/queue.h"
+//#include "lora/boards/LoRaMote/board.h"
+#include "lora/radio/radio.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
-#import "shared.h"
+#include "shared.h"
 
-
+#include "lora_task.h"
+#include "mama_task.h"
+#include "duck_task.h"
 
 
 
 void app_main()
 {
-    ESP_ERROR_CHECK(nvs_flash_init());
+    //ESP_ERROR_CHECK(nvs_flash_init());
 
 #ifdef PAPA_DUCK
     PapaTaskEntry();
@@ -25,8 +32,8 @@ void app_main()
 #endif
 
     LoraTaskEntry();
-    WifiTaskEntry();
-    GpsTaskEntry();
+    //WifiTaskEntry();
+    //GpsTaskEntry();
 
 
     /*

@@ -1,25 +1,30 @@
-#include "queue.h"
+#include <unistd.h>
+#include <stdint.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/queue.h"
+#include "freertos/task.h"
 #include "notify_events.h"
 #include "shared.h"
 
 #include "mama_task.h"
 
-MamaTaskEntry() {
+void MamaTaskEntry() {
    BaseType_t xReturned;
    TaskHandle_t MamaTask = NULL;
 
    /* Create the task, storing the handle. */
-   xReturned = xTaskCreate(MamaTaskFunc, "MamaTask", 500, void, tskIDLE_PRIORITY, &MamaTask );
-
-
+   xReturned = xTaskCreate(MamaTaskFunc, "MamaTask", 500, NULL, tskIDLE_PRIORITY, &MamaTask );
    did = getDid();
+
+   printf("Device created as MamaDuck (did: %u)", did);
+
    nextHop = 0;
    nextHopLevel = 255;
    appTask = MamaTask;
 
 }
 
-void MamaTaskFunc() {
+void MamaTaskFunc(void* parameters) {
 
    const TickType_t xMaxBlockTime = pdMS_TO_TICKS( 5000 );
    BaseType_t xResult;
@@ -34,8 +39,9 @@ void MamaTaskFunc() {
 
    for( ;; )
    {
+       xResult = pdPASS;
       /*if there are still events to be processed*/
-      if(uxQueueMessagesWaiting(duckQueue)) {
+      if(uxQueueMessagesWaiting(mamaQueue)) {
          /* Wait to be notified of an event. */
          xResult = xTaskNotifyWait(0, ULONG_MAX, &ulNotifiedValue, xMaxBlockTime);
       }
@@ -69,6 +75,7 @@ void MamaTaskFunc() {
 
                if (xQueueReceive(mamaQueue, message, (TickType_t) 10)) {
 
+                   printf("Broadcast received from %u", message->senderId);
                   /* if CAST came from a Mama a level closer to the Papa */
                   if(message->messageId < nextHopLevel) {
                      nextHop = message->senderId;
@@ -85,10 +92,11 @@ void MamaTaskFunc() {
                   }else if(message->messageId == 0){
 
                      /* Send ACK back to sender */
-                     Packet message = emptyBroadcast();
-                     message->destinationId = message->senderId;
-                     message->senderId = did;
-                     xQueueSend(loraQueue, message, ( TickType_t ) 10 );
+                     Packet empty = emptyBroadcast();
+                     empty->destinationId = message->senderId;
+                     empty->senderId = did;
+                     printf("Sending ACK back to DuckLink (did: %u)", message->senderId);
+                     xQueueSend(loraQueue, empty, ( TickType_t ) 10 );
                      xTaskNotify( loraTask, LORA_READY_SEND, eSetBits);
                   }
                }
@@ -103,17 +111,22 @@ void MamaTaskFunc() {
 
 void processMessage(Packet message){
 
-   /* Send message to next mama in chain */
-   message->destinationId = nextHop;
-   xQueueSend(loraQueue, message, ( TickType_t ) 10 );
-   xTaskNotify( loraTask, LORA_READY_SEND, eSetBits);
+    /* Send ACK back to sender */
+    Packet empty = emptyBroadcast();
+    empty->destinationId = empty->senderId;
+    empty->senderId = did;
+    xQueueSend(loraQueue, empty, ( TickType_t ) 10 );
+    xTaskNotify( loraTask, LORA_READY_SEND, eSetBits);
+    printf("Sending ACK back to %u", message->senderId);
 
-   /* Send ACK back to sender */
-   Packet message = emptyBroadcast();
-   message->destinationId = message->senderId;
-   message->senderId = did;
-   xQueueSend(loraQueue, message, ( TickType_t ) 10 );
-   xTaskNotify( loraTask, LORA_READY_SEND, eSetBits);
+    vTaskDelay(pdMS_TO_TICKS(500));
+
+    /* Send message to next mama in chain */
+    message->destinationId = nextHop;
+    message->senderId = did;
+    xQueueSend(loraQueue, message, ( TickType_t ) 10 );
+    xTaskNotify( loraTask, LORA_READY_SEND, eSetBits);
+    printf("Sending message to next hop (did: %u)", message->destinationId);
 
 }
 
@@ -131,7 +144,7 @@ Packet emptyBroadcast(){
    empty->destinationId = 0;
    empty->messageId = 0;
    empty->payload = NULL;
-   return empty
+   return empty;
 }
 
 

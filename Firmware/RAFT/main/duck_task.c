@@ -1,21 +1,26 @@
-//
-// Created by Jake Loveland on 2020-02-10.
-//
+#include <unistd.h>
+#include <stdint.h>
+#include "freertos/FreeRTOS.h"
 #include "notify_events.h"
+#include "freertos/queue.h"
+#include "freertos/task.h"
 #include "shared.h"
+#include "lora/radio/radio.h"
+#include "lora_task.h"
 
 #include "duck_task.h"
 
 
 
-DuckTaskEntry() {
+void DuckTaskEntry() {
     BaseType_t xReturned;
     TaskHandle_t DuckTask = NULL;
 
     /* Create the task, storing the handle. */
-    xReturned = xTaskCreate(DuckTaskFunc, "DuckTask", 500, void, tskIDLE_PRIORITY, &DuckTask );
-
+    xReturned = xTaskCreate(DuckTaskFunc, "DuckTask", 500, NULL, tskIDLE_PRIORITY, &DuckTask );
     did = getDid();
+    printf("Device created as DuckLink (did: %u)", did);
+
     mama = 0;
     mamaRSSI = 255;
     appTask = DuckTask;  //Used by RF Tasks
@@ -27,7 +32,9 @@ DuckTaskEntry() {
 
 }
 
-void DuckTaskFunc() {
+
+
+void DuckTaskFunc(void * parameters) {
 
     const TickType_t xMaxBlockTime = pdMS_TO_TICKS( 5000 );
     BaseType_t xResult;
@@ -41,6 +48,8 @@ void DuckTaskFunc() {
 
     for( ;; )
     {
+        xResult = pdPASS;
+
         /*if there are still events to be processed*/
         if(uxQueueMessagesWaiting(duckQueue)) {
             /* Wait to be notified of an event. */
@@ -60,6 +69,7 @@ void DuckTaskFunc() {
                     // Receive a message on the created queue.  Block for 10 ticks if a
                     // message is not immediately available.
                     if (xQueueReceive(duckQueue, message, (TickType_t) 10)) {
+                        printf("Wifi message received.");
                         processMessage(message);
                     }
                 }
@@ -72,6 +82,7 @@ void DuckTaskFunc() {
                     Packet message = malloc(sizeof(struct Packet));
                     /* Receive a message from the queue to see who is the mama */
                     if (xQueueReceive(duckQueue, message, (TickType_t) 10)) {
+                        printf("ACK message received by mama (did: %u)",message->senderId);
                         if(message->rssi<mamaRSSI) {
                             mama = message->senderId;
                             mamaRSSI = message->rssi;
@@ -91,6 +102,8 @@ void processMessage(Packet message){
         message->destinationId = mama;
         xQueueSend(loraQueue, message, (TickType_t) 10);
         xTaskNotify(loraTask, LORA_READY_SEND, eSetBits);
+
+        printf("Lora sent to mama (did: %u)", message->destinationId);
     } else{
 
         /*Put the message back on the queue until a mama is found */
@@ -101,6 +114,8 @@ void processMessage(Packet message){
         Packet message = emptyBroadcast();
         xQueueSend(loraQueue, message, ( TickType_t ) 10 );
         xTaskNotify( loraTask, LORA_READY_SEND, eSetBits);
+        printf("No mama found yet.... trying again.");
+
     }
 }
 
@@ -117,6 +132,6 @@ Packet emptyBroadcast(){
     empty->destinationId = 0;
     empty->messageId = 0;
     empty->payload = NULL;
-    return empty
+    return empty;
 }
 
