@@ -3,7 +3,9 @@
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
-#import "shared.h"
+//#include "shared.h"
+#include "wifi_task.h"
+#include "nvs_flash.h"
 
 
 
@@ -13,20 +15,20 @@ void app_main()
 {
     ESP_ERROR_CHECK(nvs_flash_init());
 
-#ifdef PAPA_DUCK
-    PapaTaskEntry();
-#endif
-
-#ifdef MAMA_DUCK
-    MamaTaskEntry();
-#endif
-#ifdef DUCK_LINK
-    DuckTaskEntry();
-#endif
-
-    LoraTaskEntry();
+// #ifdef PAPA_DUCK
+//     PapaTaskEntry();
+// #endif
+//
+// #ifdef MAMA_DUCK
+//     MamaTaskEntry();
+// #endif
+// #ifdef DUCK_LINK
+//     DuckTaskEntry();
+// #endif
+//
+//     LoraTaskEntry();
     WifiTaskEntry();
-    GpsTaskEntry();
+    // GpsTaskEntry();
 
 
     /*
