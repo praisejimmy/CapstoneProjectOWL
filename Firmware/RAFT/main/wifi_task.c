@@ -24,7 +24,7 @@
 #include "lwip/sockets.h"
 #include "lwip/netdb.h"
 #include "lwip/api.h"
-#include "wifi_task.h"
+#include "include/wifi_task.h"
 #include "notify_events.h"
 #include "lwip/dns.h"
 #include "index.h"

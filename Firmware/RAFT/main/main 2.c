@@ -11,7 +11,6 @@
 #include "lora_task.h"
 #include "mama_task.h"
 #include "duck_task.h"
-#include "wifi_task.h"
 
 
 
@@ -31,7 +30,7 @@ void app_main()
 #endif
 
     LoraTaskEntry();
-    WifiTaskEntry();
+    //WifiTaskEntry();
     //GpsTaskEntry();
 
 
