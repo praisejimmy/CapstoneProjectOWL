@@ -31,8 +31,7 @@
 #include "captdns.h"
 #include "string.h"
 #include "cJSON.h"
-
-#define MAMA_DUCK
+#include "shared.h"
 
 #define TRUE 1
 #define FALSE 0
@@ -167,7 +166,9 @@ http_server_netconn_serve(struct netconn *conn)
       else {
           netconn_write(conn, PORTAL, sizeof(PORTAL)-1, NETCONN_NOCOPY);
       }
-      print_sos(buf);
+      uint8_t *lora_packet = build_lora_packet((uint8_t *)buf);
+      print_sos_packet(lora_packet);
+      free(lora_packet);
     }
 
   }
@@ -177,6 +178,73 @@ http_server_netconn_serve(struct netconn *conn)
   /* Delete the buffer (netconn_recv gives us ownership,
    so we have to make sure to deallocate the buffer) */
   netbuf_delete(inbuf);
+}
+
+int find_start(char *recv_buf) {
+    int i;
+    uint32_t buf_len = strlen(recv_buf);
+    int data_start = -1;
+    for (i = 0; i < buf_len - 4; i++) {
+        if (!strncmp(&recv_buf[i], "?uuid", 5)) {
+            data_start = i + 1;
+            break;
+        }
+    }
+    return data_start;
+}
+
+uint8_t *build_lora_packet(uint8_t *recv_buf) {
+    int i = 0;
+    uint32_t data_len = 0;
+    wifi_header packet_head;
+    field_header field_head;
+    enum sos_field field_num = uuid;
+    uint8_t *lora_packet = (uint8_t *)malloc(1000);
+    uint32_t packet_loc = sizeof(wifi_header);
+    int data_start = find_start((char *)recv_buf);
+    if (data_start == -1) {
+        return NULL;
+    }
+    recv_buf = &recv_buf[data_start];
+    while (recv_buf[i] != '\0') {
+        while (recv_buf[i++] != '=');
+        uint32_t temp_start = packet_loc;
+        packet_loc += sizeof(field_header);
+        while (recv_buf[i] != '&' && recv_buf[i] != '\n') {
+            lora_packet[packet_loc] = recv_buf[i];
+            packet_loc++;
+            i++;
+        }
+        field_head.field_num = field_num++;
+        field_head.field_len = i - temp_start;
+        memcpy(&lora_packet[temp_start], &field_head, sizeof(field_head));
+        packet_loc++;
+        if (recv_buf[i++] == '\n') {
+            break;
+        }
+    }
+    lora_packet = (uint8_t *)realloc(lora_packet, sizeof(uint8_t) * packet_loc);
+    packet_head.frame_type = LORA_FRAME;
+    packet_head.id = did;
+    packet_head.packet_len = packet_loc;
+    memcpy(lora_packet, &packet_head, sizeof(packet_head));
+    return lora_packet;
+}
+
+void print_sos_packet(uint8_t *packet) {
+    if (packet == NULL) {
+        return;
+    }
+    wifi_header *packet_head = (wifi_header *)packet;
+    int i = sizeof(wifi_header);
+    while (i < packet_head->packet_len) {
+        if (i % 4 == 0) {
+            printf("\n");
+        }
+        printf("%02x ", packet[i]);
+        i++;
+    }
+    printf("\n");
 }
 
 void print_sos(char *data) {
