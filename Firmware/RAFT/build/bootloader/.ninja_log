@@ -128,3 +128,8 @@
 382	469	6051472176813581	esp-idf/bootloader_support/libbootloader_support.a	86d5f04a14e782d9
 470	625	6051472178279762	bootloader.elf	cac4ac0f0754ed5c
 625	810	6051472180147525	.bin_timestamp	8f1b73ad309b374c
+3	5272	6063794702800032	build.ninja	231ef50e377c0c
+7	258	6063794705209779	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj	cf53c4613af65fd4
+261	341	6063794706316555	esp-idf/bootloader_support/libbootloader_support.a	86d5f04a14e782d9
+342	523	6063794708057105	bootloader.elf	cac4ac0f0754ed5c
+523	710	6063794709957160	.bin_timestamp	8f1b73ad309b374c

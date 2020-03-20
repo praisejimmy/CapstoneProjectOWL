@@ -6,13 +6,11 @@
 #include "freertos/queue.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
-#include "nvs_flash.h"
-//#include "shared.h"
+#include "shared.h"
 
 #include "lora_task.h"
 #include "mama_task.h"
 #include "duck_task.h"
-#include "wifi_task.h"
 
 
 
@@ -32,7 +30,7 @@ void app_main()
 #endif
 
     LoraTaskEntry();
-    WifiTaskEntry();
+    //WifiTaskEntry();
     //GpsTaskEntry();
 
 

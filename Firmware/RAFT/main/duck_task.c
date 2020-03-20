@@ -5,7 +5,6 @@
 #include "freertos/queue.h"
 #include "freertos/task.h"
 #include "shared.h"
-#include "lora/radio/radio.h"
 #include "lora_task.h"
 
 #include "duck_task.h"

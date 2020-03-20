@@ -18,6 +18,9 @@ typedef struct {
 
 void wifi_init();
 void WifiTaskEntry();
+void station_list_task(void *pvParameter);
+void printStationList();
+uint8_t sta_list_contains(uint32_t ip);
 void print_sos(char *data);
 int find_start(char *recv_buf);
 uint8_t *build_lora_packet(uint8_t *recv_buf);

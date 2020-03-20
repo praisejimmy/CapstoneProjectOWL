@@ -2278,3 +2278,15 @@
 41	87	6050828855414482	bootloader/bootloader.elf	68a6e08c4aa36547
 41	87	6050828855414482	bootloader/bootloader.bin	68a6e08c4aa36547
 41	87	6050828855414482	bootloader/bootloader.map	68a6e08c4aa36547
+4	8882	6063794648095474	build.ninja	87f69909390d0e8f
+69	287	6063794651740194	esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj	41f915379c862e14
+288	401	6063794652972479	esp-idf/app_update/libapp_update.a	ed28771f0b3f51a2
+74	610	6063794655127833	esp-idf/main/CMakeFiles/__idf_main.dir/wifi_task.c.obj	3ba6b8ae3c4d6e6d
+64	6104	6050828855414482	bootloader-prefix/src/bootloader-stamp/bootloader-build	68a6e08c4aa36547
+64	6104	6050828855414482	bootloader/bootloader.elf	68a6e08c4aa36547
+64	6104	6050828855414482	bootloader/bootloader.bin	68a6e08c4aa36547
+64	6104	6050828855414482	bootloader/bootloader.map	68a6e08c4aa36547
+43	88	6050828855414482	bootloader-prefix/src/bootloader-stamp/bootloader-build	68a6e08c4aa36547
+43	88	6050828855414482	bootloader/bootloader.elf	68a6e08c4aa36547
+43	88	6050828855414482	bootloader/bootloader.bin	68a6e08c4aa36547
+43	88	6050828855414482	bootloader/bootloader.map	68a6e08c4aa36547
