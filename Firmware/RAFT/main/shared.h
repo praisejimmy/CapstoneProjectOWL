@@ -28,9 +28,9 @@ enum sos_field {
 
 typedef uint8_t did_t;
 
-did_t did = 32;
+//did_t did = 32;
 
-did_t nextHop;
+//did_t nextHop;
 
 typedef struct Packet{
     did_t senderId;

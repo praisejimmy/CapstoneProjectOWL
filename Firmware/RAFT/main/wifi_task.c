@@ -195,7 +195,6 @@ int find_start(char *recv_buf) {
 
 uint8_t *build_lora_packet(uint8_t *recv_buf) {
     int i = 0;
-    uint32_t data_len = 0;
     wifi_header packet_head;
     field_header field_head;
     enum sos_field field_num = uuid;
@@ -225,7 +224,7 @@ uint8_t *build_lora_packet(uint8_t *recv_buf) {
     }
     lora_packet = (uint8_t *)realloc(lora_packet, sizeof(uint8_t) * packet_loc);
     packet_head.frame_type = LORA_FRAME;
-    packet_head.id = did;
+    packet_head.id = 32;
     packet_head.packet_len = packet_loc;
     memcpy(lora_packet, &packet_head, sizeof(packet_head));
     return lora_packet;
