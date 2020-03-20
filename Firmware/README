@@ -6,3 +6,25 @@ Jake Loveland
 Noah Palumbo
 ***
 This folder contains all firmware to be flashed onto the ESP32 system.
+
+Steps to follow to use firmware:
+
+1. Clone CapstoneProjectOWL github repository
+    - Repository is split between Hardware and Firmware projects
+
+2. Download ESP-IDF and add all necessary IDF environment variables to system paths
+    - Follow instructions at the following link to set up ESP-IDF
+
+    https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/
+
+3. Navigate to the RAFT directory inside the CapstoneProjectOWL repository using
+   the ESP-IDF command prompt
+
+4. Run the command "idf.py build" in the command window and build the project
+    - This step will take a while
+
+5. Plug in the DuckLink board and run the "idf.py -p (PORT) flash"
+    - Replace (PORT) with the name of the serial port connected to by the DuckLink
+      board
+
+6. Device setup is done, run off of USB or battery power

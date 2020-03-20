@@ -16373,64 +16373,64 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  .literal.spi_flash_chip_issi_get_io_mode
                 0x400809d8        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_issi.c.obj)
                                   0x4 (size before relaxing)
- .literal.spi_flash_chip_generic_detect_size
-                0x400809d8        0x4 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x8 (size before relaxing)
- .literal.spi_flash_chip_generic_erase_chip
-                0x400809dc        0x4 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
- .literal.spi_flash_chip_generic_write_encrypted
-                0x400809e0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_common_read_status_16b_rdsr_rdsr2
-                0x400809e0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x8 (size before relaxing)
- .literal.spi_flash_common_write_status_16b_wrsr
-                0x400809e0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_chip_generic_get_write_protect
-                0x400809e0        0xc esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                 0x10 (size before relaxing)
- .literal.spi_flash_chip_generic_wait_idle
-                0x400809ec        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_chip_generic_config_host_io_mode
-                0x400809ec        0x4 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x8 (size before relaxing)
- .literal.spi_flash_chip_generic_read
-                0x400809f0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_common_read_status_8b_rdsr2
-                0x400809f0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_chip_generic_get_io_mode
-                0x400809f0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_common_read_status_8b_rdsr
-                0x400809f0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_common_write_status_8b_wrsr
-                0x400809f0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_common_write_status_8b_wrsr2
-                0x400809f0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_chip_generic_set_io_mode
-                0x400809f0        0x8 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                  0xc (size before relaxing)
- .literal.memspi_host_read_id_hs
-                0x400809f8       0x10 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
-                                 0x18 (size before relaxing)
- .literal.memspi_host_flush_cache
-                0x40080a08        0x4 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
-                                  0x8 (size before relaxing)
  .literal.spi_flash_chip_gd_probe
-                0x40080a0c        0x4 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+                0x400809d8        0x4 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
  .literal.spi_flash_chip_gd_set_io_mode
-                0x40080a10        0xc esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+                0x400809dc       0x14 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
                                  0x20 (size before relaxing)
  .literal.spi_flash_chip_gd_get_io_mode
-                0x40080a1c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+                0x400809f0        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
                                   0x4 (size before relaxing)
+ .literal.memspi_host_read_id_hs
+                0x400809f0       0x10 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
+                                 0x18 (size before relaxing)
+ .literal.memspi_host_flush_cache
+                0x40080a00        0x4 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_chip_generic_detect_size
+                0x40080a04        0x4 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_chip_generic_erase_chip
+                0x40080a08        0x4 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+ .literal.spi_flash_chip_generic_write_encrypted
+                0x40080a0c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_common_read_status_16b_rdsr_rdsr2
+                0x40080a0c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_common_write_status_16b_wrsr
+                0x40080a0c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_chip_generic_get_write_protect
+                0x40080a0c        0xc esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.spi_flash_chip_generic_wait_idle
+                0x40080a18        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_chip_generic_config_host_io_mode
+                0x40080a18        0x4 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_chip_generic_read
+                0x40080a1c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_common_read_status_8b_rdsr2
+                0x40080a1c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_chip_generic_get_io_mode
+                0x40080a1c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_common_read_status_8b_rdsr
+                0x40080a1c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_common_write_status_8b_wrsr
+                0x40080a1c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_common_write_status_8b_wrsr2
+                0x40080a1c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_chip_generic_set_io_mode
+                0x40080a1c        0x0 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                  0xc (size before relaxing)
  .literal.panicPutChar
                 0x40080a1c        0x4 esp-idf/esp32/libesp32.a(panic.c.obj)
                                   0x8 (size before relaxing)
@@ -16489,70 +16489,68 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
                 0x40080b10        0x4 esp-idf/esp32/libesp32.a(panic.c.obj)
                                   0xc (size before relaxing)
  .literal       0x40080b14        0x4 C:/Users/ryan/Documents/esp-idf/components/xtensa/esp32/libhal.a(windowspill_asm.o)
- .literal.spi_flash_hal_device_config
-                0x40080b18        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                  0x8 (size before relaxing)
- .literal.spi_flash_hal_configure_host_io_mode
-                0x40080b18       0x30 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                 0x4c (size before relaxing)
- .literal.spi_flash_hal_common_command
-                0x40080b48        0x4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                 0x20 (size before relaxing)
- .literal.spi_flash_hal_erase_chip
-                0x40080b4c        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                  0x4 (size before relaxing)
- .literal.spi_flash_hal_erase_sector
-                0x40080b4c        0x4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                 0x14 (size before relaxing)
- .literal.spi_flash_hal_erase_block
-                0x40080b50        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                 0x14 (size before relaxing)
- .literal.spi_flash_hal_program_page
-                0x40080b50        0x4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                 0x1c (size before relaxing)
- .literal.spi_flash_hal_read
-                0x40080b54        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                 0x18 (size before relaxing)
- .literal.spi_flash_hal_host_idle
-                0x40080b54        0x4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                  0x8 (size before relaxing)
- .literal.spi_flash_hal_set_write_protect
-                0x40080b58        0x4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                                  0x8 (size before relaxing)
- .literal.rtc_wdt_get_protect_status
-                0x40080b5c        0x8 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
- .literal.rtc_wdt_protect_off
-                0x40080b64        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                                  0x8 (size before relaxing)
- .literal.rtc_wdt_protect_on
-                0x40080b64        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                                  0x4 (size before relaxing)
- .literal.rtc_wdt_enable
-                0x40080b64        0xc esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+ .literal.rtc_clk_32k_enable_common
+                0x40080b18       0x18 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+ .literal.rtc_clk_bbpll_disable
+                0x40080b30        0xc esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x10 (size before relaxing)
- .literal.rtc_wdt_flashboot_mode_enable
-                0x40080b70        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+ .literal.rtc_clk_bbpll_enable
+                0x40080b3c        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x1c (size before relaxing)
+ .literal.rtc_clk_32k_enable
+                0x40080b44        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.rtc_clk_32k_enable_external
+                0x40080b4c        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                   0x4 (size before relaxing)
- .literal.rtc_wdt_feed
-                0x40080b70        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                                 0x14 (size before relaxing)
- .literal.rtc_wdt_set_time
-                0x40080b70       0x14 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                                 0x20 (size before relaxing)
- .literal.rtc_wdt_set_stage
-                0x40080b84       0x18 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                                 0x24 (size before relaxing)
- .literal.rtc_wdt_disable
-                0x40080b9c        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+ .literal.rtc_clk_8m_enable
+                0x40080b4c        0xc esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.rtc_clk_slow_freq_set
+                0x40080b58        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                  0xc (size before relaxing)
+ .literal.rtc_clk_slow_freq_get
+                0x40080b58        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.rtc_clk_slow_freq_get_hz
+                0x40080b58        0xc esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.rtc_clk_fast_freq_set
+                0x40080b64        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.rtc_clk_bbpll_configure
+                0x40080b6c       0x10 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x40 (size before relaxing)
+ .literal.rtc_clk_xtal_freq_get
+                0x40080b7c        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+ .literal.rtc_clk_cpu_freq_mhz_to_config
+                0x40080b84        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_get_config
+                0x40080b84       0x10 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x34 (size before relaxing)
+ .literal.rtc_clk_apb_freq_update
+                0x40080b94        0x4 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+ .literal.rtc_clk_cpu_freq_to_xtal
+                0x40080b98        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x2c (size before relaxing)
- .literal.rtc_wdt_set_length_of_reset_signal
-                0x40080b9c       0x10 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+ .literal.rtc_clk_cpu_freq_set_xtal
+                0x40080ba0        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_to_pll_mhz
+                0x40080ba0        0xc esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x44 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_to_8m
+                0x40080bac        0x4 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x28 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_set_config
+                0x40080bb0        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                                 0x30 (size before relaxing)
+ .literal.rtc_clk_apb_freq_get
+                0x40080bb0        0xc esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x14 (size before relaxing)
- .literal.rtc_wdt_is_on
-                0x40080bac        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                                  0x4 (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x40080bac       0x44 esp-idf/soc/libsoc.a(rtc_time.c.obj)
+                0x40080bbc       0x34 esp-idf/soc/libsoc.a(rtc_time.c.obj)
                                  0x70 (size before relaxing)
  .literal.rtc_clk_cal
                 0x40080bf0        0x0 esp-idf/soc/libsoc.a(rtc_time.c.obj)
@@ -16563,69 +16561,71 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  .literal.rtc_clk_wait_for_slow_cycle
                 0x40080c00        0x8 esp-idf/soc/libsoc.a(rtc_time.c.obj)
                                  0x20 (size before relaxing)
- .literal.rtc_clk_32k_enable_common
-                0x40080c08       0x18 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
- .literal.rtc_clk_bbpll_disable
-                0x40080c20        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x10 (size before relaxing)
- .literal.rtc_clk_bbpll_enable
-                0x40080c28        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x1c (size before relaxing)
- .literal.rtc_clk_32k_enable
-                0x40080c30        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x10 (size before relaxing)
- .literal.rtc_clk_32k_enable_external
-                0x40080c38        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                  0x4 (size before relaxing)
- .literal.rtc_clk_8m_enable
-                0x40080c38        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x10 (size before relaxing)
- .literal.rtc_clk_slow_freq_set
-                0x40080c40        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                  0xc (size before relaxing)
- .literal.rtc_clk_slow_freq_get
-                0x40080c40        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                  0x4 (size before relaxing)
- .literal.rtc_clk_slow_freq_get_hz
-                0x40080c40        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x10 (size before relaxing)
- .literal.rtc_clk_fast_freq_set
-                0x40080c40        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x10 (size before relaxing)
- .literal.rtc_clk_bbpll_configure
-                0x40080c40        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x40 (size before relaxing)
- .literal.rtc_clk_xtal_freq_get
-                0x40080c48        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
- .literal.rtc_clk_cpu_freq_mhz_to_config
-                0x40080c50        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                  0x4 (size before relaxing)
- .literal.rtc_clk_cpu_freq_get_config
-                0x40080c50       0x10 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x34 (size before relaxing)
- .literal.rtc_clk_apb_freq_update
-                0x40080c60        0x4 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
- .literal.rtc_clk_cpu_freq_to_xtal
-                0x40080c64        0x8 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x2c (size before relaxing)
- .literal.rtc_clk_cpu_freq_set_xtal
-                0x40080c6c        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x10 (size before relaxing)
- .literal.rtc_clk_cpu_freq_to_pll_mhz
-                0x40080c6c        0xc esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x44 (size before relaxing)
- .literal.rtc_clk_cpu_freq_to_8m
-                0x40080c78        0x4 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x28 (size before relaxing)
- .literal.rtc_clk_cpu_freq_set_config
-                0x40080c7c        0x0 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x30 (size before relaxing)
- .literal.rtc_clk_apb_freq_get
-                0x40080c7c        0xc esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                                 0x14 (size before relaxing)
  .literal.rtc_init
-                0x40080c88       0x58 esp-idf/soc/libsoc.a(rtc_init.c.obj)
+                0x40080c08       0x70 esp-idf/soc/libsoc.a(rtc_init.c.obj)
                                  0xdc (size before relaxing)
+ .literal.rtc_wdt_get_protect_status
+                0x40080c78        0x8 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+ .literal.rtc_wdt_protect_off
+                0x40080c80        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.rtc_wdt_protect_on
+                0x40080c80        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.rtc_wdt_enable
+                0x40080c80        0xc esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.rtc_wdt_flashboot_mode_enable
+                0x40080c8c        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.rtc_wdt_feed
+                0x40080c8c        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                 0x14 (size before relaxing)
+ .literal.rtc_wdt_set_time
+                0x40080c8c       0x14 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                 0x20 (size before relaxing)
+ .literal.rtc_wdt_set_stage
+                0x40080ca0       0x14 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                 0x24 (size before relaxing)
+ .literal.rtc_wdt_disable
+                0x40080cb4        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                 0x2c (size before relaxing)
+ .literal.rtc_wdt_set_length_of_reset_signal
+                0x40080cb4        0x8 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                 0x14 (size before relaxing)
+ .literal.rtc_wdt_is_on
+                0x40080cbc        0x0 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_hal_device_config
+                0x40080cbc        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_hal_configure_host_io_mode
+                0x40080cbc       0x18 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                 0x4c (size before relaxing)
+ .literal.spi_flash_hal_common_command
+                0x40080cd4        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                 0x20 (size before relaxing)
+ .literal.spi_flash_hal_erase_chip
+                0x40080cd4        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                  0x4 (size before relaxing)
+ .literal.spi_flash_hal_erase_sector
+                0x40080cd4        0x4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                 0x14 (size before relaxing)
+ .literal.spi_flash_hal_erase_block
+                0x40080cd8        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                 0x14 (size before relaxing)
+ .literal.spi_flash_hal_program_page
+                0x40080cd8        0x4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                 0x1c (size before relaxing)
+ .literal.spi_flash_hal_read
+                0x40080cdc        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                 0x18 (size before relaxing)
+ .literal.spi_flash_hal_host_idle
+                0x40080cdc        0x4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_hal_set_write_protect
+                0x40080ce0        0x0 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                                  0x8 (size before relaxing)
  .literal.get_prev_free_block
                 0x40080ce0       0x10 esp-idf/heap/libheap.a(multi_heap.c.obj)
                                  0x28 (size before relaxing)
@@ -17635,6 +17635,7 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
                 0x40086c08       0x38 esp-idf/esp_ringbuf/libesp_ringbuf.a(ringbuf.c.obj)
  *fill*         0x40086c40        0x0 
  *fill*         0x40086c40        0x0 
+ *libspi_flash.a:spi_flash_rom_patch.*(.literal .literal.* .text .text.*)
  *libspi_flash.a:spi_flash_chip_issi.*(.literal .literal.* .text .text.*)
  .text.spi_flash_chip_issi_probe
                 0x40086c40       0x29 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_issi.c.obj)
@@ -17650,135 +17651,134 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
                 0x40086c80                spi_flash_chip_issi_get_io_mode
  *fill*         0x40086c9c        0x0 
  *fill*         0x40086c9c        0x0 
- *libspi_flash.a:spi_flash_chip_generic.*(.literal .literal.* .text .text.*)
- .text.spi_flash_chip_generic_detect_size
-                0x40086c9c       0x25 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086c9c                spi_flash_chip_generic_detect_size
- *fill*         0x40086cc1        0x3 
- .text.spi_flash_chip_generic_erase_chip
-                0x40086cc4       0x48 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086cc4                spi_flash_chip_generic_erase_chip
- .text.spi_flash_chip_generic_write_encrypted
-                0x40086d0c        0x8 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086d0c                spi_flash_chip_generic_write_encrypted
- .text.spi_flash_common_read_status_16b_rdsr_rdsr2
-                0x40086d14       0x34 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                 0x38 (size before relaxing)
-                0x40086d14                spi_flash_common_read_status_16b_rdsr_rdsr2
- .text.spi_flash_common_write_status_16b_wrsr
-                0x40086d48       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086d48                spi_flash_common_write_status_16b_wrsr
- *fill*         0x40086d5d        0x3 
- .text.spi_flash_chip_generic_get_write_protect
-                0x40086d60       0x38 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086d60                spi_flash_chip_generic_get_write_protect
- .text.spi_flash_chip_generic_wait_idle
-                0x40086d98       0x58 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                 0x5c (size before relaxing)
-                0x40086d98                spi_flash_chip_generic_wait_idle
- .text.spi_flash_chip_generic_config_host_io_mode
-                0x40086df0       0x5e esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086df0                spi_flash_chip_generic_config_host_io_mode
- *fill*         0x40086e4e        0x2 
- .text.spi_flash_chip_generic_read
-                0x40086e50       0x40 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                 0x44 (size before relaxing)
-                0x40086e50                spi_flash_chip_generic_read
- .text.spi_flash_common_read_status_8b_rdsr2
-                0x40086e90       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086e90                spi_flash_common_read_status_8b_rdsr2
- *fill*         0x40086ea5        0x3 
- .text.spi_flash_chip_generic_get_io_mode
-                0x40086ea8       0x1c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                                 0x20 (size before relaxing)
-                0x40086ea8                spi_flash_chip_generic_get_io_mode
- .text.spi_flash_common_read_status_8b_rdsr
-                0x40086ec4       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086ec4                spi_flash_common_read_status_8b_rdsr
- *fill*         0x40086ed9        0x3 
- .text.spi_flash_common_write_status_8b_wrsr
-                0x40086edc       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086edc                spi_flash_common_write_status_8b_wrsr
- *fill*         0x40086ef1        0x3 
- .text.spi_flash_common_write_status_8b_wrsr2
-                0x40086ef4       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086ef4                spi_flash_common_write_status_8b_wrsr2
- *fill*         0x40086f09        0x3 
- .text.spi_flash_chip_generic_set_io_mode
-                0x40086f0c       0x18 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086f0c                spi_flash_chip_generic_set_io_mode
- .text.spi_flash_chip_generic_probe
-                0x40086f24        0x7 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086f24                spi_flash_chip_generic_probe
- *fill*         0x40086f2b        0x1 
- .text.spi_flash_chip_generic_reset
-                0x40086f2c       0x4c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086f2c                spi_flash_chip_generic_reset
- *fill*         0x40086f78        0x0 
- .text.spi_flash_chip_generic_erase_sector
-                0x40086f78       0x4c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086f78                spi_flash_chip_generic_erase_sector
- .text.spi_flash_chip_generic_erase_block
-                0x40086fc4       0x4c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40086fc4                spi_flash_chip_generic_erase_block
- .text.spi_flash_chip_generic_page_program
-                0x40087010       0x31 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40087010                spi_flash_chip_generic_page_program
- *fill*         0x40087041        0x3 
- .text.spi_flash_chip_generic_write
-                0x40087044       0x7a esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40087044                spi_flash_chip_generic_write
- *fill*         0x400870be        0x2 
- .text.spi_flash_chip_generic_set_write_protect
-                0x400870c0       0x3b esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x400870c0                spi_flash_chip_generic_set_write_protect
- *fill*         0x400870fb        0x1 
- .text.spi_flash_common_read_qe_sr
-                0x400870fc       0x24 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
- .text.spi_flash_common_write_qe_sr
-                0x40087120       0x29 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
- *fill*         0x40087149        0x0 
- *fill*         0x40087149        0x3 
- .text.spi_flash_generic_wait_host_idle
-                0x4008714c       0x3a esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x4008714c                spi_flash_generic_wait_host_idle
- *fill*         0x40087186        0x0 
- *fill*         0x40087186        0x0 
- *fill*         0x40087186        0x0 
- *fill*         0x40087186        0x0 
- *fill*         0x40087186        0x0 
- *fill*         0x40087186        0x2 
- .text.spi_flash_common_set_io_mode
-                0x40087188       0x78 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x40087188                spi_flash_common_set_io_mode
- *libspi_flash.a:memspi_host_driver.*(.literal .literal.* .text .text.*)
- .text.memspi_host_read_id_hs
-                0x40087200       0x75 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
-                                 0x79 (size before relaxing)
-                0x40087200                memspi_host_read_id_hs
- *fill*         0x40087275        0x3 
- .text.memspi_host_flush_cache
-                0x40087278       0x18 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
-                                 0x1c (size before relaxing)
-                0x40087278                memspi_host_flush_cache
- .text.memspi_host_read_status_hs
-                0x40087290       0x2c esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
-                0x40087290                memspi_host_read_status_hs
- *fill*         0x400872bc        0x0 
  *libspi_flash.a:spi_flash_chip_gd.*(.literal .literal.* .text .text.*)
  .text.spi_flash_chip_gd_probe
-                0x400872bc       0x41 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
-                0x400872bc                spi_flash_chip_gd_probe
- *fill*         0x400872fd        0x3 
+                0x40086c9c       0x41 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+                0x40086c9c                spi_flash_chip_gd_probe
+ *fill*         0x40086cdd        0x3 
  .text.spi_flash_chip_gd_set_io_mode
-                0x40087300       0x44 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
-                0x40087300                spi_flash_chip_gd_set_io_mode
+                0x40086ce0       0x44 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+                0x40086ce0                spi_flash_chip_gd_set_io_mode
  .text.spi_flash_chip_gd_get_io_mode
-                0x40087344       0x1c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+                0x40086d24       0x1c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
                                  0x20 (size before relaxing)
-                0x40087344                spi_flash_chip_gd_get_io_mode
- *fill*         0x40087360        0x0 
- *libspi_flash.a:spi_flash_rom_patch.*(.literal .literal.* .text .text.*)
+                0x40086d24                spi_flash_chip_gd_get_io_mode
+ *fill*         0x40086d40        0x0 
+ *libspi_flash.a:memspi_host_driver.*(.literal .literal.* .text .text.*)
+ .text.memspi_host_read_id_hs
+                0x40086d40       0x75 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
+                                 0x79 (size before relaxing)
+                0x40086d40                memspi_host_read_id_hs
+ *fill*         0x40086db5        0x3 
+ .text.memspi_host_flush_cache
+                0x40086db8       0x18 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
+                                 0x1c (size before relaxing)
+                0x40086db8                memspi_host_flush_cache
+ .text.memspi_host_read_status_hs
+                0x40086dd0       0x2c esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
+                0x40086dd0                memspi_host_read_status_hs
+ *fill*         0x40086dfc        0x0 
+ *libspi_flash.a:spi_flash_chip_generic.*(.literal .literal.* .text .text.*)
+ .text.spi_flash_chip_generic_detect_size
+                0x40086dfc       0x25 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40086dfc                spi_flash_chip_generic_detect_size
+ *fill*         0x40086e21        0x3 
+ .text.spi_flash_chip_generic_erase_chip
+                0x40086e24       0x48 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40086e24                spi_flash_chip_generic_erase_chip
+ .text.spi_flash_chip_generic_write_encrypted
+                0x40086e6c        0x8 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40086e6c                spi_flash_chip_generic_write_encrypted
+ .text.spi_flash_common_read_status_16b_rdsr_rdsr2
+                0x40086e74       0x34 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                 0x38 (size before relaxing)
+                0x40086e74                spi_flash_common_read_status_16b_rdsr_rdsr2
+ .text.spi_flash_common_write_status_16b_wrsr
+                0x40086ea8       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40086ea8                spi_flash_common_write_status_16b_wrsr
+ *fill*         0x40086ebd        0x3 
+ .text.spi_flash_chip_generic_get_write_protect
+                0x40086ec0       0x38 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40086ec0                spi_flash_chip_generic_get_write_protect
+ .text.spi_flash_chip_generic_wait_idle
+                0x40086ef8       0x58 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                 0x5c (size before relaxing)
+                0x40086ef8                spi_flash_chip_generic_wait_idle
+ .text.spi_flash_chip_generic_config_host_io_mode
+                0x40086f50       0x5e esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40086f50                spi_flash_chip_generic_config_host_io_mode
+ *fill*         0x40086fae        0x2 
+ .text.spi_flash_chip_generic_read
+                0x40086fb0       0x40 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                 0x44 (size before relaxing)
+                0x40086fb0                spi_flash_chip_generic_read
+ .text.spi_flash_common_read_status_8b_rdsr2
+                0x40086ff0       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40086ff0                spi_flash_common_read_status_8b_rdsr2
+ *fill*         0x40087005        0x3 
+ .text.spi_flash_chip_generic_get_io_mode
+                0x40087008       0x1c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                                 0x20 (size before relaxing)
+                0x40087008                spi_flash_chip_generic_get_io_mode
+ .text.spi_flash_common_read_status_8b_rdsr
+                0x40087024       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40087024                spi_flash_common_read_status_8b_rdsr
+ *fill*         0x40087039        0x3 
+ .text.spi_flash_common_write_status_8b_wrsr
+                0x4008703c       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x4008703c                spi_flash_common_write_status_8b_wrsr
+ *fill*         0x40087051        0x3 
+ .text.spi_flash_common_write_status_8b_wrsr2
+                0x40087054       0x15 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40087054                spi_flash_common_write_status_8b_wrsr2
+ *fill*         0x40087069        0x3 
+ .text.spi_flash_chip_generic_set_io_mode
+                0x4008706c       0x18 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x4008706c                spi_flash_chip_generic_set_io_mode
+ .text.spi_flash_chip_generic_probe
+                0x40087084        0x7 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40087084                spi_flash_chip_generic_probe
+ *fill*         0x4008708b        0x1 
+ .text.spi_flash_chip_generic_reset
+                0x4008708c       0x4c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x4008708c                spi_flash_chip_generic_reset
+ *fill*         0x400870d8        0x0 
+ .text.spi_flash_chip_generic_erase_sector
+                0x400870d8       0x4c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x400870d8                spi_flash_chip_generic_erase_sector
+ .text.spi_flash_chip_generic_erase_block
+                0x40087124       0x4c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40087124                spi_flash_chip_generic_erase_block
+ .text.spi_flash_chip_generic_page_program
+                0x40087170       0x31 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40087170                spi_flash_chip_generic_page_program
+ *fill*         0x400871a1        0x3 
+ .text.spi_flash_chip_generic_write
+                0x400871a4       0x7a esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x400871a4                spi_flash_chip_generic_write
+ *fill*         0x4008721e        0x2 
+ .text.spi_flash_chip_generic_set_write_protect
+                0x40087220       0x3b esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x40087220                spi_flash_chip_generic_set_write_protect
+ *fill*         0x4008725b        0x1 
+ .text.spi_flash_common_read_qe_sr
+                0x4008725c       0x24 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+ .text.spi_flash_common_write_qe_sr
+                0x40087280       0x29 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+ *fill*         0x400872a9        0x0 
+ *fill*         0x400872a9        0x3 
+ .text.spi_flash_generic_wait_host_idle
+                0x400872ac       0x3a esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x400872ac                spi_flash_generic_wait_host_idle
+ *fill*         0x400872e6        0x0 
+ *fill*         0x400872e6        0x0 
+ *fill*         0x400872e6        0x0 
+ *fill*         0x400872e6        0x0 
+ *fill*         0x400872e6        0x0 
+ *fill*         0x400872e6        0x2 
+ .text.spi_flash_common_set_io_mode
+                0x400872e8       0x78 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x400872e8                spi_flash_common_set_io_mode
  *librtc.a:(.literal .literal.* .text .text.*)
  .text.coex_bt_high_prio
                 0x40087360      0x127 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/librtc.a(bt_bb.o)
@@ -17790,246 +17790,246 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
                                  0xe1 (size before relaxing)
                 0x40087498                temprature_sens_read
  *fill*         0x40087545        0x0 
- *libpp.a:(.wifirxiram .wifirxiram.*)
- *fill*         0x40087545        0x3 
- .wifirxiram.3  0x40087548      0x3a6 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(esf_buf.o)
-                                0x3c2 (size before relaxing)
-                0x40087570                esf_buf_alloc
- *fill*         0x400878ee        0x2 
- .wifirxiram.4  0x400878f0       0xf2 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(esf_buf.o)
-                                0x10e (size before relaxing)
-                0x400878f8                esf_buf_recycle
- *fill*         0x400879e2        0x2 
- .wifirxiram.4  0x400879e4       0x66 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
-                                 0x6e (size before relaxing)
- *fill*         0x40087a4a        0x2 
- .wifirxiram.3  0x40087a4c       0x2a C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
-                                 0x32 (size before relaxing)
-                0x40087a50                pm_sleep_for
- *fill*         0x40087a76        0x2 
- .wifirxiram.5  0x40087a78       0xfb C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
-                                0x107 (size before relaxing)
-                0x40087a88                pm_dream
- *fill*         0x40087b73        0x1 
- .wifirxiram.6  0x40087b74       0x25 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
-                                 0x30 (size before relaxing)
-                0x40087b74                pm_check_state
- *fill*         0x40087b99        0x3 
- .wifirxiram.7  0x40087b9c       0x63 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
-                                 0x72 (size before relaxing)
-                0x40087ba4                pm_rx_data_process
- *fill*         0x40087bff        0x1 
- .wifirxiram.8  0x40087c00       0x2b C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
-                                 0x3f (size before relaxing)
-                0x40087c00                pm_on_data_rx
- *fill*         0x40087c2b        0x1 
- .wifirxiram.5  0x40087c2c       0x42 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
-                                 0x46 (size before relaxing)
-                0x40087c30                ppProcessRxPktHdr
- *fill*         0x40087c6e        0x2 
- .wifirxiram.11
-                0x40087c70      0x114 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
-                                0x130 (size before relaxing)
-                0x40087c80                ppRxProtoProc
- .wifirxiram.20
-                0x40087d84       0x35 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
-                                 0x3d (size before relaxing)
-                0x40087d84                ppEnqueueRxq
- *fill*         0x40087db9        0x3 
- .wifirxiram.21
-                0x40087dbc       0x52 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
-                                 0x62 (size before relaxing)
-                0x40087dbc                ppDequeueRxq_Locked
- *fill*         0x40087e0e        0x2 
- .wifirxiram.13
-                0x40087e10      0x981 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
-                                0xa29 (size before relaxing)
-                0x40087e30                ppRxPkt
- *fill*         0x40088791        0x3 
- .wifirxiram.7  0x40088794       0x60 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
-                                 0x64 (size before relaxing)
-                0x4008879c                rc_get_trc
- .wifirxiram.13
-                0x400887f4      0x329 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(wdev.o)
-                                0x351 (size before relaxing)
-                0x40088824                wDev_Rxbuf_Init
- *fill*         0x40088b1d        0x3 
- .wifirxiram.21
-                0x40088b20      0x17c C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(wdev.o)
-                                0x1a4 (size before relaxing)
-                0x40088b38                wDev_AppendRxBlocks
- .wifirxiram.12
-                0x40088c9c      0xe9a C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(wdev.o)
-                                0xf76 (size before relaxing)
-                0x40088cf0                wdevProcessRxSucDataAll
- *fill*         0x40089b36        0x2 
- .wifirxiram.22
-                0x40089b38       0xc0 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(wdev.o)
-                                 0xd4 (size before relaxing)
-                0x40089b44                wDevCheckBlockError
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
- *fill*         0x40089bf8        0x0 
  *libpp.a:(.wifi0iram .wifi0iram.*)
- .wifi0iram.12  0x40089bf8       0x9c C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
+ *fill*         0x40087545        0x3 
+ .wifi0iram.12  0x40087548       0x9c C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
                                  0xb4 (size before relaxing)
- .wifi0iram.2   0x40089c94       0x11 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
+ .wifi0iram.2   0x400875e4       0x11 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
                                  0x15 (size before relaxing)
-                0x40089c94                GetAccess
- *fill*         0x40089ca5        0x3 
- .wifi0iram.3   0x40089ca8       0xb0 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
+                0x400875e4                GetAccess
+ *fill*         0x400875f5        0x3 
+ .wifi0iram.3   0x400875f8       0xb0 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
                                  0xe8 (size before relaxing)
-                0x40089ca8                lmacRecycleMPDU
- .wifi0iram.9   0x40089d58       0x5d C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
+                0x400875f8                lmacRecycleMPDU
+ .wifi0iram.9   0x400876a8       0x5d C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
                                  0x6d (size before relaxing)
-                0x40089d58                lmacMSDUAged
- *fill*         0x40089db5        0x3 
- .wifi0iram.11  0x40089db8      0x207 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
+                0x400876a8                lmacMSDUAged
+ *fill*         0x40087705        0x3 
+ .wifi0iram.11  0x40087708      0x207 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
                                 0x227 (size before relaxing)
-                0x40089dd0                lmacTxFrame
- *fill*         0x40089fbf        0x1 
- .wifi0iram.4   0x40089fc0      0x322 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
+                0x40087720                lmacTxFrame
+ *fill*         0x4008790f        0x1 
+ .wifi0iram.4   0x40087910      0x322 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
                                 0x352 (size before relaxing)
- *fill*         0x4008a2e2        0x2 
- .wifi0iram.13  0x4008a2e4       0x1c C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
+ *fill*         0x40087c32        0x2 
+ .wifi0iram.13  0x40087c34       0x1c C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(lmac.o)
                                  0x20 (size before relaxing)
-                0x4008a2e4                is_lmac_idle
- .wifi0iram.7   0x4008a300       0xb7 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x40087c34                is_lmac_idle
+ .wifi0iram.7   0x40087c50       0xb7 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                  0xc3 (size before relaxing)
-                0x4008a300                ppTxProtoProc
- *fill*         0x4008a3b7        0x1 
- .wifi0iram.23  0x4008a3b8      0x19d C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x40087c50                ppTxProtoProc
+ *fill*         0x40087d07        0x1 
+ .wifi0iram.23  0x40087d08      0x1a1 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x1a5 (size before relaxing)
-                0x4008a3b8                ppSearchTxQueue
- *fill*         0x4008a555        0x3 
- .wifi0iram.22  0x4008a558      0x120 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x40087d0c                ppSearchTxQueue
+ *fill*         0x40087ea9        0x3 
+ .wifi0iram.22  0x40087eac      0x120 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x134 (size before relaxing)
-                0x4008a560                ppSearchTxframe
- .wifi0iram.24  0x4008a678      0x1f6 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x40087eb4                ppSearchTxframe
+ .wifi0iram.24  0x40087fcc      0x1fa C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x222 (size before relaxing)
-                0x4008a688                ppMapTxQueue
- *fill*         0x4008a86e        0x2 
- .wifi0iram.26  0x4008a870      0x13f C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x40087fe0                ppMapTxQueue
+ *fill*         0x400881c6        0x2 
+ .wifi0iram.26  0x400881c8      0x14b C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x16b (size before relaxing)
-                0x4008a87c                ppProcTxSecFrame
- *fill*         0x4008a9af        0x1 
- .wifi0iram.27  0x4008a9b0       0x80 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x400881e0                ppProcTxSecFrame
+ *fill*         0x40088313        0x1 
+ .wifi0iram.27  0x40088314       0x80 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                  0x84 (size before relaxing)
-                0x4008a9c0                ppCalFrameTimes
- .wifi0iram.18  0x4008aa30      0x5fb C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x40088324                ppCalFrameTimes
+ .wifi0iram.18  0x40088394      0x5ff C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x63f (size before relaxing)
-                0x4008aa40                ppCalTxAMPDULength
- *fill*         0x4008b02b        0x1 
- .wifi0iram.10  0x4008b02c      0x23c C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x400883a8                ppCalTxAMPDULength
+ *fill*         0x40088993        0x1 
+ .wifi0iram.10  0x40088994      0x23c C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x288 (size before relaxing)
-                0x4008b038                ppProcessTxQ
- .wifi0iram.9   0x4008b268       0x42 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x400889a0                ppProcessTxQ
+ .wifi0iram.9   0x40088bd0       0x42 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                  0x46 (size before relaxing)
-                0x4008b270                ppProcessAllTxQ
- *fill*         0x4008b2aa        0x2 
- .wifi0iram.19  0x4008b2ac      0x587 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x40088bd8                ppProcessAllTxQ
+ *fill*         0x40088c12        0x2 
+ .wifi0iram.19  0x40088c14      0x587 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x602 (size before relaxing)
-                0x4008b2b4                ppResortTxAMPDU
- *fill*         0x4008b833        0x1 
- .wifi0iram.6   0x4008b834      0x292 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x40088c1c                ppResortTxAMPDU
+ *fill*         0x4008919b        0x1 
+ .wifi0iram.6   0x4008919c      0x292 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x2ce (size before relaxing)
-                0x4008b86c                ppTask
- *fill*         0x4008bac6        0x2 
- .wifi0iram.8   0x4008bac8      0x2b2 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                0x400891d4                ppTask
+ *fill*         0x4008942e        0x2 
+ .wifi0iram.8   0x40089430      0x2b2 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
                                 0x31a (size before relaxing)
-                0x4008bad4                ppTxPkt
- *fill*         0x4008bd7a        0x2 
- .wifi0iram.2   0x4008bd7c       0xd6 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
+                0x4008943c                ppTxPkt
+ *fill*         0x400896e2        0x2 
+ .wifi0iram.2   0x400896e4       0xd6 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
                                  0xe2 (size before relaxing)
-                0x4008bd80                rcUpdateTxDone
- *fill*         0x4008be52        0x2 
- .wifi0iram.3   0x4008be54      0x7de C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
+                0x400896e8                rcUpdateTxDone
+ *fill*         0x400897ba        0x2 
+ .wifi0iram.3   0x400897bc      0x7de C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
                                 0x84a (size before relaxing)
-                0x4008be80                rcUpdateTxDoneAmpdu2
- *fill*         0x4008c632        0x2 
- .wifi0iram.4   0x4008c634      0x468 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
+                0x400897e8                rcUpdateTxDoneAmpdu2
+ *fill*         0x40089f9a        0x2 
+ .wifi0iram.4   0x40089f9c      0x468 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
                                 0x484 (size before relaxing)
-                0x4008c66c                rcGetSched
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- *fill*         0x4008ca9c        0x0 
- .wifi0iram.5   0x4008ca9c       0x12 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
-                0x4008ca9c                trc_isTxAmpduOperational
- *fill*         0x4008caae        0x2 
- .wifi0iram.6   0x4008cab0       0x17 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
-                0x4008cab0                trc_tid_isTxAmpduOperational
- *libnet80211.a:(.wifirxiram .wifirxiram.*)
- *fill*         0x4008cac7        0x1 
- .wifirxiram.2  0x4008cac8       0x84 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_ht.o)
-                                 0x8c (size before relaxing)
- .wifirxiram.5  0x4008cb4c       0xe8 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_ht.o)
-                                 0xfc (size before relaxing)
- .wifirxiram.4  0x4008cc34       0x7f C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_ht.o)
-                                 0x93 (size before relaxing)
- *fill*         0x4008ccb3        0x1 
- .wifirxiram.6  0x4008ccb4      0x384 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_ht.o)
-                                0x3c4 (size before relaxing)
-                0x4008cccc                ieee80211_ampdu_reorder
- .wifirxiram.2  0x4008d038     0x180a C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_sta.o)
-                               0x18aa (size before relaxing)
-                0x4008d158                sta_input
- *fill*         0x4008e842        0x2 
- .wifirxiram.3  0x4008e844       0x18 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_sta.o)
-                                 0x20 (size before relaxing)
-                0x4008e844                sta_rx_cb
- *fill*         0x4008e85c        0x0 
- *fill*         0x4008e85c        0x0 
- *fill*         0x4008e85c        0x0 
+                0x40089fd4                rcGetSched
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ *fill*         0x4008a404        0x0 
+ .wifi0iram.5   0x4008a404       0x12 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
+                0x4008a404                trc_isTxAmpduOperational
+ *fill*         0x4008a416        0x2 
+ .wifi0iram.6   0x4008a418       0x17 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
+                0x4008a418                trc_tid_isTxAmpduOperational
+ *libpp.a:(.wifirxiram .wifirxiram.*)
+ *fill*         0x4008a42f        0x1 
+ .wifirxiram.3  0x4008a430      0x3a2 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(esf_buf.o)
+                                0x3c2 (size before relaxing)
+                0x4008a454                esf_buf_alloc
+ *fill*         0x4008a7d2        0x2 
+ .wifirxiram.4  0x4008a7d4       0xf2 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(esf_buf.o)
+                                0x10e (size before relaxing)
+                0x4008a7dc                esf_buf_recycle
+ *fill*         0x4008a8c6        0x2 
+ .wifirxiram.4  0x4008a8c8       0x66 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
+                                 0x6e (size before relaxing)
+ *fill*         0x4008a92e        0x2 
+ .wifirxiram.3  0x4008a930       0x2a C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
+                                 0x32 (size before relaxing)
+                0x4008a934                pm_sleep_for
+ *fill*         0x4008a95a        0x2 
+ .wifirxiram.5  0x4008a95c       0xfb C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
+                                0x107 (size before relaxing)
+                0x4008a96c                pm_dream
+ *fill*         0x4008aa57        0x1 
+ .wifirxiram.6  0x4008aa58       0x25 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
+                                 0x30 (size before relaxing)
+                0x4008aa58                pm_check_state
+ *fill*         0x4008aa7d        0x3 
+ .wifirxiram.7  0x4008aa80       0x63 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
+                                 0x72 (size before relaxing)
+                0x4008aa88                pm_rx_data_process
+ *fill*         0x4008aae3        0x1 
+ .wifirxiram.8  0x4008aae4       0x2b C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pm.o)
+                                 0x3f (size before relaxing)
+                0x4008aae4                pm_on_data_rx
+ *fill*         0x4008ab0f        0x1 
+ .wifirxiram.5  0x4008ab10       0x3e C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                                 0x46 (size before relaxing)
+                0x4008ab10                ppProcessRxPktHdr
+ *fill*         0x4008ab4e        0x2 
+ .wifirxiram.11
+                0x4008ab50      0x114 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                                0x130 (size before relaxing)
+                0x4008ab60                ppRxProtoProc
+ .wifirxiram.20
+                0x4008ac64       0x35 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                                 0x3d (size before relaxing)
+                0x4008ac64                ppEnqueueRxq
+ *fill*         0x4008ac99        0x3 
+ .wifirxiram.21
+                0x4008ac9c       0x52 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                                 0x62 (size before relaxing)
+                0x4008ac9c                ppDequeueRxq_Locked
+ *fill*         0x4008acee        0x2 
+ .wifirxiram.13
+                0x4008acf0      0x979 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(pp.o)
+                                0xa29 (size before relaxing)
+                0x4008ad08                ppRxPkt
+ *fill*         0x4008b669        0x3 
+ .wifirxiram.7  0x4008b66c       0x60 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(trc.o)
+                                 0x64 (size before relaxing)
+                0x4008b674                rc_get_trc
+ .wifirxiram.13
+                0x4008b6cc      0x325 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(wdev.o)
+                                0x351 (size before relaxing)
+                0x4008b6f8                wDev_Rxbuf_Init
+ *fill*         0x4008b9f1        0x3 
+ .wifirxiram.21
+                0x4008b9f4      0x17c C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(wdev.o)
+                                0x1a4 (size before relaxing)
+                0x4008ba0c                wDev_AppendRxBlocks
+ .wifirxiram.12
+                0x4008bb70      0xe96 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(wdev.o)
+                                0xf76 (size before relaxing)
+                0x4008bbc0                wdevProcessRxSucDataAll
+ *fill*         0x4008ca06        0x2 
+ .wifirxiram.22
+                0x4008ca08       0xc0 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libpp.a(wdev.o)
+                                 0xd4 (size before relaxing)
+                0x4008ca14                wDevCheckBlockError
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
+ *fill*         0x4008cac8        0x0 
  *libnet80211.a:(.wifi0iram .wifi0iram.*)
- .wifi0iram.2   0x4008e85c      0xd5e C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_output.o)
+ .wifi0iram.2   0x4008cac8      0xd6a C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_output.o)
                                 0xe12 (size before relaxing)
-                0x4008e8b4                ieee80211_output_process
- *fill*         0x4008f5ba        0x2 
- .wifi0iram.2   0x4008f5bc       0x1a C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(wl_chm.o)
-                                 0x1e (size before relaxing)
-                0x4008f5bc                chm_is_at_home_channel
- *fill*         0x4008f5d6        0x2 
- .wifi0iram.3   0x4008f5d8       0x99 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(wl_cnx.o)
+                0x4008cb2c                ieee80211_output_process
+ *fill*         0x4008d832        0x2 
+ .wifi0iram.2   0x4008d834       0x1e C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(wl_chm.o)
+                0x4008d838                chm_is_at_home_channel
+ *fill*         0x4008d852        0x2 
+ .wifi0iram.3   0x4008d854       0x99 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(wl_cnx.o)
                                  0xa5 (size before relaxing)
-                0x4008f5ec                cnx_node_search
- *fill*         0x4008f671        0x3 
- .wifi0iram.4   0x4008f674       0x6d C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(wl_cnx.o)
+                0x4008d868                cnx_node_search
+ *fill*         0x4008d8ed        0x3 
+ .wifi0iram.4   0x4008d8f0       0x6d C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(wl_cnx.o)
                                  0x85 (size before relaxing)
-                0x4008f678                cnx_node_is_existing
- *fill*         0x4008f6e1        0x0 
- *fill*         0x4008f6e1        0x0 
- *fill*         0x4008f6e1        0x0 
- *libesp_event.a:default_event_loop.*(.literal.esp_event_isr_post .text.esp_event_isr_post)
+                0x4008d8f4                cnx_node_is_existing
+ *fill*         0x4008d95d        0x0 
+ *fill*         0x4008d95d        0x0 
+ *fill*         0x4008d95d        0x0 
+ *libnet80211.a:(.wifirxiram .wifirxiram.*)
+ *fill*         0x4008d95d        0x3 
+ .wifirxiram.2  0x4008d960       0x80 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_ht.o)
+                                 0x8c (size before relaxing)
+ .wifirxiram.5  0x4008d9e0       0xe8 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_ht.o)
+                                 0xfc (size before relaxing)
+ .wifirxiram.4  0x4008dac8       0x7f C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_ht.o)
+                                 0x93 (size before relaxing)
+ *fill*         0x4008db47        0x1 
+ .wifirxiram.6  0x4008db48      0x380 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_ht.o)
+                                0x3c4 (size before relaxing)
+                0x4008db5c                ieee80211_ampdu_reorder
+ .wifirxiram.2  0x4008dec8     0x1802 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_sta.o)
+                               0x18aa (size before relaxing)
+                0x4008dfe0                sta_input
+ *fill*         0x4008f6ca        0x2 
+ .wifirxiram.3  0x4008f6cc       0x18 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libnet80211.a(ieee80211_sta.o)
+                                 0x20 (size before relaxing)
+                0x4008f6cc                sta_rx_cb
+ *fill*         0x4008f6e4        0x0 
+ *fill*         0x4008f6e4        0x0 
+ *fill*         0x4008f6e4        0x0 
  *libesp_event.a:esp_event.*(.literal.esp_event_isr_post_to .text.esp_event_isr_post_to)
+ *libesp_event.a:default_event_loop.*(.literal.esp_event_isr_post .text.esp_event_isr_post)
+ *libespcoredump.a:core_dump_uart.*(.literal .literal.* .text .text.*)
  *libespcoredump.a:core_dump_port.*(.literal .literal.* .text .text.*)
  *libespcoredump.a:core_dump_common.*(.literal .literal.* .text .text.*)
  *libespcoredump.a:core_dump_flash.*(.literal .literal.* .text .text.*)
- *libespcoredump.a:core_dump_uart.*(.literal .literal.* .text .text.*)
  *libesp32.a:panic.*(.literal .literal.* .text .text.*)
- *fill*         0x4008f6e1        0x3 
  .text.panicPutChar
                 0x4008f6e4       0x1e esp-idf/esp32/libesp32.a(panic.c.obj)
  *fill*         0x4008f702        0x2 
@@ -18105,7 +18105,6 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  *fill*         0x4008fe56        0x0 
  *fill*         0x4008fe56        0x0 
  *fill*         0x4008fe56        0x0 
- *fill*         0x4008fe56        0x0 
  *fill*         0x4008fe56        0x2 
  .text.setFirstBreakpoint
                 0x4008fe58       0x13 esp-idf/esp32/libesp32.a(panic.c.obj)
@@ -18120,13 +18119,13 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  *fill*         0x4008fe6b        0x0 
  *fill*         0x4008fe6b        0x0 
  *fill*         0x4008fe6b        0x0 
- *libgcc.a:_divsf3.*(.literal .literal.* .text .text.*)
  *libgcc.a:lib2funcs.*(.literal .literal.* .text .text.*)
  *fill*         0x4008fe6b        0x1 
  .text          0x4008fe6c       0x68 c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(lib2funcs.o)
                 0x4008fe6c                __xtensa_libgcc_window_spill
                 0x4008fe8c                __xtensa_nonlocal_goto
                 0x4008fecc                __xtensa_sync_caches
+ *libgcc.a:_divsf3.*(.literal .literal.* .text .text.*)
  *libgcov.a:(.literal .literal.* .text .text.*)
  *libxtensa.a:eri.*(.literal .literal.* .text .text.*)
  .text.eri_write
@@ -18150,238 +18149,238 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  *fill*         0x400900a2        0x2 
  .text          0x400900a4       0x3e C:/Users/ryan/Documents/esp-idf/components/xtensa/esp32/libhal.a(state_asm--save_extra_nw.o)
                 0x400900a4                xthal_save_extra_nw
- *libsoc.a:spi_flash_hal_iram.*(.literal .literal.* .text .text.*)
- *fill*         0x400900e2        0x2 
- .text.spi_flash_hal_device_config
-                0x400900e4       0x84 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x400900e4                spi_flash_hal_device_config
- .text.spi_flash_hal_configure_host_io_mode
-                0x40090168      0x1b4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x40090168                spi_flash_hal_configure_host_io_mode
- .text.spi_flash_hal_common_command
-                0x4009031c      0x141 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x4009031c                spi_flash_hal_common_command
- *fill*         0x4009045d        0x3 
- .text.spi_flash_hal_erase_chip
-                0x40090460       0x22 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x40090460                spi_flash_hal_erase_chip
- *fill*         0x40090482        0x2 
- .text.spi_flash_hal_erase_sector
-                0x40090484       0x5a esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x40090484                spi_flash_hal_erase_sector
- *fill*         0x400904de        0x2 
- .text.spi_flash_hal_erase_block
-                0x400904e0       0x52 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x400904e0                spi_flash_hal_erase_block
- *fill*         0x40090532        0x2 
- .text.spi_flash_hal_program_page
-                0x40090534       0xa7 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x40090534                spi_flash_hal_program_page
- *fill*         0x400905db        0x1 
- .text.spi_flash_hal_read
-                0x400905dc       0xcb esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x400905dc                spi_flash_hal_read
- *fill*         0x400906a7        0x1 
- .text.spi_flash_hal_host_idle
-                0x400906a8       0x3a esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x400906a8                spi_flash_hal_host_idle
- *fill*         0x400906e2        0x2 
- .text.spi_flash_hal_set_write_protect
-                0x400906e4       0x40 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x400906e4                spi_flash_hal_set_write_protect
- *fill*         0x40090724        0x0 
- .text.spi_flash_hal_poll_cmd_done
-                0x40090724       0x11 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
-                0x40090724                spi_flash_hal_poll_cmd_done
- *fill*         0x40090735        0x0 
- *fill*         0x40090735        0x0 
- *fill*         0x40090735        0x0 
- *fill*         0x40090735        0x0 
- *fill*         0x40090735        0x0 
- *fill*         0x40090735        0x0 
- *fill*         0x40090735        0x0 
- *fill*         0x40090735        0x0 
- *libsoc.a:spi_hal_iram.*(.literal .literal.* .text .text.*)
- *libsoc.a:spi_slave_hal_iram.*(.literal .literal.* .text .text.*)
- *libsoc.a:lldesc.*(.literal .literal.* .text .text.*)
- *libsoc.a:rtc_clk_init.*(.literal .literal.* .text .text.*)
- *libsoc.a:rtc_pm.*(.literal .literal.* .text .text.*)
- *libsoc.a:rtc_periph.*(.literal .literal.* .text .text.*)
- *libsoc.a:rtc_wdt.*(.literal .literal.* .text .text.*)
- *fill*         0x40090735        0x3 
- .text.rtc_wdt_get_protect_status
-                0x40090738       0x1b esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x40090738                rtc_wdt_get_protect_status
- *fill*         0x40090753        0x1 
- .text.rtc_wdt_protect_off
-                0x40090754       0x10 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x40090754                rtc_wdt_protect_off
- .text.rtc_wdt_protect_on
-                0x40090764        0xf esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x40090764                rtc_wdt_protect_on
- *fill*         0x40090773        0x1 
- .text.rtc_wdt_enable
-                0x40090774       0x2b esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x40090774                rtc_wdt_enable
- *fill*         0x4009079f        0x1 
- .text.rtc_wdt_flashboot_mode_enable
-                0x400907a0       0x18 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x400907a0                rtc_wdt_flashboot_mode_enable
- .text.rtc_wdt_feed
-                0x400907b8       0x2a esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                                 0x32 (size before relaxing)
-                0x400907b8                rtc_wdt_feed
- *fill*         0x400907e2        0x2 
- .text.rtc_wdt_set_time
-                0x400907e4       0x61 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x400907e4                rtc_wdt_set_time
- *fill*         0x40090845        0x3 
- .text.rtc_wdt_set_stage
-                0x40090848       0xc1 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x40090848                rtc_wdt_set_stage
- *fill*         0x40090909        0x3 
- .text.rtc_wdt_disable
-                0x4009090c       0x6a esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                                 0x7e (size before relaxing)
-                0x4009090c                rtc_wdt_disable
- *fill*         0x40090976        0x2 
- .text.rtc_wdt_set_length_of_reset_signal
-                0x40090978       0x71 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x40090978                rtc_wdt_set_length_of_reset_signal
- *fill*         0x400909e9        0x3 
- .text.rtc_wdt_is_on
-                0x400909ec       0x28 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
-                0x400909ec                rtc_wdt_is_on
- *fill*         0x40090a14        0x0 
- *fill*         0x40090a14        0x0 
- *fill*         0x40090a14        0x0 
- *fill*         0x40090a14        0x0 
- *fill*         0x40090a14        0x0 
- *fill*         0x40090a14        0x0 
- *fill*         0x40090a14        0x0 
- *fill*         0x40090a14        0x0 
- *libsoc.a:rtc_time.*(.literal .literal.* .text .text.*)
- .text.rtc_clk_cal_internal
-                0x40090a14      0x1d4 esp-idf/soc/libsoc.a(rtc_time.c.obj)
-                                0x1dc (size before relaxing)
- .text.rtc_clk_cal
-                0x40090be8       0x4e esp-idf/soc/libsoc.a(rtc_time.c.obj)
-                                 0x52 (size before relaxing)
-                0x40090be8                rtc_clk_cal
- *fill*         0x40090c36        0x2 
- .text.rtc_time_get
-                0x40090c38       0x50 esp-idf/soc/libsoc.a(rtc_time.c.obj)
-                0x40090c38                rtc_time_get
- .text.rtc_clk_wait_for_slow_cycle
-                0x40090c88       0x79 esp-idf/soc/libsoc.a(rtc_time.c.obj)
-                0x40090c88                rtc_clk_wait_for_slow_cycle
- *fill*         0x40090d01        0x0 
  *libsoc.a:rtc_clk.*(.literal .literal.* .text .text.*)
- *fill*         0x40090d01        0x3 
+ *fill*         0x400900e2        0x2 
  .text.rtc_clk_32k_enable_common
-                0x40090d04       0x88 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x400900e4       0x88 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
  .text.rtc_clk_bbpll_disable
-                0x40090d8c       0x3e esp-idf/soc/libsoc.a(rtc_clk.c.obj)
- *fill*         0x40090dca        0x2 
+                0x4009016c       0x3e esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+ *fill*         0x400901aa        0x2 
  .text.rtc_clk_bbpll_enable
-                0x40090dcc       0x66 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
- *fill*         0x40090e32        0x2 
+                0x400901ac       0x66 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+ *fill*         0x40090212        0x2 
  .text.rtc_clk_32k_enable
-                0x40090e34       0x3d esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x40090e34                rtc_clk_32k_enable
- *fill*         0x40090e71        0x3 
+                0x40090214       0x3d esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090214                rtc_clk_32k_enable
+ *fill*         0x40090251        0x3 
  .text.rtc_clk_32k_enable_external
-                0x40090e74        0xe esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090254        0xe esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x12 (size before relaxing)
-                0x40090e74                rtc_clk_32k_enable_external
- *fill*         0x40090e82        0x2 
+                0x40090254                rtc_clk_32k_enable_external
+ *fill*         0x40090262        0x2 
  .text.rtc_clk_8m_enable
-                0x40090e84       0x9c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x40090e84                rtc_clk_8m_enable
+                0x40090264       0x9c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090264                rtc_clk_8m_enable
  .text.rtc_clk_slow_freq_set
-                0x40090f20       0x48 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x40090f20                rtc_clk_slow_freq_set
+                0x40090300       0x48 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090300                rtc_clk_slow_freq_set
  .text.rtc_clk_slow_freq_get
-                0x40090f68       0x10 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x40090f68                rtc_clk_slow_freq_get
+                0x40090348       0x10 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090348                rtc_clk_slow_freq_get
  .text.rtc_clk_slow_freq_get_hz
-                0x40090f78       0x29 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090358       0x29 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x2d (size before relaxing)
-                0x40090f78                rtc_clk_slow_freq_get_hz
- *fill*         0x40090fa1        0x3 
+                0x40090358                rtc_clk_slow_freq_get_hz
+ *fill*         0x40090381        0x3 
  .text.rtc_clk_fast_freq_set
-                0x40090fa4       0x2c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x40090fa4                rtc_clk_fast_freq_set
+                0x40090384       0x2c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090384                rtc_clk_fast_freq_set
  .text.rtc_clk_bbpll_configure
-                0x40090fd0      0x19d esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x400903b0      0x19d esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                 0x1a1 (size before relaxing)
-                0x40090fd0                rtc_clk_bbpll_configure
- *fill*         0x4009116d        0x3 
+                0x400903b0                rtc_clk_bbpll_configure
+ *fill*         0x4009054d        0x3 
  .text.rtc_clk_xtal_freq_get
-                0x40091170       0x36 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x40091170                rtc_clk_xtal_freq_get
-                0x40091170                rtc_get_xtal
- *fill*         0x400911a6        0x2 
+                0x40090550       0x36 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090550                rtc_clk_xtal_freq_get
+                0x40090550                rtc_get_xtal
+ *fill*         0x40090586        0x2 
  .text.rtc_clk_cpu_freq_mhz_to_config
-                0x400911a8       0x64 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x400911a8                rtc_clk_cpu_freq_mhz_to_config
+                0x40090588       0x64 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090588                rtc_clk_cpu_freq_mhz_to_config
  .text.rtc_clk_cpu_freq_get_config
-                0x4009120c       0xa6 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x400905ec       0xa6 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0xb6 (size before relaxing)
-                0x4009120c                rtc_clk_cpu_freq_get_config
- *fill*         0x400912b2        0x2 
+                0x400905ec                rtc_clk_cpu_freq_get_config
+ *fill*         0x40090692        0x2 
  .text.rtc_clk_apb_freq_update
-                0x400912b4       0x19 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x400912b4                rtc_clk_apb_freq_update
- *fill*         0x400912cd        0x3 
+                0x40090694       0x19 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090694                rtc_clk_apb_freq_update
+ *fill*         0x400906ad        0x3 
  .text.rtc_clk_cpu_freq_to_xtal
-                0x400912d0       0x87 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x400906b0       0x87 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x8b (size before relaxing)
-                0x400912d0                rtc_clk_cpu_freq_to_xtal
- *fill*         0x40091357        0x1 
+                0x400906b0                rtc_clk_cpu_freq_to_xtal
+ *fill*         0x40090737        0x1 
  .text.rtc_clk_cpu_freq_set_xtal
-                0x40091358       0x13 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090738       0x13 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x1f (size before relaxing)
-                0x40091358                rtc_clk_cpu_freq_set_xtal
- *fill*         0x4009136b        0x1 
+                0x40090738                rtc_clk_cpu_freq_set_xtal
+ *fill*         0x4009074b        0x1 
  .text.rtc_clk_cpu_freq_to_pll_mhz
-                0x4009136c       0x9c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x4009074c       0x9c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0xa8 (size before relaxing)
  .text.rtc_clk_cpu_freq_to_8m
-                0x40091408       0x58 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x400907e8       0x58 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x5c (size before relaxing)
  .text.rtc_clk_cpu_freq_set_config
-                0x40091460       0x5c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x40090840       0x5c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
                                  0x77 (size before relaxing)
-                0x40091460                rtc_clk_cpu_freq_set_config
- *fill*         0x400914bc        0x0 
+                0x40090840                rtc_clk_cpu_freq_set_config
+ *fill*         0x4009089c        0x0 
  .text.rtc_clk_apb_freq_get
-                0x400914bc       0x2a esp-idf/soc/libsoc.a(rtc_clk.c.obj)
-                0x400914bc                rtc_clk_apb_freq_get
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *fill*         0x400914e6        0x0 
- *libsoc.a:rtc_sleep.*(.literal .literal.* .text .text.*)
- *libsoc.a:rtc_init.*(.literal .literal.* .text .text.*)
- *fill*         0x400914e6        0x2 
- .text.rtc_init
-                0x400914e8      0x344 esp-idf/soc/libsoc.a(rtc_init.c.obj)
-                                0x368 (size before relaxing)
-                0x400914e8                rtc_init
- *fill*         0x4009182c        0x0 
+                0x4009089c       0x2a esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x4009089c                rtc_clk_apb_freq_get
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *fill*         0x400908c6        0x0 
+ *libsoc.a:lldesc.*(.literal .literal.* .text .text.*)
  *libsoc.a:cpu_util.*(.literal .literal.* .text .text.*)
+ *libsoc.a:rtc_sleep.*(.literal .literal.* .text .text.*)
+ *libsoc.a:spi_slave_hal_iram.*(.literal .literal.* .text .text.*)
+ *libsoc.a:rtc_time.*(.literal .literal.* .text .text.*)
+ *fill*         0x400908c6        0x2 
+ .text.rtc_clk_cal_internal
+                0x400908c8      0x1d4 esp-idf/soc/libsoc.a(rtc_time.c.obj)
+                                0x1dc (size before relaxing)
+ .text.rtc_clk_cal
+                0x40090a9c       0x4e esp-idf/soc/libsoc.a(rtc_time.c.obj)
+                                 0x52 (size before relaxing)
+                0x40090a9c                rtc_clk_cal
+ *fill*         0x40090aea        0x2 
+ .text.rtc_time_get
+                0x40090aec       0x50 esp-idf/soc/libsoc.a(rtc_time.c.obj)
+                0x40090aec                rtc_time_get
+ .text.rtc_clk_wait_for_slow_cycle
+                0x40090b3c       0x79 esp-idf/soc/libsoc.a(rtc_time.c.obj)
+                0x40090b3c                rtc_clk_wait_for_slow_cycle
+ *fill*         0x40090bb5        0x0 
+ *fill*         0x40090bb5        0x0 
+ *libsoc.a:rtc_init.*(.literal .literal.* .text .text.*)
+ *fill*         0x40090bb5        0x3 
+ .text.rtc_init
+                0x40090bb8      0x344 esp-idf/soc/libsoc.a(rtc_init.c.obj)
+                                0x368 (size before relaxing)
+                0x40090bb8                rtc_init
+ *fill*         0x40090efc        0x0 
+ *libsoc.a:rtc_periph.*(.literal .literal.* .text .text.*)
+ *libsoc.a:rtc_wdt.*(.literal .literal.* .text .text.*)
+ .text.rtc_wdt_get_protect_status
+                0x40090efc       0x1b esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x40090efc                rtc_wdt_get_protect_status
+ *fill*         0x40090f17        0x1 
+ .text.rtc_wdt_protect_off
+                0x40090f18       0x10 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x40090f18                rtc_wdt_protect_off
+ .text.rtc_wdt_protect_on
+                0x40090f28        0xf esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x40090f28                rtc_wdt_protect_on
+ *fill*         0x40090f37        0x1 
+ .text.rtc_wdt_enable
+                0x40090f38       0x2b esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x40090f38                rtc_wdt_enable
+ *fill*         0x40090f63        0x1 
+ .text.rtc_wdt_flashboot_mode_enable
+                0x40090f64       0x18 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x40090f64                rtc_wdt_flashboot_mode_enable
+ .text.rtc_wdt_feed
+                0x40090f7c       0x2a esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                 0x32 (size before relaxing)
+                0x40090f7c                rtc_wdt_feed
+ *fill*         0x40090fa6        0x2 
+ .text.rtc_wdt_set_time
+                0x40090fa8       0x61 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x40090fa8                rtc_wdt_set_time
+ *fill*         0x40091009        0x3 
+ .text.rtc_wdt_set_stage
+                0x4009100c       0xc1 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x4009100c                rtc_wdt_set_stage
+ *fill*         0x400910cd        0x3 
+ .text.rtc_wdt_disable
+                0x400910d0       0x6a esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                                 0x7e (size before relaxing)
+                0x400910d0                rtc_wdt_disable
+ *fill*         0x4009113a        0x2 
+ .text.rtc_wdt_set_length_of_reset_signal
+                0x4009113c       0x71 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x4009113c                rtc_wdt_set_length_of_reset_signal
+ *fill*         0x400911ad        0x3 
+ .text.rtc_wdt_is_on
+                0x400911b0       0x28 esp-idf/soc/libsoc.a(rtc_wdt.c.obj)
+                0x400911b0                rtc_wdt_is_on
+ *fill*         0x400911d8        0x0 
+ *fill*         0x400911d8        0x0 
+ *fill*         0x400911d8        0x0 
+ *fill*         0x400911d8        0x0 
+ *fill*         0x400911d8        0x0 
+ *fill*         0x400911d8        0x0 
+ *fill*         0x400911d8        0x0 
+ *fill*         0x400911d8        0x0 
+ *libsoc.a:rtc_pm.*(.literal .literal.* .text .text.*)
+ *libsoc.a:spi_hal_iram.*(.literal .literal.* .text .text.*)
+ *libsoc.a:spi_flash_hal_iram.*(.literal .literal.* .text .text.*)
+ .text.spi_flash_hal_device_config
+                0x400911d8       0x84 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x400911d8                spi_flash_hal_device_config
+ .text.spi_flash_hal_configure_host_io_mode
+                0x4009125c      0x1b4 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x4009125c                spi_flash_hal_configure_host_io_mode
+ .text.spi_flash_hal_common_command
+                0x40091410      0x141 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x40091410                spi_flash_hal_common_command
+ *fill*         0x40091551        0x3 
+ .text.spi_flash_hal_erase_chip
+                0x40091554       0x22 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x40091554                spi_flash_hal_erase_chip
+ *fill*         0x40091576        0x2 
+ .text.spi_flash_hal_erase_sector
+                0x40091578       0x5a esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x40091578                spi_flash_hal_erase_sector
+ *fill*         0x400915d2        0x2 
+ .text.spi_flash_hal_erase_block
+                0x400915d4       0x52 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x400915d4                spi_flash_hal_erase_block
+ *fill*         0x40091626        0x2 
+ .text.spi_flash_hal_program_page
+                0x40091628       0xa7 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x40091628                spi_flash_hal_program_page
+ *fill*         0x400916cf        0x1 
+ .text.spi_flash_hal_read
+                0x400916d0       0xcb esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x400916d0                spi_flash_hal_read
+ *fill*         0x4009179b        0x1 
+ .text.spi_flash_hal_host_idle
+                0x4009179c       0x3a esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x4009179c                spi_flash_hal_host_idle
+ *fill*         0x400917d6        0x2 
+ .text.spi_flash_hal_set_write_protect
+                0x400917d8       0x40 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x400917d8                spi_flash_hal_set_write_protect
+ .text.spi_flash_hal_poll_cmd_done
+                0x40091818       0x11 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
+                0x40091818                spi_flash_hal_poll_cmd_done
+ *fill*         0x40091829        0x0 
+ *fill*         0x40091829        0x0 
+ *fill*         0x40091829        0x0 
+ *fill*         0x40091829        0x0 
+ *fill*         0x40091829        0x0 
+ *fill*         0x40091829        0x0 
+ *fill*         0x40091829        0x0 
+ *fill*         0x40091829        0x0 
+ *libsoc.a:rtc_clk_init.*(.literal .literal.* .text .text.*)
  *libheap.a:multi_heap_poisoning.*(.literal .literal.* .text .text.*)
  *libheap.a:multi_heap.*(.literal .literal.* .text .text.*)
+ *fill*         0x40091829        0x3 
  .text.get_prev_free_block
                 0x4009182c       0x6f esp-idf/heap/libheap.a(multi_heap.c.obj)
                                  0x7a (size before relaxing)
@@ -19007,11 +19006,11 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  .text.newlib_include_heap_impl
                 0x400950c4        0x5 esp-idf/newlib/libnewlib.a(heap.c.obj)
                 0x400950c4                newlib_include_heap_impl
+ *libapp_trace.a:app_trace.*(.literal .literal.* .text .text.*)
  *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.*(.literal .literal.* .text .text.*)
+ *libapp_trace.a:SEGGER_RTT_esp32.*(.literal .literal.* .text .text.*)
  *libapp_trace.a:SEGGER_SYSVIEW.*(.literal .literal.* .text .text.*)
  *libapp_trace.a:app_trace_util.*(.literal .literal.* .text .text.*)
- *libapp_trace.a:app_trace.*(.literal .literal.* .text .text.*)
- *libapp_trace.a:SEGGER_RTT_esp32.*(.literal .literal.* .text .text.*)
  *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.*(.literal .literal.* .text .text.*)
  *libesp_gdbstub.a:(.literal .literal.* .text .text.*)
                 0x400950c9                _iram_text_end = ABSOLUTE (.)
@@ -19366,34 +19365,34 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
                 0x3ffb20c8                esp_flash_chip_issi
  .rodata.chip_name
                 0x3ffb2124        0x5 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_issi.c.obj)
- *libspi_flash.a:spi_flash_chip_generic.*(.rodata .rodata.*)
- *fill*         0x3ffb2129        0x3 
- .rodata.spi_flash_chip_generic_get_write_protect.str1.4
-                0x3ffb212c       0x66 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
- *fill*         0x3ffb2192        0x2 
- .rodata.spi_flash_chip_generic_config_host_io_mode
-                0x3ffb2194       0x18 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
- .rodata.__func__$3625
-                0x3ffb21ac       0x29 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
- *fill*         0x3ffb21d5        0x3 
- .rodata.esp_flash_chip_generic
-                0x3ffb21d8       0x5c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
-                0x3ffb21d8                esp_flash_chip_generic
- .rodata.chip_name
-                0x3ffb2234        0x8 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
- *libspi_flash.a:memspi_host_driver.*(.rodata .rodata.*)
- .rodata.memspi_host_read_id_hs.str1.4
-                0x3ffb223c       0x24 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
- .rodata.TAG    0x3ffb2260        0x7 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
  *libspi_flash.a:spi_flash_chip_gd.*(.rodata .rodata.*)
- *fill*         0x3ffb2267        0x1 
+ *fill*         0x3ffb2129        0x3 
  .rodata.esp_flash_chip_gd
-                0x3ffb2268       0x5c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
-                0x3ffb2268                esp_flash_chip_gd
+                0x3ffb212c       0x5c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+                0x3ffb212c                esp_flash_chip_gd
  .rodata.chip_name
-                0x3ffb22c4        0x3 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+                0x3ffb2188        0x3 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_gd.c.obj)
+ *libspi_flash.a:memspi_host_driver.*(.rodata .rodata.*)
+ *fill*         0x3ffb218b        0x1 
+ .rodata.memspi_host_read_id_hs.str1.4
+                0x3ffb218c       0x24 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
+ .rodata.TAG    0x3ffb21b0        0x7 esp-idf/spi_flash/libspi_flash.a(memspi_host_driver.c.obj)
+ *libspi_flash.a:spi_flash_chip_generic.*(.rodata .rodata.*)
+ *fill*         0x3ffb21b7        0x1 
+ .rodata.spi_flash_chip_generic_get_write_protect.str1.4
+                0x3ffb21b8       0x66 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+ *fill*         0x3ffb221e        0x2 
+ .rodata.spi_flash_chip_generic_config_host_io_mode
+                0x3ffb2220       0x18 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+ .rodata.__func__$3625
+                0x3ffb2238       0x29 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+ *fill*         0x3ffb2261        0x3 
+ .rodata.esp_flash_chip_generic
+                0x3ffb2264       0x5c esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
+                0x3ffb2264                esp_flash_chip_generic
+ .rodata.chip_name
+                0x3ffb22c0        0x8 esp-idf/spi_flash/libspi_flash.a(spi_flash_chip_generic.c.obj)
  *libphy.a:(.rodata .rodata.*)
- *fill*         0x3ffb22c7        0x1 
  .rodata.str1.4
                 0x3ffb22c8       0x44 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libphy.a(phy_chip_v7_ana.o)
                                  0x48 (size before relaxing)
@@ -19434,8 +19433,8 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
                 0x3ffb28a8        0x8 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libphy.a(phy_chip_v7_cal.o)
  .rodata.dco_gain_coarse$4685
                 0x3ffb28b0        0x6 C:/Users/ryan/Documents/esp-idf/components/esp_wifi/lib_esp32/libphy.a(phy_chip_v7_cal.o)
- *libesp_event.a:default_event_loop.*(.rodata.esp_event_isr_post)
  *libesp_event.a:esp_event.*(.rodata.esp_event_isr_post_to)
+ *libesp_event.a:default_event_loop.*(.rodata.esp_event_isr_post)
  *libesp32.a:panic.*(.rodata .rodata.*)
  *fill*         0x3ffb28b6        0x2 
  .rodata.illegal_instruction_helper.str1.4
@@ -19478,20 +19477,20 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  .rodata.edesc  0x3ffb3000       0xa0 esp-idf/esp32/libesp32.a(panic.c.obj)
  *libgcc.a:_divsf3.*(.rodata .rodata.*)
  *libgcov.a:(.rodata .rodata.*)
- *libsoc.a:spi_flash_hal_iram.*(.rodata .rodata.*)
- .rodata.spi_flash_hal_configure_host_io_mode
-                0x3ffb30a0       0x18 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
  *libsoc.a:rtc_clk.*(.rodata .rodata.*)
  .rodata.rtc_clk_cpu_freq_to_config.str1.4
-                0x3ffb30b8       0x3c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x3ffb30a0       0x3c esp-idf/soc/libsoc.a(rtc_clk.c.obj)
  .rodata.rtc_clk_cpu_freq_get_config.str1.4
-                0x3ffb30f4       0x3b esp-idf/soc/libsoc.a(rtc_clk.c.obj)
- *fill*         0x3ffb312f        0x1 
+                0x3ffb30dc       0x3b esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+ *fill*         0x3ffb3117        0x1 
  .rodata.rtc_clk_cpu_freq_to_pll_mhz.str1.4
-                0x3ffb3130       0x29 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+                0x3ffb3118       0x29 esp-idf/soc/libsoc.a(rtc_clk.c.obj)
+ *libsoc.a:spi_flash_hal_iram.*(.rodata .rodata.*)
+ *fill*         0x3ffb3141        0x3 
+ .rodata.spi_flash_hal_configure_host_io_mode
+                0x3ffb3144       0x18 esp-idf/soc/libsoc.a(spi_flash_hal_iram.c.obj)
  *libheap.a:multi_heap_poisoning.*(.rodata .rodata.*)
  *libheap.a:multi_heap.*(.rodata .rodata.*)
- *fill*         0x3ffb3159        0x3 
  .rodata.get_prev_free_block.str1.4
                 0x3ffb315c       0x92 esp-idf/heap/libheap.a(multi_heap.c.obj)
  *fill*         0x3ffb31ee        0x2 
@@ -19517,11 +19516,11 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  .rodata.__func__$4469
                 0x3ffb3288        0xf esp-idf/heap/libheap.a(multi_heap.c.obj)
  *libnewlib.a:heap.*(.rodata .rodata.*)
+ *libapp_trace.a:app_trace.*(.rodata .rodata.*)
  *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.*(.rodata .rodata.*)
+ *libapp_trace.a:SEGGER_RTT_esp32.*(.rodata .rodata.*)
  *libapp_trace.a:SEGGER_SYSVIEW.*(.rodata .rodata.*)
  *libapp_trace.a:app_trace_util.*(.rodata .rodata.*)
- *libapp_trace.a:app_trace.*(.rodata .rodata.*)
- *libapp_trace.a:SEGGER_RTT_esp32.*(.rodata .rodata.*)
  *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.*(.rodata .rodata.*)
  *libesp_gdbstub.a:(.rodata .rodata.*)
                 0x3ffb3297                _data_end = ABSOLUTE (.)
@@ -20403,7 +20402,7 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  .rodata_desc   0x3f400020      0x100 esp-idf/app_update/libapp_update.a(esp_app_desc.c.obj)
                 0x3f400020                esp_app_desc
  *(.rodata_custom_desc .rodata_custom_desc.*)
- *(EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk.* *libgcov.a *libgcc.a:_divsf3.* *libesp32.a:panic.* *libphy.a *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_gd.*) .rodata EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk.* *libgcov.a *libgcc.a:_divsf3.* *libesp32.a:panic.* *libesp_event.a:default_event_loop.* *libesp_event.a:esp_event.* *libphy.a *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_gd.*) .rodata.*)
+ *(EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:rtc_clk.* *libsoc.a:spi_flash_hal_iram.* *libgcov.a *libgcc.a:_divsf3.* *libesp32.a:panic.* *libphy.a *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_generic.*) .rodata EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:rtc_clk.* *libsoc.a:spi_flash_hal_iram.* *libgcov.a *libgcc.a:_divsf3.* *libesp32.a:panic.* *libesp_event.a:esp_event.* *libesp_event.a:default_event_loop.* *libphy.a *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_generic.*) .rodata.*)
  .rodata.pthread_create.str1.4
                 0x3f400120      0x10d esp-idf/pthread/libpthread.a(pthread.c.obj)
  *fill*         0x3f40022d        0x3 
@@ -23125,59 +23124,59 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
                 0x3f417004       0x22 c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/no-rtti\libc.a(lib_a-svfiprintf.o)
  .rodata        0x3f417004       0x34 c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(unwind-dw2-xtensa.o)
  .rodata        0x3f417038       0x3c c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/no-rtti\libgcc.a(unwind-dw2-fde.o)
- *libesp_event.a:default_event_loop.*(.rodata.esp_system_event_debug.str1.4 .rodata.esp_event_loop_create_default.str1.4 .rodata.esp_event_send_to_default_loop)
- .rodata.esp_system_event_debug.str1.4
-                0x3f417074       0x43 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
- *fill*         0x3f4170b7        0x1 
- .rodata.esp_event_loop_create_default.str1.4
-                0x3f4170b8        0x8 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
- .rodata.esp_event_send_to_default_loop
-                0x3f4170c0       0x68 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
  *libesp_event.a:esp_event.*(.rodata.handler_instances_add.str1.4 .rodata.base_node_add_handler.str1.4 .rodata.loop_node_add_handler.str1.4 .rodata.esp_event_loop_create.str1.4 .rodata.esp_event_loop_run.str1.4 .rodata.esp_event_loop_run_task.str1.4 .rodata.esp_event_handler_register_with.str1.4 .rodata.esp_event_handler_unregister_with.str1.4 .rodata.__func__$7040 .rodata.__func__$7027 .rodata.__func__$7007 .rodata.__func__$6991 .rodata.__func__$6968 .rodata.__func__$6931 .rodata.__func__$6922)
  .rodata.handler_instances_add.str1.4
-                0x3f417128       0x3f esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x3f417074       0x3f esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x47 (size before relaxing)
- *fill*         0x3f417167        0x1 
+ *fill*         0x3f4170b3        0x1 
  .rodata.base_node_add_handler.str1.4
-                0x3f417168       0x34 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x3f4170b4       0x34 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
  .rodata.loop_node_add_handler.str1.4
-                0x3f41719c       0x3e esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x3f4171da        0x2 
+                0x3f4170e8       0x3e esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x3f417126        0x2 
  .rodata.esp_event_loop_create.str1.4
-                0x3f4171dc      0x12b esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x3f417128      0x12b esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                 0x12d (size before relaxing)
- *fill*         0x3f417307        0x1 
+ *fill*         0x3f417253        0x1 
  .rodata.esp_event_loop_run.str1.4
-                0x3f417308        0xb esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x3f417313        0x1 
+                0x3f417254        0xb esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x3f41725f        0x1 
  .rodata.esp_event_loop_run_task.str1.4
-                0x3f417314       0x32 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x3f417346        0x2 
+                0x3f417260       0x32 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x3f417292        0x2 
  .rodata.esp_event_handler_register_with.str1.4
-                0x3f417348       0x9a esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x3f4173e2        0x2 
+                0x3f417294       0x9a esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x3f41732e        0x2 
  .rodata.esp_event_handler_unregister_with.str1.4
-                0x3f4173e4       0x54 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x3f417330       0x54 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
  .rodata.__func__$7027
-                0x3f417438       0x12 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x3f41744a        0x2 
+                0x3f417384       0x12 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x3f417396        0x2 
  .rodata.__func__$7007
-                0x3f41744c       0x22 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x3f41746e        0x2 
+                0x3f417398       0x22 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x3f4173ba        0x2 
  .rodata.__func__$6991
-                0x3f417470       0x20 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x3f4173bc       0x20 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
  .rodata.__func__$6931
-                0x3f417490       0x13 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x3f4174a3        0x1 
+                0x3f4173dc       0x13 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x3f4173ef        0x1 
  .rodata.__func__$6922
-                0x3f4174a4       0x16 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x3f4173f0       0x16 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *libesp_event.a:default_event_loop.*(.rodata.esp_system_event_debug.str1.4 .rodata.esp_event_loop_create_default.str1.4 .rodata.esp_event_send_to_default_loop)
+ *fill*         0x3f417406        0x2 
+ .rodata.esp_system_event_debug.str1.4
+                0x3f417408       0x43 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+ *fill*         0x3f41744b        0x1 
+ .rodata.esp_event_loop_create_default.str1.4
+                0x3f41744c        0x8 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+ .rodata.esp_event_send_to_default_loop
+                0x3f417454       0x68 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
  *(.irom1.text)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x3f4174ba                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x3f4174bc                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table .gcc_except_table.*)
- *fill*         0x3f4174ba        0x2 
  .gcc_except_table._ZN10__cxxabiv111__terminateEPFvvE
                 0x3f4174bc       0x1d c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/no-rtti\libstdc++.a(eh_terminate.o)
  *fill*         0x3f4174d9        0x3 
@@ -23248,10 +23247,10 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
                 0x3f417b4c                _thread_local_end = ABSOLUTE (.)
                 0x3f417b4c                . = ALIGN (0x4)
 
-.flash.text     0x400d0018    0x67577
+.flash.text     0x400d0018    0x67575
                 0x400d0018                _stext = .
                 0x400d0018                _text_start = ABSOLUTE (.)
- *(EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libfreertos.a *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:spi_hal_iram.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_clk.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_init.* *libsoc.a:cpu_util.* *libhal.a *libxtensa.a:eri.* *libgcov.a *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libesp32.a:panic.* *libespcoredump.a:core_dump_port.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_uart.* *librtc.a *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a) .literal EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libfreertos.a *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:spi_hal_iram.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_clk.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_init.* *libsoc.a:cpu_util.* *libhal.a *libxtensa.a:eri.* *libgcov.a *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libesp32.a:panic.* *libespcoredump.a:core_dump_port.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_uart.* *libesp_event.a:default_event_loop.* *libesp_event.a:esp_event.* *librtc.a *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a) .literal.* EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libfreertos.a *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:spi_hal_iram.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_clk.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_init.* *libsoc.a:cpu_util.* *libhal.a *libxtensa.a:eri.* *libgcov.a *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libesp32.a:panic.* *libespcoredump.a:core_dump_port.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_uart.* *librtc.a *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a) .text EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libfreertos.a *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:spi_hal_iram.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_clk.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_init.* *libsoc.a:cpu_util.* *libhal.a *libxtensa.a:eri.* *libgcov.a *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libesp32.a:panic.* *libespcoredump.a:core_dump_port.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_uart.* *libesp_event.a:default_event_loop.* *libesp_event.a:esp_event.* *librtc.a *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a) .text.* EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifi0iram EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifi0iram.* EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifirxiram EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifirxiram.*)
+ *(EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libfreertos.a *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:rtc_clk.* *libsoc.a:lldesc.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_pm.* *libsoc.a:spi_hal_iram.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk_init.* *libhal.a *libxtensa.a:eri.* *libgcov.a *libgcc.a:lib2funcs.* *libgcc.a:_divsf3.* *libesp32.a:panic.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *librtc.a *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_generic.* *libesp_ringbuf.a) .literal EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libfreertos.a *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:rtc_clk.* *libsoc.a:lldesc.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_pm.* *libsoc.a:spi_hal_iram.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk_init.* *libhal.a *libxtensa.a:eri.* *libgcov.a *libgcc.a:lib2funcs.* *libgcc.a:_divsf3.* *libesp32.a:panic.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *libesp_event.a:esp_event.* *libesp_event.a:default_event_loop.* *librtc.a *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_generic.* *libesp_ringbuf.a) .literal.* EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libfreertos.a *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:rtc_clk.* *libsoc.a:lldesc.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_pm.* *libsoc.a:spi_hal_iram.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk_init.* *libhal.a *libxtensa.a:eri.* *libgcov.a *libgcc.a:lib2funcs.* *libgcc.a:_divsf3.* *libesp32.a:panic.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *librtc.a *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_generic.* *libesp_ringbuf.a) .text EXCLUDE_FILE(*libesp_gdbstub.a *libapp_trace.a:app_trace.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libnewlib.a:heap.* *libfreertos.a *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *libsoc.a:rtc_clk.* *libsoc.a:lldesc.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_pm.* *libsoc.a:spi_hal_iram.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk_init.* *libhal.a *libxtensa.a:eri.* *libgcov.a *libgcc.a:lib2funcs.* *libgcc.a:_divsf3.* *libesp32.a:panic.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *libesp_event.a:esp_event.* *libesp_event.a:default_event_loop.* *librtc.a *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_gd.* *libspi_flash.a:memspi_host_driver.* *libspi_flash.a:spi_flash_chip_generic.* *libesp_ringbuf.a) .text.* EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifi0iram EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifi0iram.* EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifirxiram EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifirxiram.*)
  .literal.esp_ota_get_app_description
                 0x400d0018        0x4 esp-idf/app_update/libapp_update.a(esp_app_desc.c.obj)
  .literal.esp_pthread_cfg_key_destructor
@@ -33923,60 +33922,60 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  .literal.os_get_time
                 0x40120910        0x0 esp-idf/wpa_supplicant/libwpa_supplicant.a(os_xtensa.c.obj)
                                   0x4 (size before relaxing)
- .literal.esp_system_event_debug
-                0x40120910        0x8 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                                 0x10 (size before relaxing)
- .literal.esp_event_handler_register
-                0x40120918        0x4 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                                  0x8 (size before relaxing)
- .literal.esp_event_handler_unregister
-                0x4012091c        0x0 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                                  0x8 (size before relaxing)
- .literal.esp_event_post
-                0x4012091c        0x0 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                                  0x8 (size before relaxing)
- .literal.esp_event_loop_create_default
-                0x4012091c        0x4 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                                 0x10 (size before relaxing)
- .literal.esp_event_send_to_default_loop
-                0x40120920       0x10 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                                 0x7c (size before relaxing)
  .literal.handler_instances_add
-                0x40120930        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120910        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x18 (size before relaxing)
  .literal.base_node_add_handler
-                0x40120938        0x4 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120918        0x4 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x24 (size before relaxing)
  .literal.loop_node_add_handler
-                0x4012093c        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x4012091c        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x28 (size before relaxing)
  .literal.handler_instances_remove
-                0x40120944        0x0 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120924        0x0 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                   0x4 (size before relaxing)
  .literal.base_node_remove_handler
-                0x40120944        0x0 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120924        0x0 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                   0xc (size before relaxing)
  .literal.loop_node_remove_handler
-                0x40120944        0x0 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120924        0x0 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x10 (size before relaxing)
  .literal.esp_event_loop_create
-                0x40120944       0x34 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120924       0x34 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x68 (size before relaxing)
  .literal.esp_event_loop_run
-                0x40120978       0x1c esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120958       0x1c esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x3c (size before relaxing)
  .literal.esp_event_loop_run_task
-                0x40120994        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120974        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x18 (size before relaxing)
  .literal.esp_event_handler_register_with
-                0x4012099c       0x10 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x4012097c       0x10 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x50 (size before relaxing)
  .literal.esp_event_handler_unregister_with
-                0x401209ac        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x4012098c        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x3c (size before relaxing)
  .literal.esp_event_post_to
-                0x401209b4        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40120994        0x8 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0x40 (size before relaxing)
+ .literal.esp_system_event_debug
+                0x4012099c        0x8 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.esp_event_handler_register
+                0x401209a4        0x4 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.esp_event_handler_unregister
+                0x401209a8        0x0 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.esp_event_post
+                0x401209a8        0x0 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                                  0x8 (size before relaxing)
+ .literal.esp_event_loop_create_default
+                0x401209a8        0x4 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                                 0x10 (size before relaxing)
+ .literal.esp_event_send_to_default_loop
+                0x401209ac       0x10 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                                 0x7c (size before relaxing)
  .literal.os_random
                 0x401209bc        0x4 esp-idf/wpa_supplicant/libwpa_supplicant.a(os_xtensa.c.obj)
  .text.os_get_time
@@ -36788,102 +36787,102 @@ LOAD c:/users/ryan/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp
  *fill*         0x40136934        0x0 
  *fill*         0x40136934        0x0 
  *fill*         0x40136934        0x0 
- *libesp_event.a:default_event_loop.*(.literal.esp_system_event_debug .literal.esp_event_handler_register .literal.esp_event_handler_unregister .literal.esp_event_post .literal.esp_event_loop_create_default .literal.esp_event_loop_delete_default .literal.esp_event_send_to_default_loop .text.esp_system_event_debug .text.esp_event_handler_register .text.esp_event_handler_unregister .text.esp_event_post .text.esp_event_loop_create_default .text.esp_event_loop_delete_default .text.esp_event_send_to_default_loop)
- .text.esp_system_event_debug
-                0x40136934       0x2a esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
- *fill*         0x4013695e        0x2 
- .text.esp_event_handler_register
-                0x40136960       0x22 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                0x40136960                esp_event_handler_register
- *fill*         0x40136982        0x2 
- .text.esp_event_handler_unregister
-                0x40136984       0x21 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                0x40136984                esp_event_handler_unregister
- *fill*         0x401369a5        0x3 
- .text.esp_event_post
-                0x401369a8       0x25 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                0x401369a8                esp_event_post
- *fill*         0x401369cd        0x3 
- .text.esp_event_loop_create_default
-                0x401369d0       0x2a esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                                 0x2e (size before relaxing)
-                0x401369d0                esp_event_loop_create_default
- *fill*         0x401369fa        0x2 
- .text.esp_event_send_to_default_loop
-                0x401369fc      0x295 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
-                                0x299 (size before relaxing)
-                0x401369fc                esp_event_send_to_default_loop
- *fill*         0x40136c91        0x0 
- *fill*         0x40136c91        0x0 
- *fill*         0x40136c91        0x0 
- *fill*         0x40136c91        0x0 
- *fill*         0x40136c91        0x0 
- *fill*         0x40136c91        0x0 
  *libesp_event.a:esp_event.*(.literal.handler_instances_remove_all .literal.base_node_remove_all_handler .literal.loop_node_remove_all_handler .literal.handler_instances_add .literal.base_node_add_handler .literal.loop_node_add_handler .literal.handler_instances_remove .literal.base_node_remove_handler .literal.loop_node_remove_handler .literal.esp_event_loop_create .literal.esp_event_loop_run .literal.esp_event_loop_run_task .literal.esp_event_loop_delete .literal.esp_event_handler_register_with .literal.esp_event_handler_unregister_with .literal.esp_event_post_to .text.handler_execute .text.handler_instances_remove_all .text.base_node_remove_all_handler .text.loop_node_remove_all_handler .text.handler_instances_add .text.base_node_add_handler .text.loop_node_add_handler .text.handler_instances_remove .text.base_node_remove_handler .text.loop_node_remove_handler .text.esp_event_loop_create .text.esp_event_loop_run .text.esp_event_loop_run_task .text.esp_event_loop_delete .text.esp_event_handler_register_with .text.esp_event_handler_unregister_with .text.esp_event_post_to .text.esp_event_dump)
- *fill*         0x40136c91        0x3 
  .text.handler_instances_add
-                0x40136c94       0x6d esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x40136d01        0x3 
+                0x40136934       0x6d esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x401369a1        0x3 
  .text.base_node_add_handler
-                0x40136d04       0xbe esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x40136dc2        0x2 
+                0x401369a4       0xbe esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x40136a62        0x2 
  .text.loop_node_add_handler
-                0x40136dc4       0xe3 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x40136ea7        0x1 
+                0x40136a64       0xe3 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x40136b47        0x1 
  .text.handler_instances_remove
-                0x40136ea8       0x41 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x40136ee9        0x3 
+                0x40136b48       0x41 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x40136b89        0x3 
  .text.base_node_remove_handler
-                0x40136eec       0x65 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x40136f51        0x3 
+                0x40136b8c       0x65 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x40136bf1        0x3 
  .text.loop_node_remove_handler
-                0x40136f54       0x79 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x40136fcd        0x3 
+                0x40136bf4       0x79 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x40136c6d        0x3 
  .text.esp_event_loop_create
-                0x40136fd0      0x114 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40136c70      0x114 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                 0x118 (size before relaxing)
-                0x40136fd0                esp_event_loop_create
+                0x40136c70                esp_event_loop_create
  .text.esp_event_loop_run
-                0x401370e4      0x12e esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40136d84      0x12e esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                 0x132 (size before relaxing)
-                0x401370e4                esp_event_loop_run
- *fill*         0x40137212        0x2 
+                0x40136d84                esp_event_loop_run
+ *fill*         0x40136eb2        0x2 
  .text.esp_event_loop_run_task
-                0x40137214       0x34 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40136eb4       0x34 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
  .text.esp_event_handler_register_with
-                0x40137248      0x126 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40136ee8      0x126 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                 0x12a (size before relaxing)
-                0x40137248                esp_event_handler_register_with
- *fill*         0x4013736e        0x2 
+                0x40136ee8                esp_event_handler_register_with
+ *fill*         0x4013700e        0x2 
  .text.esp_event_handler_unregister_with
-                0x40137370       0xc9 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x40137010       0xc9 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                  0xcd (size before relaxing)
-                0x40137370                esp_event_handler_unregister_with
- *fill*         0x40137439        0x3 
+                0x40137010                esp_event_handler_unregister_with
+ *fill*         0x401370d9        0x3 
  .text.esp_event_post_to
-                0x4013743c      0x122 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+                0x401370dc      0x122 esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
                                 0x126 (size before relaxing)
-                0x4013743c                esp_event_post_to
- *fill*         0x4013755e        0x2 
+                0x401370dc                esp_event_post_to
+ *fill*         0x401371fe        0x2 
  .text.handler_execute
-                0x40137560       0x2f esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
- *fill*         0x4013758f        0x0 
+                0x40137200       0x2f esp-idf/esp_event/libesp_event.a(esp_event.c.obj)
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *fill*         0x4013722f        0x0 
+ *libesp_event.a:default_event_loop.*(.literal.esp_system_event_debug .literal.esp_event_handler_register .literal.esp_event_handler_unregister .literal.esp_event_post .literal.esp_event_loop_create_default .literal.esp_event_loop_delete_default .literal.esp_event_send_to_default_loop .text.esp_system_event_debug .text.esp_event_handler_register .text.esp_event_handler_unregister .text.esp_event_post .text.esp_event_loop_create_default .text.esp_event_loop_delete_default .text.esp_event_send_to_default_loop)
+ *fill*         0x4013722f        0x1 
+ .text.esp_system_event_debug
+                0x40137230       0x2a esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+ *fill*         0x4013725a        0x2 
+ .text.esp_event_handler_register
+                0x4013725c       0x22 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                0x4013725c                esp_event_handler_register
+ *fill*         0x4013727e        0x2 
+ .text.esp_event_handler_unregister
+                0x40137280       0x21 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                0x40137280                esp_event_handler_unregister
+ *fill*         0x401372a1        0x3 
+ .text.esp_event_post
+                0x401372a4       0x25 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                0x401372a4                esp_event_post
+ *fill*         0x401372c9        0x3 
+ .text.esp_event_loop_create_default
+                0x401372cc       0x2a esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                                 0x2e (size before relaxing)
+                0x401372cc                esp_event_loop_create_default
+ *fill*         0x401372f6        0x2 
+ .text.esp_event_send_to_default_loop
+                0x401372f8      0x295 esp-idf/esp_event/libesp_event.a(default_event_loop.c.obj)
+                                0x299 (size before relaxing)
+                0x401372f8                esp_event_send_to_default_loop
+ *fill*         0x4013758d        0x0 
+ *fill*         0x4013758d        0x0 
+ *fill*         0x4013758d        0x0 
+ *fill*         0x4013758d        0x0 
+ *fill*         0x4013758d        0x0 
+ *fill*         0x4013758d        0x0 
  *(.stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
  *(.irom0.text)
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x4013758f                _text_end = ABSOLUTE (.)
-                0x4013758f                _etext = .
+                0x4013758d                _text_end = ABSOLUTE (.)
+                0x4013758d                _etext = .
                 0x00000000                _flash_cache_start = ABSOLUTE (0x0)
                 0x3ff40000                PROVIDE (UART0 = 0x3ff40000)
                 0x3ff42000                PROVIDE (SPI1 = 0x3ff42000)
